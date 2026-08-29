@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "serial_no": "048",
+    "record_id": "MET-56441",
+    "name": "Bell",
+    "loop_width_or_diameter_mm": 6.9,
+    "loop_height_mm": 8.1,
+    "euclidean_distance_mm": 0.454,
+    "period": "500 BCE–300 CE",
+    "material": "Bronze",
+    "source_url": "https://www.metmuseum.org/art/collection/search/56441"
+  },
+  {
+    "rank": 2,
+    "serial_no": "040",
+    "record_id": "MET-502518",
+    "name": "Bell",
+    "loop_width_or_diameter_mm": 8.72,
+    "loop_height_mm": 7.44,
+    "euclidean_distance_mm": 2.381,
+    "period": "1st century",
+    "material": "bronze",
+    "source_url": "https://www.metmuseum.org/art/collection/search/502518"
+  },
+  {
+    "rank": 3,
+    "serial_no": "030",
+    "record_id": "MET-449196",
+    "name": "Bell",
+    "loop_width_or_diameter_mm": 8.0,
+    "loop_height_mm": 10.01,
+    "euclidean_distance_mm": 2.414,
+    "period": "5th–8th century",
+    "material": "Bronze",
+    "source_url": "https://www.metmuseum.org/art/collection/search/449196"
+  },
+  {
+    "rank": 4,
+    "serial_no": "046",
+    "record_id": "MET-551319",
+    "name": "Bell with head of a bovine wearing a yoke ending in uraei",
+    "loop_width_or_diameter_mm": 9.16,
+    "loop_height_mm": 11.19,
+    "euclidean_distance_mm": 4.065,
+    "period": "332–30 BCE",
+    "material": "Leaded bronze",
+    "source_url": "https://www.metmuseum.org/art/collection/search/551319"
+  },
+  {
+    "rank": 5,
+    "serial_no": "059",
+    "record_id": "MET-62409",
+    "name": "Bell",
+    "loop_width_or_diameter_mm": 9.33,
+    "loop_height_mm": 3.85,
+    "euclidean_distance_mm": 5.184,
+    "period": "500 BCE–300 CE",
+    "material": "Bronze",
+    "source_url": "https://www.metmuseum.org/art/collection/search/62409"
+  }
+]

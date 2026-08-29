@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Copper bell-hook reconstruction, source-based 73-bell loop dataset, and interactive dimensional comparison.">
+  <title>Copper Bell-Hook Reconstruction & 73-Bell Dataset</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Bell-hook research home">BH<span>73</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#workflow">Workflow</a>
+      <a href="#graphs">Graphs</a>
+      <a href="#models">3D models</a>
+      <a href="#dataset">Dataset</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Artifact measurement · CAD reconstruction · comparative morphology</p>
+        <h1>Copper bell-hook reconstruction connected to a 73-bell reference dataset.</h1>
+        <p class="lede">A measured copper-alloy bell-hook component was reconstructed as two Python-generated 3D CAD variants, then compared with image-scaled loop measurements from museum and journal bell records.</p>
+        <div class="actions">
+          <a class="button primary" href="#graphs">Explore the graph</a>
+          <a class="button" href="data/bell_loop_dataset_73.csv" download>Download dataset CSV</a>
+        </div>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>Reference bells</dt><dd>73</dd></div>
+        <div><dt>Measured hook</dt><dd>6.45 × 8.16 <small>mm</small></dd></div>
+        <div><dt>CAD variants</dt><dd>2</dd></div>
+        <div><dt>Filtered view</dt><dd>55 <small>points</small></dd></div>
+      </dl>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Research workflow</p>
+        <h2>From physical artifact to comparative dataset</h2>
+      </div>
+      <ol class="workflow-grid">
+        <li><span>01</span><h3>Artifact collection</h3><p>Copper bell-hook component documented using ruler and caliper photographs.</p></li>
+        <li><span>02</span><h3>Dimensional reconstruction</h3><p>Measured envelope fixed at 8.160 mm overall height, 6.45 mm loop width and 4.00 mm inner opening.</p></li>
+        <li><span>03</span><h3>Python CAD</h3><p>Two valid single-solid STEP/STL/BREP models generated: inverted-U and embedded round-loop variants.</p></li>
+        <li><span>04</span><h3>Reference collection</h3><p>73 bell records assembled from museum collection pages and journal/archaeological sources.</p></li>
+        <li><span>05</span><h3>Image scaling</h3><p>Published major dimensions calibrated each image; visible loop height and width/diameter were measured from the object boundary.</p></li>
+        <li><span>06</span><h3>Interactive comparison</h3><p>Loop width/diameter is plotted against loop height and grouped by era, material, region/site and source.</p></li>
+      </ol>
+    </section>
+
+    <section id="graphs" class="section graph-section">
+      <div class="section-heading graph-heading">
+        <div>
+          <p class="eyebrow">Interactive dimensional graph</p>
+          <h2>Loop width / diameter vs loop height</h2>
+        </div>
+        <div class="graph-tabs" role="tablist" aria-label="Graph dataset view">
+          <button type="button" class="tab active" data-graph="graphs/full-with-hook.html" aria-selected="true">All 73</button>
+          <button type="button" class="tab" data-graph="graphs/filtered-with-hook.html" aria-selected="false">50 × 50 filtered</button>
+        </div>
+      </div>
+      <p class="method-note" id="graph-note">Full master dataset. The measured hook is shown as ★ at (6.45, 8.16).</p>
+      <iframe id="graph-frame" title="Interactive bell-loop graph" src="graphs/full-with-hook.html" loading="lazy"></iframe>
+      <div class="direct-links">
+        <span>Standalone HTML:</span>
+        <a href="graphs/full-with-hook.html">All 73 + hook</a>
+        <a href="graphs/filtered-with-hook.html">Filtered + hook</a>
+        <a href="graphs/full-dataset.html">All 73 dataset-only</a>
+        <a href="graphs/filtered-dataset.html">Filtered dataset-only</a>
+      </div>
+    </section>
+
+    <section class="section match-section">
+      <div class="section-heading">
+        <p class="eyebrow">Measured-hook neighbourhood</p>
+        <h2>Closest records in the dimensional graph</h2>
+      </div>
+      <div class="match-card">
+        <div class="best-match"><strong>#048 · MET-56441</strong><span>6.90 × 8.10 mm</span><em>0.454 mm graph distance</em></div>
+        <table>
+          <thead><tr><th>Rank</th><th>Record</th><th>Loop W/D</th><th>Loop h</th><th>Distance</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td><a href="https://www.metmuseum.org/art/collection/search/56441">#048 MET-56441</a></td><td>6.90</td><td>8.10</td><td>0.454</td></tr>
+            <tr><td>2</td><td><a href="https://www.metmuseum.org/art/collection/search/502518">#040 MET-502518</a></td><td>8.72</td><td>7.44</td><td>2.381</td></tr>
+            <tr><td>3</td><td><a href="https://www.metmuseum.org/art/collection/search/449196">#030 MET-449196</a></td><td>8.00</td><td>10.01</td><td>2.414</td></tr>
+            <tr><td>4</td><td><a href="https://www.metmuseum.org/art/collection/search/551319">#046 MET-551319</a></td><td>9.16</td><td>11.19</td><td>4.065</td></tr>
+            <tr><td>5</td><td><a href="https://www.metmuseum.org/art/collection/search/62409">#059 MET-62409</a></td><td>9.33</td><td>3.85</td><td>5.184</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="models" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">3D reconstruction</p>
+        <h2>Two measured CAD interpretations</h2>
+      </div>
+      <div class="model-grid">
+        <article class="model-card">
+          <img src="models/inverted-u-isometric.jpg" alt="Isometric CAD view of the inverted-U bell hook model">
+          <div><p class="model-no">Model 01</p><h3>Inverted-U loop</h3><p>Semicircular arch with parallel legs fused to the inverted-saucer base.</p><a href="models/inverted-u-front.jpg">Dimensioned JPG</a> · <a href="downloads/Bell_Hook_Original_Profile.py">Python source</a></div>
+        </article>
+        <article class="model-card">
+          <img src="models/embedded-round-isometric.jpg" alt="Isometric CAD view of the embedded round-loop bell hook model">
+          <div><p class="model-no">Model 02</p><h3>Embedded round loop</h3><p>Flat filleted loop section; lower arc embedded 0.30 mm while retaining 8.160 mm overall height.</p><a href="models/embedded-round-front.jpg">Dimensioned JPG</a> · <a href="downloads/Bell_Hook_Circular_Loop.py">Python source</a></div>
+        </article>
+      </div>
+      <div class="dimension-strip" aria-label="Common model dimensions">
+        <span>Overall H <b>8.160</b></span><span>Loop W <b>6.45</b></span><span>Opening <b>4.00</b></span><span>Depth <b>2.90</b></span><span>Saucer <b>Ø8.01 × 2.160</b></span><span>Fillet <b>R0.45</b></span>
+      </div>
+    </section>
+
+    <section id="dataset" class="section dataset-section">
+      <div class="section-heading">
+        <p class="eyebrow">Open research package</p>
+        <h2>Dataset and reconstruction downloads</h2>
+      </div>
+      <div class="download-grid">
+        <a href="data/bell_loop_dataset_73.csv" download><strong>CSV dataset</strong><span>73 records + ratios + source URLs</span></a>
+        <a href="data/bell_loop_dataset_73.json" download><strong>JSON dataset</strong><span>Machine-readable research data</span></a>
+        <a href="data/nearest_to_measured_hook.json" download><strong>Nearest matches</strong><span>Five-dimensional neighbours</span></a>
+        <a href="downloads/Bell_Hook_Original_Profile.step" download><strong>Inverted-U STEP</strong><span>SolidWorks-importable CAD model</span></a>
+        <a href="downloads/Bell_Hook_Circular_Loop.step" download><strong>Embedded-loop STEP</strong><span>SolidWorks-importable CAD model</span></a>
+      </div>
+    </section>
+
+    <section class="section limitations">
+      <div><p class="eyebrow">Measurement status</p><h2>Interpretation boundaries</h2></div>
+      <ul>
+        <li>Published total height and diameter/width remain source dimensions.</li>
+        <li>Loop dimensions are image-scaled visible measurements, not direct physical measurements of museum objects.</li>
+        <li>Width is not converted to diameter unless circular geometry is supported by the source/object view.</li>
+        <li>The 50 × 50 view is a display filter; all 73 master records remain downloadable.</li>
+        <li>The ★ measured hook is a separate sample and is not counted among the 73 reference bells.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer><span>Copper bell-hook dimensional reconstruction</span><span>All model dimensions are in mm</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>

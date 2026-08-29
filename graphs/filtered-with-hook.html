@@ -1,0 +1,1472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Bell Loop Comparison Graph</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:1200px;margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe sandbox="allow-scripts" referrerpolicy="no-referrer" title="Bell Loop Comparison Graph" srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Bell Loop Comparison Graph&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --radius: var(--border-radius-lg, 12.5px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: 5px;
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: pointer;
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: superellipse(1.5);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: superellipse(1.5);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+#widget &gt; :not(.card, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress {
+  display: flex;
+  height: 6px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 6px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: superellipse(1.5);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: superellipse(1.5);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: superellipse(1.5);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: 16px !important;
+  height: 16px !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;bell-loop-compare&quot;&gt;
+  &lt;h2&gt;Bell loop dimensions — 50 × 50 mm filtered comparison&lt;/h2&gt;
+  &lt;div class=&quot;viz-controls&quot; aria-label=&quot;Shared graph filters&quot;&gt;
+    &lt;label class=&quot;form-label&quot;&gt;Era
+      &lt;select class=&quot;form-select&quot; id=&quot;blc-era&quot;&gt;&lt;option value=&quot;all&quot;&gt;All eras&lt;/option&gt;&lt;/select&gt;
+    &lt;/label&gt;
+    &lt;label class=&quot;form-label&quot;&gt;Material
+      &lt;select class=&quot;form-select&quot; id=&quot;blc-material&quot;&gt;&lt;option value=&quot;all&quot;&gt;All materials&lt;/option&gt;&lt;/select&gt;
+    &lt;/label&gt;
+    &lt;label class=&quot;form-label&quot;&gt;Region / site
+      &lt;select class=&quot;form-select&quot; id=&quot;blc-site&quot;&gt;&lt;option value=&quot;all&quot;&gt;All regions / sites&lt;/option&gt;&lt;/select&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;blc-status&quot; class=&quot;text-small text-muted&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+  &lt;div id=&quot;blc-selected&quot; class=&quot;viz-row blc-selected&quot; aria-live=&quot;polite&quot;&gt;Point-a click pannina bell details, loop shape class, ratio and nearest three designs inga varum.&lt;/div&gt;
+  &lt;div class=&quot;blc-reference-key&quot; aria-label=&quot;Measured hook reference symbol&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;★&lt;/span&gt; Measured hook reference — W/D 6.45, Part-1 height 8.16&lt;/div&gt;
+  &lt;div class=&quot;blc-grid&quot;&gt;
+    &lt;section class=&quot;blc-panel&quot; aria-labelledby=&quot;blc-era-title&quot;&gt;
+      &lt;h3 id=&quot;blc-era-title&quot;&gt;Era / period group&lt;/h3&gt;
+      &lt;div id=&quot;blc-era-legend&quot; class=&quot;blc-legend&quot; aria-label=&quot;Era legend&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;blc-era-chart&quot; class=&quot;blc-chart&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;blc-panel&quot; aria-labelledby=&quot;blc-material-title&quot;&gt;
+      &lt;h3 id=&quot;blc-material-title&quot;&gt;Material group&lt;/h3&gt;
+      &lt;div id=&quot;blc-material-legend&quot; class=&quot;blc-legend&quot; aria-label=&quot;Material legend&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;blc-material-chart&quot; class=&quot;blc-chart&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;blc-panel&quot; aria-labelledby=&quot;blc-site-title&quot;&gt;
+      &lt;h3 id=&quot;blc-site-title&quot;&gt;Region / site stated in source&lt;/h3&gt;
+      &lt;div id=&quot;blc-site-legend&quot; class=&quot;blc-legend&quot; aria-label=&quot;Region and site legend&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;blc-site-chart&quot; class=&quot;blc-chart&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;blc-panel&quot; aria-labelledby=&quot;blc-source-title&quot;&gt;
+      &lt;h3 id=&quot;blc-source-title&quot;&gt;Source / institution&lt;/h3&gt;
+      &lt;div id=&quot;blc-source-legend&quot; class=&quot;blc-legend&quot; aria-label=&quot;Source institution legend&quot;&gt;&lt;/div&gt;
+      &lt;div id=&quot;blc-source-chart&quot; class=&quot;blc-chart&quot;&gt;&lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;blc-tooltip&quot; class=&quot;tooltip&quot; role=&quot;tooltip&quot; hidden&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+  #bell-loop-compare { position: relative; width: 100%; color: var(--foreground); }
+  #bell-loop-compare h2 { margin: 0 0 10px; font-weight: 500; }
+  #bell-loop-compare h3 { margin: 14px 0 4px; font-weight: 500; }
+  #bell-loop-compare .viz-controls { margin-bottom: 8px; }
+  #bell-loop-compare .form-label { min-width: 180px; }
+  #blc-status { margin: 4px 0 6px; }
+  #bell-loop-compare .blc-selected { min-height: 28px; margin: 4px 0 8px; align-items: flex-start; }
+  #bell-loop-compare .blc-selected a { margin-left: 8px; }
+  #bell-loop-compare .blc-reference-key { display: flex; align-items: center; gap: 6px; margin: 2px 0 4px; color: var(--foreground); }
+  #bell-loop-compare .blc-reference-key span { color: var(--viz-series-6); }
+  #bell-loop-compare .blc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 22px; }
+  #bell-loop-compare .blc-panel { min-width: 0; }
+  #bell-loop-compare .blc-chart { width: 100%; min-height: 350px; }
+  #bell-loop-compare .blc-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+  #bell-loop-compare .axis text, #bell-loop-compare .axis-title, #bell-loop-compare .reference-label { fill: var(--foreground); font-size: 12px; }
+  #bell-loop-compare .axis path, #bell-loop-compare .axis line { stroke: var(--border); }
+  #bell-loop-compare .grid line { stroke: var(--border); stroke-opacity: .55; }
+  #bell-loop-compare rect[data-chart-frame] { fill: none; stroke: var(--border); }
+  #bell-loop-compare .bell-node { stroke: var(--background); stroke-width: 1.5px; cursor: pointer; }
+  #bell-loop-compare .bell-node.is-selected { stroke: var(--foreground); stroke-width: 3px; }
+  #bell-loop-compare .hook-reference { fill: var(--viz-series-6); stroke: var(--foreground); stroke-width: 1.5px; }
+  #bell-loop-compare .similarity-link { stroke: var(--muted-foreground); stroke-width: 1.5px; stroke-opacity: .6; }
+  #bell-loop-compare .ratio-reference { stroke: var(--muted-foreground); stroke-width: 1.25px; stroke-dasharray: 5 4; }
+  #bell-loop-compare [data-chart-hit] { fill: transparent; pointer-events: all; }
+  #bell-loop-compare .blc-legend { display: flex; flex-wrap: wrap; gap: 3px 12px; min-height: 22px; margin: 3px 0 5px; }
+  #bell-loop-compare .blc-legend button { display: inline-flex; align-items: center; gap: 5px; padding: 2px 0; border: 0; background: transparent; color: var(--foreground); font: inherit; cursor: pointer; }
+  #bell-loop-compare .blc-legend button[aria-pressed=&quot;false&quot;] { opacity: .42; }
+  #bell-loop-compare .blc-swatch { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
+  #bell-loop-compare .tooltip { position: absolute; pointer-events: none; max-width: 330px; padding: 8px 10px; background: var(--popover); color: var(--popover-foreground); border: 1px solid var(--border); z-index: 5; }
+  @media (max-width: 760px) {
+    #bell-loop-compare .blc-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 520px) {
+    #bell-loop-compare .form-label { min-width: 100%; }
+    #bell-loop-compare .blc-chart { min-height: 330px; }
+  }
+&lt;/style&gt;
+
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const data = [{&quot;s&quot;:1,&quot;id&quot;:&quot;MET-453182&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:23.56,&quot;y&quot;:21.71,&quot;b&quot;:64.29,&quot;p&quot;:&quot;11th century&quot;,&quot;m&quot;:&quot;Brass; cast&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/453182&quot;},{&quot;s&quot;:4,&quot;id&quot;:&quot;MET-325552&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:22.22,&quot;y&quot;:13.49,&quot;b&quot;:23.61,&quot;p&quot;:&quot;ca. 3rd century BCE–3rd century CE&quot;,&quot;m&quot;:&quot;Bronze, iron&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/325552&quot;},{&quot;s&quot;:5,&quot;id&quot;:&quot;MET-326202&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:12.26,&quot;y&quot;:15.88,&quot;b&quot;:60.12,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze, copper&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326202&quot;},{&quot;s&quot;:6,&quot;id&quot;:&quot;MET-326203&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:14.65,&quot;y&quot;:11.2,&quot;b&quot;:35.8,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326203&quot;},{&quot;s&quot;:7,&quot;id&quot;:&quot;MET-326204&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:20.71,&quot;y&quot;:25.81,&quot;b&quot;:61.29,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326204&quot;},{&quot;s&quot;:8,&quot;id&quot;:&quot;MET-326205&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:18.1,&quot;y&quot;:16.42,&quot;b&quot;:42.48,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326205&quot;},{&quot;s&quot;:9,&quot;id&quot;:&quot;MET-326206&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:25.89,&quot;y&quot;:15.43,&quot;b&quot;:41.47,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326206&quot;},{&quot;s&quot;:10,&quot;id&quot;:&quot;MET-326207&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:26.72,&quot;y&quot;:15.6,&quot;b&quot;:45.4,&quot;p&quot;:&quot;ca. 9th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326207&quot;},{&quot;s&quot;:11,&quot;id&quot;:&quot;MET-326225&quot;,&quot;n&quot;:&quot;Bell inscribed with the Urartian royal name Argishti&quot;,&quot;x&quot;:22.31,&quot;y&quot;:19.1,&quot;b&quot;:67.9,&quot;p&quot;:&quot;ca. 789–766 BCE&quot;,&quot;m&quot;:&quot;Bronze, iron&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326225&quot;},{&quot;s&quot;:12,&quot;id&quot;:&quot;MET-326579&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:16.98,&quot;y&quot;:17.36,&quot;b&quot;:64.64,&quot;p&quot;:&quot;ca. 8th–7th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326579&quot;},{&quot;s&quot;:13,&quot;id&quot;:&quot;MET-326580&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:19.54,&quot;y&quot;:16.91,&quot;b&quot;:73.99,&quot;p&quot;:&quot;ca. 8th–7th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326580&quot;},{&quot;s&quot;:14,&quot;id&quot;:&quot;MET-326583&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:17.94,&quot;y&quot;:17.28,&quot;b&quot;:57.62,&quot;p&quot;:&quot;ca. 700 BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326583&quot;},{&quot;s&quot;:15,&quot;id&quot;:&quot;MET-326584&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:33.85,&quot;y&quot;:18.57,&quot;b&quot;:67.53,&quot;p&quot;:&quot;ca. 8th–7th century BCE&quot;,&quot;m&quot;:&quot;Bronze, iron&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326584&quot;},{&quot;s&quot;:16,&quot;id&quot;:&quot;MET-326589&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:22.4,&quot;y&quot;:21.35,&quot;b&quot;:78.75,&quot;p&quot;:&quot;ca. 1000 BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326589&quot;},{&quot;s&quot;:17,&quot;id&quot;:&quot;MET-326590&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:18.79,&quot;y&quot;:15.61,&quot;b&quot;:67.49,&quot;p&quot;:&quot;ca. 9th–8th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326590&quot;},{&quot;s&quot;:18,&quot;id&quot;:&quot;MET-326592&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:28.12,&quot;y&quot;:17.53,&quot;b&quot;:64.47,&quot;p&quot;:&quot;ca. 9th–8th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326592&quot;},{&quot;s&quot;:19,&quot;id&quot;:&quot;MET-326598&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:17.14,&quot;y&quot;:21.6,&quot;b&quot;:43.4,&quot;p&quot;:&quot;ca. 9th–8th century BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326598&quot;},{&quot;s&quot;:20,&quot;id&quot;:&quot;MET-326604&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:9.22,&quot;y&quot;:19.93,&quot;b&quot;:84.97,&quot;p&quot;:&quot;1st millennium BCE (?)&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326604&quot;},{&quot;s&quot;:21,&quot;id&quot;:&quot;MET-326605&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:29.53,&quot;y&quot;:24.95,&quot;b&quot;:77.15,&quot;p&quot;:&quot;1st millennium BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326605&quot;},{&quot;s&quot;:22,&quot;id&quot;:&quot;MET-326608&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:19.12,&quot;y&quot;:22.0,&quot;b&quot;:74.0,&quot;p&quot;:&quot;1st millennium BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326608&quot;},{&quot;s&quot;:23,&quot;id&quot;:&quot;MET-326610&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:23.35,&quot;y&quot;:23.8,&quot;b&quot;:96.1,&quot;p&quot;:&quot;1st millennium BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/326610&quot;},{&quot;s&quot;:24,&quot;id&quot;:&quot;MET-327335&quot;,&quot;n&quot;:&quot;Openwork rattle bell&quot;,&quot;x&quot;:25.16,&quot;y&quot;:32.87,&quot;b&quot;:28.63,&quot;p&quot;:&quot;1st millennium BCE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/327335&quot;},{&quot;s&quot;:29,&quot;id&quot;:&quot;MET-449185&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:30.12,&quot;y&quot;:34.21,&quot;b&quot;:35.64,&quot;p&quot;:&quot;5th–8th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/449185&quot;},{&quot;s&quot;:30,&quot;id&quot;:&quot;MET-449196&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:8.0,&quot;y&quot;:10.01,&quot;b&quot;:16.98,&quot;p&quot;:&quot;5th–8th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/449196&quot;},{&quot;s&quot;:32,&quot;id&quot;:&quot;MET-465605&quot;,&quot;n&quot;:&quot;Square Pyramidal Bell&quot;,&quot;x&quot;:11.39,&quot;y&quot;:11.71,&quot;b&quot;:26.29,&quot;p&quot;:&quot;6th–7th century (?)&quot;,&quot;m&quot;:&quot;Copper alloy&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/465605&quot;},{&quot;s&quot;:35,&quot;id&quot;:&quot;MET-501875&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:17.2,&quot;y&quot;:18.15,&quot;b&quot;:45.85,&quot;p&quot;:&quot;1st century (?)&quot;,&quot;m&quot;:&quot;Metal (Bronze)&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/501875&quot;},{&quot;s&quot;:36,&quot;id&quot;:&quot;MET-502207&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:47.72,&quot;y&quot;:35.42,&quot;b&quot;:86.82,&quot;p&quot;:&quot;3rd or 4th century BCE (?)&quot;,&quot;m&quot;:&quot;Leaded bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502207&quot;},{&quot;s&quot;:37,&quot;id&quot;:&quot;MET-502514&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:12.18,&quot;y&quot;:16.77,&quot;b&quot;:34.03,&quot;p&quot;:&quot;1st century CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502514&quot;},{&quot;s&quot;:38,&quot;id&quot;:&quot;MET-502515&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:15.14,&quot;y&quot;:15.11,&quot;b&quot;:25.89,&quot;p&quot;:&quot;1st century CE&quot;,&quot;m&quot;:&quot;bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502515&quot;},{&quot;s&quot;:39,&quot;id&quot;:&quot;MET-502516&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:19.68,&quot;y&quot;:14.88,&quot;b&quot;:23.12,&quot;p&quot;:&quot;100 BC-200 AD?&quot;,&quot;m&quot;:&quot;bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502516&quot;},{&quot;s&quot;:40,&quot;id&quot;:&quot;MET-502518&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:8.72,&quot;y&quot;:7.44,&quot;b&quot;:17.56,&quot;p&quot;:&quot;1st century&quot;,&quot;m&quot;:&quot;bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502518&quot;},{&quot;s&quot;:41,&quot;id&quot;:&quot;MET-504797&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:13.91,&quot;y&quot;:19.75,&quot;b&quot;:56.45,&quot;p&quot;:&quot;1st century CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/504797&quot;},{&quot;s&quot;:42,&quot;id&quot;:&quot;MET-504986&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:30.07,&quot;y&quot;:48.09,&quot;b&quot;:142.41,&quot;p&quot;:&quot;11th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/504986&quot;},{&quot;s&quot;:43,&quot;id&quot;:&quot;MET-51918&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:24.48,&quot;y&quot;:17.71,&quot;b&quot;:115.29,&quot;p&quot;:&quot;500 BCE–300 CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/51918&quot;},{&quot;s&quot;:44,&quot;id&quot;:&quot;MET-51919&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:29.31,&quot;y&quot;:16.34,&quot;b&quot;:69.66,&quot;p&quot;:&quot;500 BCE–300 CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/51919&quot;},{&quot;s&quot;:46,&quot;id&quot;:&quot;MET-551319&quot;,&quot;n&quot;:&quot;Bell with head of a bovine wearing a yoke ending in uraei&quot;,&quot;x&quot;:9.16,&quot;y&quot;:11.19,&quot;b&quot;:32.31,&quot;p&quot;:&quot;332–30 BCE&quot;,&quot;m&quot;:&quot;Leaded bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/551319&quot;},{&quot;s&quot;:47,&quot;id&quot;:&quot;MET-551320&quot;,&quot;n&quot;:&quot;Bell with heads of a ram, a jackal, and a bovine wearing a yoke ending in uraei&quot;,&quot;x&quot;:11.93,&quot;y&quot;:12.96,&quot;b&quot;:31.04,&quot;p&quot;:&quot;332–30 BCE&quot;,&quot;m&quot;:&quot;Leaded bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/551320&quot;},{&quot;s&quot;:48,&quot;id&quot;:&quot;MET-56441&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:6.9,&quot;y&quot;:8.1,&quot;b&quot;:29.9,&quot;p&quot;:&quot;500 BCE–300 CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/56441&quot;},{&quot;s&quot;:49,&quot;id&quot;:&quot;MET-56443&quot;,&quot;n&quot;:&quot;Circular Bell&quot;,&quot;x&quot;:12.45,&quot;y&quot;:9.62,&quot;b&quot;:22.38,&quot;p&quot;:&quot;500 BCE–300 CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/56443&quot;},{&quot;s&quot;:50,&quot;id&quot;:&quot;MET-60101&quot;,&quot;n&quot;:&quot;Horse Bell&quot;,&quot;x&quot;:36.52,&quot;y&quot;:19.28,&quot;b&quot;:164.72,&quot;p&quot;:&quot;6th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/60101&quot;},{&quot;s&quot;:51,&quot;id&quot;:&quot;MET-60102&quot;,&quot;n&quot;:&quot;Horse Bell&quot;,&quot;x&quot;:42.32,&quot;y&quot;:18.07,&quot;b&quot;:124.93,&quot;p&quot;:&quot;6th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/60102&quot;},{&quot;s&quot;:52,&quot;id&quot;:&quot;MET-60103&quot;,&quot;n&quot;:&quot;Horse Bell&quot;,&quot;x&quot;:34.63,&quot;y&quot;:24.67,&quot;b&quot;:121.33,&quot;p&quot;:&quot;6th century&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/60103&quot;},{&quot;s&quot;:59,&quot;id&quot;:&quot;MET-62409&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:9.33,&quot;y&quot;:3.85,&quot;b&quot;:10.15,&quot;p&quot;:&quot;500 BCE–300 CE&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/62409&quot;},{&quot;s&quot;:62,&quot;id&quot;:&quot;MET-502100&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:35.22,&quot;y&quot;:27.45,&quot;b&quot;:85.55,&quot;p&quot;:&quot;1st century CE (?)&quot;,&quot;m&quot;:&quot;Metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502100&quot;},{&quot;s&quot;:63,&quot;id&quot;:&quot;MET-502174&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:24.33,&quot;y&quot;:29.38,&quot;b&quot;:74.62,&quot;p&quot;:&quot;1st century CE&quot;,&quot;m&quot;:&quot;Metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502174&quot;},{&quot;s&quot;:64,&quot;id&quot;:&quot;MET-502510&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:24.19,&quot;y&quot;:26.37,&quot;b&quot;:42.63,&quot;p&quot;:&quot;1st century CE&quot;,&quot;m&quot;:&quot;Metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502510&quot;},{&quot;s&quot;:65,&quot;id&quot;:&quot;MET-502511&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:21.99,&quot;y&quot;:20.58,&quot;b&quot;:50.42,&quot;p&quot;:&quot;early 2nd century?&quot;,&quot;m&quot;:&quot;Metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502511&quot;},{&quot;s&quot;:66,&quot;id&quot;:&quot;MET-502512&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:17.66,&quot;y&quot;:28.02,&quot;b&quot;:41.83,&quot;p&quot;:&quot;100 BC–200 AD?&quot;,&quot;m&quot;:&quot;Metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/502512&quot;},{&quot;s&quot;:67,&quot;id&quot;:&quot;MET-551366&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:16.72,&quot;y&quot;:13.08,&quot;b&quot;:17.92,&quot;p&quot;:&quot;332–30 BCE&quot;,&quot;m&quot;:&quot;Faience&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/551366&quot;},{&quot;s&quot;:68,&quot;id&quot;:&quot;MET-551369&quot;,&quot;n&quot;:&quot;Bell in the form of Bes&quot;,&quot;x&quot;:21.06,&quot;y&quot;:23.07,&quot;b&quot;:39.93,&quot;p&quot;:&quot;332–30 BCE&quot;,&quot;m&quot;:&quot;cupreous metal&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/551369&quot;},{&quot;s&quot;:69,&quot;id&quot;:&quot;MET-313236&quot;,&quot;n&quot;:&quot;Bell&quot;,&quot;x&quot;:6.54,&quot;y&quot;:15.68,&quot;b&quot;:25.6,&quot;p&quot;:&quot;750–950 CE&quot;,&quot;m&quot;:&quot;Gold alloy&quot;,&quot;site&quot;:&quot;Not stated in dataset&quot;,&quot;src&quot;:&quot;The Metropolitan Museum of Art&quot;,&quot;u&quot;:&quot;https://www.metmuseum.org/art/collection/search/313236&quot;},{&quot;s&quot;:70,&quot;id&quot;:&quot;EJARS-2021-FIG1A-BIG&quot;,&quot;n&quot;:&quot;Big bell&quot;,&quot;x&quot;:17.98,&quot;y&quot;:17.67,&quot;b&quot;:67.33,&quot;p&quot;:&quot;Late Period (664–332 BC)&quot;,&quot;m&quot;:&quot;Bronze (paper reports a Cu–Sn–Pb ternary alloy); iron clapper&quot;,&quot;site&quot;:&quot;Kom Oshim / Fayoum&quot;,&quot;src&quot;:&quot;Characterization and Conservation Study of Ancient Egyptian Bronze Bells&quot;,&quot;u&quot;:&quot;https://ejars.sohag-univ.edu.eg/Articles/Details/173&quot;},{&quot;s&quot;:71,&quot;id&quot;:&quot;EJARS-2021-FIG1B-SMALL&quot;,&quot;n&quot;:&quot;Small bell&quot;,&quot;x&quot;:23.31,&quot;y&quot;:20.93,&quot;b&quot;:54.07,&quot;p&quot;:&quot;Late Period (664–332 BC)&quot;,&quot;m&quot;:&quot;Bronze (paper reports a Cu–Sn–Pb ternary alloy); iron clapper&quot;,&quot;site&quot;:&quot;Kom Oshim / Fayoum&quot;,&quot;src&quot;:&quot;Characterization and Conservation Study of Ancient Egyptian Bronze Bells&quot;,&quot;u&quot;:&quot;https://ejars.sohag-univ.edu.eg/Articles/Details/173&quot;},{&quot;s&quot;:72,&quot;id&quot;:&quot;AI20-21-PRK-FIG39-8&quot;,&quot;n&quot;:&quot;Bell with a four-sided hollow body&quot;,&quot;x&quot;:10.37,&quot;y&quot;:15.19,&quot;b&quot;:29.12,&quot;p&quot;:&quot;Early level of Period III&quot;,&quot;m&quot;:&quot;Leaded bronze&quot;,&quot;site&quot;:&quot;Prakash Chalcolithic site&quot;,&quot;src&quot;:&quot;Prakash 1955: A Chalcolithic Site — Ancient India Nos. 20 &amp; 21&quot;,&quot;u&quot;:&quot;https://ignca.gov.in/Asi_data/45770.pdf&quot;},{&quot;s&quot;:73,&quot;id&quot;:&quot;AI20-21-PRK-FIG39-9&quot;,&quot;n&quot;:&quot;Bell with a cup-shaped hollow body&quot;,&quot;x&quot;:32.08,&quot;y&quot;:26.97,&quot;b&quot;:47.88,&quot;p&quot;:&quot;Mid-level of Period III&quot;,&quot;m&quot;:&quot;Bronze&quot;,&quot;site&quot;:&quot;Prakash Chalcolithic site&quot;,&quot;src&quot;:&quot;Prakash 1955: A Chalcolithic Site — Ancient India Nos. 20 &amp; 21&quot;,&quot;u&quot;:&quot;https://ignca.gov.in/Asi_data/45770.pdf&quot;}];
+
+  const hookReference = { x: 6.45, y: 8.16, label: &quot;Measured hook reference&quot;, isReference: true };
+
+  const eraFor = d =&gt; {
+    const p = d.p.toLowerCase();
+    if (p.includes(&quot;period iii&quot;)) return &quot;Chalcolithic / Period III&quot;;
+    if (p.includes(&quot;20th century&quot;)) return &quot;Modern / reproduction&quot;;
+    const hasBC = /\b(bce|bc)\b/.test(p);
+    const hasCE = /\b(ce|ad)\b/.test(p);
+    if (hasBC &amp;&amp; hasCE) return &quot;BCE–CE transition&quot;;
+    if (hasBC || p.includes(&quot;millennium bce&quot;)) return &quot;Ancient BCE&quot;;
+    if (/^(ca\.\s*)?\d{4}$/.test(p) || /(?:5th|6th|7th|8th|9th|10th|11th|12th|13th|14th|15th)[–-]?(?:\d+\w*)?\s+century/.test(p) || p.includes(&quot;1300s&quot;) || p.includes(&quot;750–950 ce&quot;)) return &quot;Medieval&quot;;
+    if (hasCE || p.includes(&quot;1st century&quot;) || p.includes(&quot;2nd century&quot;)) return &quot;Early historic CE&quot;;
+    return &quot;Unclassified period&quot;;
+  };
+  const materialFor = d =&gt; {
+    const m = d.m.toLowerCase();
+    if (m.includes(&quot;bronze&quot;)) return &quot;Bronze-based&quot;;
+    if (m.includes(&quot;brass&quot;)) return &quot;Brass&quot;;
+    if (m.includes(&quot;gold&quot;)) return &quot;Gold alloy&quot;;
+    if (m.includes(&quot;faience&quot;)) return &quot;Faience&quot;;
+    if (m.includes(&quot;copper&quot;) || m.includes(&quot;cupreous&quot;)) return &quot;Copper alloy&quot;;
+    if (m.includes(&quot;iron&quot;)) return &quot;Iron&quot;;
+    if (m.includes(&quot;metal&quot;)) return &quot;Metal, unspecified&quot;;
+    return &quot;Other&quot;;
+  };
+  const sourceFor = d =&gt; {
+    if (d.src.includes(&quot;Metropolitan&quot;)) return &quot;The Met&quot;;
+    if (d.src.includes(&quot;Cleveland&quot;)) return &quot;Cleveland Museum&quot;;
+    if (d.src.includes(&quot;Egyptian Bronze Bells&quot;)) return &quot;EJARS research paper&quot;;
+    if (d.src.includes(&quot;Prakash 1955&quot;)) return &quot;Ancient India / ASI paper&quot;;
+    return d.src;
+  };
+  const shapeFor = d =&gt; {
+    const ratio = d.y / d.x;
+    return ratio &gt; 1.15 ? &quot;Tall loop&quot; : ratio &lt; 0.85 ? &quot;Wide loop&quot; : &quot;Balanced loop&quot;;
+  };
+  data.forEach(d =&gt; {
+    d.era = eraFor(d);
+    d.material = materialFor(d);
+    d.source = sourceFor(d);
+    d.shape = shapeFor(d);
+  });
+
+  const root = document.getElementById(&quot;bell-loop-compare&quot;);
+  const chartHosts = {
+    era: root.querySelector(&quot;#blc-era-chart&quot;),
+    material: root.querySelector(&quot;#blc-material-chart&quot;),
+    site: root.querySelector(&quot;#blc-site-chart&quot;),
+    source: root.querySelector(&quot;#blc-source-chart&quot;),
+  };
+  const legendHosts = {
+    era: root.querySelector(&quot;#blc-era-legend&quot;),
+    material: root.querySelector(&quot;#blc-material-legend&quot;),
+    site: root.querySelector(&quot;#blc-site-legend&quot;),
+    source: root.querySelector(&quot;#blc-source-legend&quot;),
+  };
+  const eraFilter = root.querySelector(&quot;#blc-era&quot;);
+  const materialFilter = root.querySelector(&quot;#blc-material&quot;);
+  const siteFilter = root.querySelector(&quot;#blc-site&quot;);
+  const status = root.querySelector(&quot;#blc-status&quot;);
+  const selectedLine = root.querySelector(&quot;#blc-selected&quot;);
+  const tooltip = root.querySelector(&quot;#blc-tooltip&quot;);
+  const fields = [&quot;era&quot;, &quot;material&quot;, &quot;site&quot;, &quot;source&quot;];
+  const series = [&quot;var(--viz-series-1)&quot;,&quot;var(--viz-series-2)&quot;,&quot;var(--viz-series-3)&quot;,&quot;var(--viz-series-4)&quot;,&quot;var(--viz-series-5)&quot;,&quot;var(--viz-series-6)&quot;];
+  const hidden = Object.fromEntries(fields.map(field =&gt; [field, new Set()]));
+  let selected = null;
+  let resizeFrame = 0;
+
+  const categoryOf = (d, field) =&gt; d[field];
+  const allCategories = field =&gt; [...new Set(data.map(d =&gt; categoryOf(d, field)))].sort(d3.ascending);
+  const addOptions = (select, values) =&gt; {
+    values.forEach(value =&gt; {
+      const option = document.createElement(&quot;option&quot;);
+      option.value = value;
+      option.textContent = value;
+      select.appendChild(option);
+    });
+  };
+  addOptions(eraFilter, allCategories(&quot;era&quot;));
+  addOptions(materialFilter, allCategories(&quot;material&quot;));
+  addOptions(siteFilter, allCategories(&quot;site&quot;));
+
+  const baseVisible = () =&gt; data.filter(d =&gt;
+    (eraFilter.value === &quot;all&quot; || d.era === eraFilter.value) &amp;&amp;
+    (materialFilter.value === &quot;all&quot; || d.material === materialFilter.value) &amp;&amp;
+    (siteFilter.value === &quot;all&quot; || d.site === siteFilter.value)
+  );
+  const visibleFor = field =&gt; baseVisible().filter(d =&gt; !hidden[field].has(categoryOf(d, field)));
+  const fmt = d3.format(&quot;.2f&quot;);
+  const xDomain = [0, 50];
+  const yDomain = [0, 50];
+
+  const colorMap = field =&gt; new Map(allCategories(field).map((category, index) =&gt; [category, series[index % series.length]]));
+  const renderLegend = field =&gt; {
+    const host = legendHosts[field];
+    host.replaceChildren();
+    const counts = d3.rollup(baseVisible(), values =&gt; values.length, d =&gt; categoryOf(d, field));
+    const colors = colorMap(field);
+    [...counts.keys()].sort(d3.ascending).forEach(category =&gt; {
+      const button = document.createElement(&quot;button&quot;);
+      button.type = &quot;button&quot;;
+      button.setAttribute(&quot;aria-pressed&quot;, String(!hidden[field].has(category)));
+      button.innerHTML = `&lt;span class=&quot;blc-swatch&quot; style=&quot;background:${colors.get(category)}&quot;&gt;&lt;/span&gt;&lt;span&gt;${category} (${counts.get(category)})&lt;/span&gt;`;
+      button.addEventListener(&quot;click&quot;, () =&gt; {
+        hidden[field].has(category) ? hidden[field].delete(category) : hidden[field].add(category);
+        drawAll();
+      });
+      host.appendChild(button);
+    });
+  };
+
+  const describe = d =&gt; `&lt;strong&gt;${String(d.s).padStart(3,&quot;0&quot;)} ${d.n}&lt;/strong&gt; · ${d.shape} · W/D ${fmt(d.x)} mm · h ${fmt(d.y)} mm · h/W-D ${fmt(d.y / d.x)} · h/B ${fmt(d.y / d.b)} · ${d.p} · ${d.m} · ${d.site}&lt;a href=&quot;${d.u}&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Source&lt;/a&gt;`;
+  const showTooltip = (event, d) =&gt; {
+    tooltip.innerHTML = `&lt;strong&gt;${String(d.s).padStart(3,&quot;0&quot;)} ${d.n}&lt;/strong&gt;&lt;br&gt;${d.shape} · h/W-D ${fmt(d.y / d.x)} · h/B ${fmt(d.y / d.b)}&lt;br&gt;Loop W/D ${fmt(d.x)} mm · h ${fmt(d.y)} mm&lt;br&gt;Period: ${d.p}&lt;br&gt;Material: ${d.m}&lt;br&gt;Region/site: ${d.site}&lt;br&gt;Source: ${d.src}`;
+    tooltip.hidden = false;
+    const bounds = root.getBoundingClientRect();
+    tooltip.style.left = `${Math.max(8, Math.min(event.clientX - bounds.left + 12, bounds.width - 340))}px`;
+    tooltip.style.top = `${Math.max(8, event.clientY - bounds.top - 18)}px`;
+  };
+  const hideTooltip = () =&gt; { tooltip.hidden = true; };
+
+  const selectBell = d =&gt; {
+    selected = d;
+    selectedLine.innerHTML = describe(d);
+    drawAll();
+  };
+
+  function drawPanel(field) {
+    const host = chartHosts[field];
+    host.replaceChildren();
+    const values = visibleFor(field);
+    const width = Math.max(320, Math.floor(host.getBoundingClientRect().width || 480));
+    const height = width &lt; 430 ? 360 : 400;
+    const margin = { top: 14, right: 20, bottom: 60, left: 68 };
+    const innerW = width - margin.left - margin.right;
+    const innerH = height - margin.top - margin.bottom;
+    const x = d3.scaleLinear().domain(xDomain).nice().range([0, innerW]);
+    const y = d3.scaleLinear().domain(yDomain).nice().range([innerH, 0]);
+    const colors = colorMap(field);
+    const tickCount = width &lt; 430 ? 4 : 5;
+    const svg = d3.select(host).append(&quot;svg&quot;)
+      .attr(&quot;viewBox&quot;, `0 0 ${width} ${height}`)
+      .attr(&quot;role&quot;, &quot;img&quot;)
+      .attr(&quot;aria-label&quot;, `Bell loop width versus height, highlighted by ${field}`);
+    svg.append(&quot;title&quot;).text(`Bell loop dimensions by ${field}`);
+    svg.append(&quot;desc&quot;).text(&quot;Each point is a bell. The dashed diagonal marks equal loop height and width. Click a point to see its three nearest loop-dimension neighbours.&quot;);
+    const g = svg.append(&quot;g&quot;).attr(&quot;transform&quot;, `translate(${margin.left},${margin.top})`);
+    g.append(&quot;rect&quot;).attr(&quot;data-chart-frame&quot;, &quot;&quot;).attr(&quot;width&quot;, innerW).attr(&quot;height&quot;, innerH);
+    g.append(&quot;g&quot;).attr(&quot;class&quot;, &quot;grid&quot;).attr(&quot;transform&quot;, `translate(0,${innerH})`).call(d3.axisBottom(x).ticks(tickCount).tickSize(-innerH).tickFormat(&quot;&quot;));
+    g.append(&quot;g&quot;).attr(&quot;class&quot;, &quot;grid&quot;).call(d3.axisLeft(y).ticks(tickCount).tickSize(-innerW).tickFormat(&quot;&quot;));
+    g.append(&quot;g&quot;).attr(&quot;class&quot;, &quot;axis&quot;).attr(&quot;transform&quot;, `translate(0,${innerH})`).call(d3.axisBottom(x).ticks(tickCount));
+    g.append(&quot;g&quot;).attr(&quot;class&quot;, &quot;axis&quot;).call(d3.axisLeft(y).ticks(tickCount));
+    g.append(&quot;text&quot;).attr(&quot;class&quot;, &quot;axis-title&quot;).attr(&quot;data-axis&quot;, &quot;x&quot;).attr(&quot;x&quot;, innerW / 2).attr(&quot;y&quot;, innerH + 46).attr(&quot;text-anchor&quot;, &quot;middle&quot;).text(&quot;Loop outer width / diameter (mm)&quot;);
+    g.append(&quot;text&quot;).attr(&quot;class&quot;, &quot;axis-title&quot;).attr(&quot;data-axis&quot;, &quot;y&quot;).attr(&quot;transform&quot;, &quot;rotate(-90)&quot;).attr(&quot;x&quot;, -innerH / 2).attr(&quot;y&quot;, -50).attr(&quot;text-anchor&quot;, &quot;middle&quot;).text(&quot;Loop height h (mm)&quot;);
+
+    const refLo = Math.max(x.domain()[0], y.domain()[0]);
+    const refHi = Math.min(x.domain()[1], y.domain()[1]);
+    g.append(&quot;line&quot;).attr(&quot;class&quot;, &quot;ratio-reference&quot;).attr(&quot;x1&quot;, x(refLo)).attr(&quot;y1&quot;, y(refLo)).attr(&quot;x2&quot;, x(refHi)).attr(&quot;y2&quot;, y(refHi));
+    const labelValue = refLo + (refHi - refLo) * .72;
+    g.append(&quot;text&quot;).attr(&quot;class&quot;, &quot;reference-label&quot;).attr(&quot;x&quot;, x(labelValue) + 5).attr(&quot;y&quot;, y(labelValue) - 5).text(&quot;h = W/D&quot;);
+
+    if (selected &amp;&amp; values.some(d =&gt; d.s === selected.s)) {
+      const xSpan = x.domain()[1] - x.domain()[0];
+      const ySpan = y.domain()[1] - y.domain()[0];
+      const neighbours = values.filter(d =&gt; d.s !== selected.s)
+        .map(d =&gt; ({ d, distance: Math.hypot((d.x - selected.x) / xSpan, (d.y - selected.y) / ySpan) }))
+        .sort((a,b) =&gt; a.distance - b.distance).slice(0,3).map(value =&gt; value.d);
+      g.append(&quot;g&quot;).selectAll(&quot;line&quot;).data(neighbours).join(&quot;line&quot;)
+        .attr(&quot;class&quot;, &quot;similarity-link&quot;)
+        .attr(&quot;x1&quot;, x(selected.x)).attr(&quot;y1&quot;, y(selected.y))
+        .attr(&quot;x2&quot;, d =&gt; x(d.x)).attr(&quot;y2&quot;, d =&gt; y(d.y));
+    }
+
+    g.append(&quot;g&quot;).selectAll(&quot;circle&quot;).data(values, d =&gt; d.s).join(&quot;circle&quot;)
+      .attr(&quot;class&quot;, d =&gt; `bell-node${selected &amp;&amp; selected.s === d.s ? &quot; is-selected&quot; : &quot;&quot;}`)
+      .attr(&quot;cx&quot;, d =&gt; x(d.x)).attr(&quot;cy&quot;, d =&gt; y(d.y))
+      .attr(&quot;r&quot;, d =&gt; selected &amp;&amp; selected.s === d.s ? 7.5 : 5.5)
+      .attr(&quot;fill&quot;, d =&gt; colors.get(categoryOf(d, field)));
+    g.append(&quot;path&quot;)
+      .attr(&quot;class&quot;, &quot;hook-reference&quot;)
+      .attr(&quot;d&quot;, d3.symbol().type(d3.symbolStar).size(210)())
+      .attr(&quot;transform&quot;, `translate(${x(hookReference.x)},${y(hookReference.y)})`);
+    if (selected &amp;&amp; values.some(d =&gt; d.s === selected.s)) {
+      const placeLeft = x(selected.x) &gt; innerW * .72;
+      g.append(&quot;text&quot;).attr(&quot;class&quot;, &quot;reference-label&quot;)
+        .attr(&quot;x&quot;, x(selected.x) + (placeLeft ? -9 : 9)).attr(&quot;y&quot;, y(selected.y) - 9)
+        .attr(&quot;text-anchor&quot;, placeLeft ? &quot;end&quot; : &quot;start&quot;)
+        .text(`#${String(selected.s).padStart(3,&quot;0&quot;)}`);
+    }
+
+    const overlay = g.append(&quot;rect&quot;)
+      .attr(&quot;data-chart-hit&quot;, &quot;&quot;)
+      .attr(&quot;data-chart-hover-overlay&quot;, &quot;cross-series&quot;)
+      .attr(&quot;width&quot;, innerW).attr(&quot;height&quot;, innerH);
+    overlay.on(&quot;pointermove&quot;, event =&gt; {
+      if (!values.length) return hideTooltip();
+      const [mx,my] = d3.pointer(event, g.node());
+      const candidates = [...values, hookReference];
+      const nearest = candidates.map(d =&gt; ({ d, dist: Math.hypot(x(d.x)-mx, y(d.y)-my) })).sort((a,b) =&gt; a.dist-b.dist)[0];
+      if (nearest &amp;&amp; nearest.dist &lt;= 26 &amp;&amp; nearest.d.isReference) {
+        tooltip.innerHTML = `&lt;strong&gt;Measured hook reference&lt;/strong&gt;&lt;br&gt;Loop W/D 6.45 mm · Part-1 height 8.16 mm&lt;br&gt;Separate measured sample; not one of the 73 dataset bells.`;
+        tooltip.hidden = false;
+        const bounds = root.getBoundingClientRect();
+        tooltip.style.left = `${Math.max(8, Math.min(event.clientX - bounds.left + 12, bounds.width - 340))}px`;
+        tooltip.style.top = `${Math.max(8, event.clientY - bounds.top - 18)}px`;
+      } else if (nearest &amp;&amp; nearest.dist &lt;= 26) {
+        showTooltip(event, nearest.d);
+      } else {
+        hideTooltip();
+      }
+    }).on(&quot;pointerleave&quot;, hideTooltip).on(&quot;click&quot;, event =&gt; {
+      if (!values.length) return;
+      const [mx,my] = d3.pointer(event, g.node());
+      const nearest = values.map(d =&gt; ({ d, dist: Math.hypot(x(d.x)-mx, y(d.y)-my) })).sort((a,b) =&gt; a.dist-b.dist)[0];
+      if (nearest &amp;&amp; nearest.dist &lt;= 26) selectBell(nearest.d);
+    });
+  }
+
+  function drawAll() {
+    const visible = baseVisible();
+    const explicitSites = visible.filter(d =&gt; d.site !== &quot;Not stated in dataset&quot;).length;
+    status.textContent = `${visible.length} of ${data.length} bells visible · ${explicitSites} have an explicit region/site in the retained source · star = measured hook reference · dashed line = equal loop height and width`;
+    fields.forEach(field =&gt; renderLegend(field));
+    fields.forEach(field =&gt; drawPanel(field));
+  }
+
+  [eraFilter, materialFilter, siteFilter].forEach(control =&gt; control.addEventListener(&quot;change&quot;, drawAll));
+  drawAll();
+  const observer = new ResizeObserver(() =&gt; {
+    cancelAnimationFrame(resizeFrame);
+    resizeFrame = requestAnimationFrame(drawAll);
+  });
+  Object.values(chartHosts).forEach(host =&gt; observer.observe(host));
+})();
+&lt;/script&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+
+  const getTrigger = (target) =&gt;
+    target?.nodeType === Node.ELEMENT_NODE
+      ? target.closest(&quot;[data-tooltip]&quot;)
+      : null;
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handleLeave = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    const trigger = getTrigger(event.target);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    document.removeEventListener(&quot;pointerover&quot;, handlePointerOpen);
+    document.removeEventListener(&quot;pointerout&quot;, handleLeave);
+    document.removeEventListener(&quot;focusin&quot;, handleFocusIn);
+    document.removeEventListener(&quot;focusout&quot;, handleLeave);
+    document.removeEventListener(&quot;keydown&quot;, handleKeyDown);
+    document.removeEventListener(&quot;contextmenu&quot;, handleContextMenu);
+    tooltip = null;
+  };
+
+  document.addEventListener(&quot;pointerover&quot;, handlePointerOpen);
+  document.addEventListener(&quot;pointerout&quot;, handleLeave);
+  document.addEventListener(&quot;focusin&quot;, handleFocusIn);
+  document.addEventListener(&quot;focusout&quot;, handleLeave);
+  document.addEventListener(&quot;keydown&quot;, handleKeyDown);
+  document.addEventListener(&quot;contextmenu&quot;, handleContextMenu);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+</body>
+</html>
