@@ -1,0 +1,74 @@
+[
+  [
+    "serial",
+    "SI.No"
+  ],
+  [
+    "photo",
+    "Photo"
+  ],
+  [
+    "photo_file",
+    "Photo File"
+  ],
+  [
+    "name",
+    "Name as on Original Document"
+  ],
+  [
+    "source",
+    "Museum Name / Research Paper Title"
+  ],
+  [
+    "period",
+    "Period"
+  ],
+  [
+    "material",
+    "Material"
+  ],
+  [
+    "H",
+    "Height H (mm)"
+  ],
+  [
+    "W",
+    "Width W (mm)"
+  ],
+  [
+    "D",
+    "Diameter D (mm)"
+  ],
+  [
+    "h",
+    "Loop Height h (mm)"
+  ],
+  [
+    "loop_width",
+    "Loop Outer W/D (mm)"
+  ],
+  [
+    "loop_type",
+    "Loop Measure Type"
+  ],
+  [
+    "B",
+    "Body B (mm)"
+  ],
+  [
+    "h_B",
+    "h/B"
+  ],
+  [
+    "h_DW",
+    "h/D* (D else W)"
+  ],
+  [
+    "notes",
+    "Notes"
+  ],
+  [
+    "url",
+    "URL"
+  ]
+]

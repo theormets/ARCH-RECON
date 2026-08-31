@@ -1,0 +1,60 @@
+{
+  "total": 73,
+  "iqr_outliers": [
+    2,
+    3,
+    25,
+    26,
+    27,
+    28,
+    31,
+    33,
+    34,
+    45,
+    53,
+    54,
+    55,
+    57,
+    58,
+    60,
+    61
+  ],
+  "frame_excluded_after_iqr": [
+    56
+  ],
+  "filtered_count": 55,
+  "x_bounds": {
+    "q1": 17.14,
+    "q3": 36.1,
+    "low": -1.8200000000000003,
+    "high": 55.06
+  },
+  "y_bounds": {
+    "q1": 15.88,
+    "q3": 35.42,
+    "low": -3.6599999999999984,
+    "high": 54.96
+  },
+  "reference": {
+    "x": 6.45,
+    "y": 8.16,
+    "height_basis": "whole component including surviving base; not ring-only height"
+  },
+  "nearest_serials": [
+    48,
+    40,
+    30,
+    46,
+    59,
+    32,
+    49,
+    47,
+    69,
+    72,
+    6,
+    5,
+    37,
+    38,
+    67
+  ]
+}

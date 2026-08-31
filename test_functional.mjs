@@ -1,0 +1,47 @@
+// Node DOM/unit tests; not a browser or screenshot test.
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {webcrypto} from 'node:crypto';
+import {parseHTML} from '/tmp/bellrecon-qa/node_modules/linkedom/esm/index.js';
+const root=path.dirname(new URL(import.meta.url).pathname);
+const {document,window:dom}=parseHTML(await fs.readFile(path.join(root,'index.html'),'utf8'));
+// linkedom's select lacks the browser setter; provide that API for the unit harness.
+Object.defineProperty(dom.HTMLSelectElement.prototype,'value',{configurable:true,get(){return this._value??this.querySelector('option')?.textContent??'';},set(x){this._value=x;}});
+document.querySelector('dialog').showModal=function(){this.open=true;};document.querySelector('dialog').close=function(){this.open=false;};
+const blobs=[],saved=[],urlBlobs=new Map();let urlId=0;
+const fetchLocal=async name=>{const clean=String(name).replace(/^\.\//,'');try{const bytes=await fs.readFile(path.join(root,clean));return new Response(bytes);}catch{return new Response('missing',{status:404});}};
+const context={document,console,Blob,Response,TextEncoder,Uint8Array,Uint32Array,Float32Array,DataView,ArrayBuffer,URLSearchParams,crypto:webcrypto,fetch:fetchLocal,setTimeout:f=>0,clearTimeout(){},URL:{createObjectURL(blob){const u='blob:test-'+(++urlId);urlBlobs.set(u,blob);blobs.push(blob);return u;},revokeObjectURL(){}},IntersectionObserver:class{observe(){}unobserve(){}},startBellModel(){context.modelStarted=true;}};
+context.window=context;vm.createContext(context);
+for(const script of ['assets.js','plot.js'])vm.runInContext(await fs.readFile(path.join(root,script),'utf8'),context);
+context.ResearchAssets.save=(blob,name)=>saved.push({blob,name});
+await vm.runInContext(await fs.readFile(path.join(root,'script.js'),'utf8'),context);
+assert.equal(document.querySelectorAll('.record-card').length,73);
+assert.equal(document.querySelectorAll('#nearest-table tbody tr').length,15);
+assert.equal(document.querySelectorAll('.plot-panel').length,8);
+assert.equal(document.querySelectorAll('#filtered-plots [data-serial]').length,55*4);
+assert.equal(document.querySelectorAll('#full-plots [data-serial]').length,73*4);
+assert.equal(document.querySelectorAll('.reference-star').length,8);
+assert.equal(context.modelStarted,true);
+document.getElementById('search').oninput({target:{value:'MET-56441'}});
+assert.equal(document.querySelectorAll('.record-card').length,1);
+document.querySelector('.record-card').onclick();assert.equal(document.querySelector('dialog').open,true);
+assert.match(document.getElementById('record-detail').textContent,/MET-56441/);
+const panel=document.querySelector('.plot-panel'),sel=panel.querySelector('select');sel.value=sel.querySelectorAll('option')[1].textContent;sel.onchange();assert.ok(panel.querySelectorAll('[data-serial]').length<55);
+const check=panel.querySelector('input');check.checked=false;check.onchange();assert.equal(panel.querySelectorAll('.reference-star').length,0);
+await panel.querySelector('[data-format="SVG"]').onclick();await panel.querySelector('[data-format="HTML"]').onclick();
+const html=await blobs.at(-1).text();assert.match(html,/BellRecon/);const script=html.match(/<script>([\s\S]*)<\/script>/)[1];new vm.Script(script);
+assert.equal(parseHTML(html).document.querySelectorAll('script').length,1);
+const manifest=await context.ResearchAssets.manifest(),large=Object.keys(manifest).find(k=>manifest[k].bytes>50_000_000);
+const files=['artefact/original-01.jpeg','collection/Bell_Dataset_73_Master.xlsx',large];
+for(const file of files){const b=await context.ResearchAssets.bytes(file,true);assert.equal(b.size,manifest[file].bytes);}
+const one=await context.ResearchAssets.bytes('artefact/original-01.jpeg',true);
+const zip=await context.ResearchAssets.zip([{name:'source/original.jpeg',blob:one},{name:'notes.txt',blob:new Blob(['BellRecon'])}]);
+await fs.writeFile('/tmp/BellRecon_ZIP_QA.zip',new Uint8Array(await zip.arrayBuffer()));
+console.log(JSON.stringify({records:73,nearest_rows:15,plots:8,filtered_per_plot:55,full_per_plot:73,search:'PASS',record_dialog:'PASS',category_filter:'PASS',star_toggle:'PASS',SVG_HTML_exports:'PASS',large_evidence_SHA256:'PASS',original_excel_SHA256:'PASS',zip_sample_bytes:zip.size},null,2));
+await document.querySelector('[data-bundle="all"]').onclick();
+assert.equal(saved.length,1,document.getElementById('download-status').textContent);
+assert.match(saved[0].name,/Complete_Research_Collection/);
+await fs.writeFile('/tmp/BellRecon_Complete_QA.zip',new Uint8Array(await saved[0].blob.arrayBuffer()));
+console.log('Complete research ZIP button: PASS; '+saved[0].blob.size+' bytes');

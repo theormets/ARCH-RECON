@@ -1,0 +1,4 @@
+assets/packs/*.bin -text -diff
+*.zip -text
+*.html text eol=lf
+*.csv text eol=lf

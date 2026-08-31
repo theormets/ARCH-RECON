@@ -1,0 +1,4450 @@
+{
+  "artefact/original-01.jpeg": {
+    "bytes": 75591,
+    "sha256": "79eab27da8fe5ba3b3951aa66a85475093d9edd52e7f346367662ed331732f15",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 0,
+        "length": 75591
+      }
+    ]
+  },
+  "artefact/original-02.jpeg": {
+    "bytes": 144270,
+    "sha256": "d5a5b3dda326a2f749d2f56ff29894110262ca8172dc7c0eb6c595283069b6b6",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 75591,
+        "length": 144270
+      }
+    ]
+  },
+  "artefact/original-03.jpeg": {
+    "bytes": 73789,
+    "sha256": "502f0377495b00882138014dc2ca56a83540535712910a256b80ba9764d1a30e",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 219861,
+        "length": 73789
+      }
+    ]
+  },
+  "artefact/original-04.jpeg": {
+    "bytes": 24288,
+    "sha256": "5ee7bf7cdfd26d9a71e68d051c2aef15fa49294fb27114dd961f6fc9d4479c20",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 293650,
+        "length": 24288
+      }
+    ]
+  },
+  "artefact/original-05.jpeg": {
+    "bytes": 76266,
+    "sha256": "e0e95f2e4bce9d44405e3bde94f19576701f54fa9fdb801fa58ff06a2a71cbee",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 317938,
+        "length": 76266
+      }
+    ]
+  },
+  "artefact/original-06.jpeg": {
+    "bytes": 22372,
+    "sha256": "573fe8601ebe2c8754364f9d2363838d3878ee1c52c3a7eb29dd42c4e740d602",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 394204,
+        "length": 22372
+      }
+    ]
+  },
+  "artefact/original-07.jpeg": {
+    "bytes": 31942,
+    "sha256": "14d225d29f65f94dda1d6ba4bc53fbccef9cbeff70703547dd5cf3043d6e9024",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 416576,
+        "length": 31942
+      }
+    ]
+  },
+  "artefact/original-08.jpeg": {
+    "bytes": 22643,
+    "sha256": "68f6e9fb3b646c7d47b5e22af37e9b69c58fe9fc4b3be8e0e708c2bcb17790ba",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 448518,
+        "length": 22643
+      }
+    ]
+  },
+  "artefact/original-09.jpeg": {
+    "bytes": 22643,
+    "sha256": "68f6e9fb3b646c7d47b5e22af37e9b69c58fe9fc4b3be8e0e708c2bcb17790ba",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 448518,
+        "length": 22643
+      }
+    ]
+  },
+  "artefact/original-10.jpeg": {
+    "bytes": 23353,
+    "sha256": "b6ce5c38956880e5d53d098817615f1c4c774fbf550233ccef09ce5ca89e46ed",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 471161,
+        "length": 23353
+      }
+    ]
+  },
+  "artefact/original-11.jpeg": {
+    "bytes": 23353,
+    "sha256": "b6ce5c38956880e5d53d098817615f1c4c774fbf550233ccef09ce5ca89e46ed",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 471161,
+        "length": 23353
+      }
+    ]
+  },
+  "artefact/original-12.jpeg": {
+    "bytes": 21635,
+    "sha256": "23707e87ac6474fd80479bed1825d82cba64094f427af26f19778ab4e72adaba",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 494514,
+        "length": 21635
+      }
+    ]
+  },
+  "artefact/original-13.jpeg": {
+    "bytes": 32499,
+    "sha256": "3c5f135caa309728e19e5b0321793fe7693aa1cea32433d892c2a0a086ec9c5f",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 516149,
+        "length": 32499
+      }
+    ]
+  },
+  "artefact/original-14.jpeg": {
+    "bytes": 21635,
+    "sha256": "23707e87ac6474fd80479bed1825d82cba64094f427af26f19778ab4e72adaba",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 494514,
+        "length": 21635
+      }
+    ]
+  },
+  "artefact/original-15.jpeg": {
+    "bytes": 25412,
+    "sha256": "1a4c66b5b20737bce32698fb6fa5b7111a1518fa9951702737a29ed65cbf3469",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 548648,
+        "length": 25412
+      }
+    ]
+  },
+  "collection/01_Photos/001_MET-453182.jpg": {
+    "bytes": 56414,
+    "sha256": "89b0824b41ceb0e535eb74d53054153f65e08c0dd5f0dd20988c01bea0bcdbff",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 574060,
+        "length": 56414
+      }
+    ]
+  },
+  "collection/01_Photos/002_CMA-1989.3.jpg": {
+    "bytes": 62754,
+    "sha256": "a08a969f7480f438d00b32e7f3aa5a1c812ce1810676ad2c82553fab92d5fac6",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 630474,
+        "length": 62754
+      }
+    ]
+  },
+  "collection/01_Photos/003_CMA-1998.123.jpg": {
+    "bytes": 52796,
+    "sha256": "d4dc00c86dfcba84b4c815abb0f58ce875094a8ff6515c8835381044da615df7",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 693228,
+        "length": 52796
+      }
+    ]
+  },
+  "collection/01_Photos/004_MET-325552.jpg": {
+    "bytes": 63755,
+    "sha256": "d197c6f779f76d0fbf62fe549f15f9442fbcb71519d48a711cb0443fcbceed77",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 746024,
+        "length": 63755
+      }
+    ]
+  },
+  "collection/01_Photos/005_MET-326202.jpg": {
+    "bytes": 95583,
+    "sha256": "76ac74d9cbc6f1132f8d64ae18fea46f8ee8dd2f6a44cfa084fbbb935303bece",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 809779,
+        "length": 95583
+      }
+    ]
+  },
+  "collection/01_Photos/006_MET-326203.jpg": {
+    "bytes": 48084,
+    "sha256": "a4d83da671298f3150704064c8c91ea1efab95c9b7421109ace66d80d04bc53a",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 905362,
+        "length": 48084
+      }
+    ]
+  },
+  "collection/01_Photos/007_MET-326204.jpg": {
+    "bytes": 31931,
+    "sha256": "f11e66565c976fa9a7013b91e8c8b8722842fb234f90c502d80fe726838265ec",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 953446,
+        "length": 31931
+      }
+    ]
+  },
+  "collection/01_Photos/008_MET-326205.jpg": {
+    "bytes": 53014,
+    "sha256": "bf8a2315bdaa1bace03f1846bf238d903f7be8d7b6e428b4b00f96347d60e240",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 985377,
+        "length": 53014
+      }
+    ]
+  },
+  "collection/01_Photos/009_MET-326206.jpg": {
+    "bytes": 65777,
+    "sha256": "c67497a21d009c53b4b412cfddb06a01e4f08fa4be354cd55c73cb7a806e4d6c",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1038391,
+        "length": 65777
+      }
+    ]
+  },
+  "collection/01_Photos/010_MET-326207.jpg": {
+    "bytes": 54624,
+    "sha256": "7be985bb2756ab1cb72b8ba4cf68022a35241f20cef8bb5db5d6e9af27ff84a7",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1104168,
+        "length": 54624
+      }
+    ]
+  },
+  "collection/01_Photos/011_MET-326225.jpg": {
+    "bytes": 28954,
+    "sha256": "5105027872230c824d55e010442ce87e3d45ef9213c9b09080368f1d91a1c84e",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1158792,
+        "length": 28954
+      }
+    ]
+  },
+  "collection/01_Photos/012_MET-326579.jpg": {
+    "bytes": 76662,
+    "sha256": "0a433d449885d50160a775eb5bc8d65a6ee3b2e687134f0cf66c7a0fb06b6f66",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1187746,
+        "length": 76662
+      }
+    ]
+  },
+  "collection/01_Photos/013_MET-326580.jpg": {
+    "bytes": 97207,
+    "sha256": "62533234b48ea818bf2362dd01103bb2903921fe75b437bff724fc9508a8bf1b",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1264408,
+        "length": 97207
+      }
+    ]
+  },
+  "collection/01_Photos/014_MET-326583.jpg": {
+    "bytes": 36849,
+    "sha256": "2836da60631b428eb7f9ef3f6f2128f43304896cd1e8b11ec5c32886df9a87ab",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1361615,
+        "length": 36849
+      }
+    ]
+  },
+  "collection/01_Photos/015_MET-326584.jpg": {
+    "bytes": 44677,
+    "sha256": "dba927e54877348c6e953a43aabaef1d62f9ada7282b6d0370541d52059a879b",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1398464,
+        "length": 44677
+      }
+    ]
+  },
+  "collection/01_Photos/016_MET-326589.jpg": {
+    "bytes": 44307,
+    "sha256": "b335242afb09aff8fa956876b9775376c4b861a5561306d6cc645835aa719469",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1443141,
+        "length": 44307
+      }
+    ]
+  },
+  "collection/01_Photos/017_MET-326590.jpg": {
+    "bytes": 28872,
+    "sha256": "37554fa76cba6b7152d2f33a928c255d24b53945934163e6462a6588613b877d",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1487448,
+        "length": 28872
+      }
+    ]
+  },
+  "collection/01_Photos/018_MET-326592.jpg": {
+    "bytes": 38066,
+    "sha256": "07b8e7c847275ec1d08bc5473d0d9d45fec7aad03fc9c4fa6637ba1d87683683",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1516320,
+        "length": 38066
+      }
+    ]
+  },
+  "collection/01_Photos/019_MET-326598.jpg": {
+    "bytes": 28810,
+    "sha256": "e531d73207cbabaf851285a2410efe3948f36faf37262ab5a12fe07af82e0363",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1554386,
+        "length": 28810
+      }
+    ]
+  },
+  "collection/01_Photos/020_MET-326604.jpg": {
+    "bytes": 108108,
+    "sha256": "8913928a46df0bdf5cdbe261fceb1af8efdf641b1cb5cc2c38ab3f45860b53f6",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1583196,
+        "length": 108108
+      }
+    ]
+  },
+  "collection/01_Photos/021_MET-326605.jpg": {
+    "bytes": 93787,
+    "sha256": "9bb9e07fa2cb51a19afe83dc7526169b3e5e3e60a91171e23465fa8d6e477289",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1691304,
+        "length": 93787
+      }
+    ]
+  },
+  "collection/01_Photos/022_MET-326608.jpg": {
+    "bytes": 47254,
+    "sha256": "20945674120e2c502fb654745c6c91c8600d00c7cf785fdc78dabed2bd496324",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1785091,
+        "length": 47254
+      }
+    ]
+  },
+  "collection/01_Photos/023_MET-326610.jpg": {
+    "bytes": 85831,
+    "sha256": "fb03c847d737274f8f5cda240e9bbdf25de55b0458eda6b42072d14a704d74cd",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1832345,
+        "length": 85831
+      }
+    ]
+  },
+  "collection/01_Photos/024_MET-327335.jpg": {
+    "bytes": 57704,
+    "sha256": "d2fe9f3a7b3c711af54cfee9398ec659759f32a0fed4f653a6f40c640d73d2d5",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1918176,
+        "length": 57704
+      }
+    ]
+  },
+  "collection/01_Photos/025_MET-36117.jpg": {
+    "bytes": 41272,
+    "sha256": "e064f9c8fdfd73c5bc7ee4a0f9db6de466cd72fcb99daf766a798915cd61a8c5",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 1975880,
+        "length": 41272
+      }
+    ]
+  },
+  "collection/01_Photos/026_MET-39080.jpg": {
+    "bytes": 59210,
+    "sha256": "3d756ecc3ecc6d243f65810fdc2b18e8a3481e58ec45f66977f44ab95e1dc80e",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2017152,
+        "length": 59210
+      }
+    ]
+  },
+  "collection/01_Photos/027_MET-39762.jpg": {
+    "bytes": 54907,
+    "sha256": "e6277f9cfe80b44ed3b8870c54f674d18f6807f69bc8e116735c95003a4388d6",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2076362,
+        "length": 54907
+      }
+    ]
+  },
+  "collection/01_Photos/028_MET-44518.jpg": {
+    "bytes": 71658,
+    "sha256": "af767976d18ddeb8522203a326e4eead35f97a2eb8a536ffb7959db9991847da",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2131269,
+        "length": 71658
+      }
+    ]
+  },
+  "collection/01_Photos/029_MET-449185.jpg": {
+    "bytes": 50028,
+    "sha256": "93b0b632d13d4fcf73d50ede63b969992ade8d295d18db1a9e3e30e06a9e4236",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2202927,
+        "length": 50028
+      }
+    ]
+  },
+  "collection/01_Photos/030_MET-449196.jpg": {
+    "bytes": 42301,
+    "sha256": "f415c66fe314fa1d8807994645d519c7050ec175e532cff2fb7f59f706418372",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2252955,
+        "length": 42301
+      }
+    ]
+  },
+  "collection/01_Photos/031_MET-463588.jpg": {
+    "bytes": 21789,
+    "sha256": "c3f7a17db802f0010f44600a815fd57e478566853437bf532ef6b444ac7855f2",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2295256,
+        "length": 21789
+      }
+    ]
+  },
+  "collection/01_Photos/032_MET-465605.jpg": {
+    "bytes": 51538,
+    "sha256": "d4d49227502d29761fb9e0c3c97461c8f61be6b4055ed451e4c45e5f6df0076c",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2317045,
+        "length": 51538
+      }
+    ]
+  },
+  "collection/01_Photos/033_MET-466064.jpg": {
+    "bytes": 55609,
+    "sha256": "183c1d7f38ed39de06c54f398f572a303feaac4a500c56aad17c9d9a58ae7bb8",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2368583,
+        "length": 55609
+      }
+    ]
+  },
+  "collection/01_Photos/034_MET-471427.jpg": {
+    "bytes": 95429,
+    "sha256": "266d20bdb149ab742f582d0b61347e3184b33c47dcc1e99131667c7876c10eed",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2424192,
+        "length": 95429
+      }
+    ]
+  },
+  "collection/01_Photos/035_MET-501875.png": {
+    "bytes": 800530,
+    "sha256": "8d290bbe0b362c216c4175553f1ef92ed212cc1312d600dbacf4d0341317ec30",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 2519621,
+        "length": 800530
+      }
+    ]
+  },
+  "collection/01_Photos/036_MET-502207.jpg": {
+    "bytes": 71448,
+    "sha256": "dbb98287d69d1c5437cc4f006fedada2dacaca079fd2b553654a4b9d91cedd9a",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 3320151,
+        "length": 71448
+      }
+    ]
+  },
+  "collection/01_Photos/037_MET-502514.png": {
+    "bytes": 938059,
+    "sha256": "1d9b58c991423f80779bd14083a3adc072433a6bf4ecb15739685c1588f92631",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 3391599,
+        "length": 938059
+      }
+    ]
+  },
+  "collection/01_Photos/038_MET-502515.png": {
+    "bytes": 975326,
+    "sha256": "17e9f13b0dcf52f17f68c214cff6b0241693fb16121a7b7c51148b69730e967a",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 4329658,
+        "length": 975326
+      }
+    ]
+  },
+  "collection/01_Photos/039_MET-502516.png": {
+    "bytes": 642643,
+    "sha256": "424cafa65f7ff987667261acb8e463a3191d67d28e817d53faa86b3a8117cd14",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 5304984,
+        "length": 642643
+      }
+    ]
+  },
+  "collection/01_Photos/040_MET-502518.png": {
+    "bytes": 267696,
+    "sha256": "8fb0eb198c77d1a103133500e138cea7b17727eb064133f6502044fdc94490df",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 5947627,
+        "length": 267696
+      }
+    ]
+  },
+  "collection/01_Photos/041_MET-504797.jpg": {
+    "bytes": 11817,
+    "sha256": "db95f02f61dbfdfcddfab218f5b8df22558c64fb63fc19bfa24341ba13a1db76",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6215323,
+        "length": 11817
+      }
+    ]
+  },
+  "collection/01_Photos/042_MET-504986.jpg": {
+    "bytes": 35776,
+    "sha256": "0f7ee343d7c053a9482cf9ec9131aca28b01700cb62cc8bbc61cbab696003bfd",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6227140,
+        "length": 35776
+      }
+    ]
+  },
+  "collection/01_Photos/043_MET-51918.jpg": {
+    "bytes": 19686,
+    "sha256": "72a3719a40b5ec687973cc25b46c7280c0b3c478f539eeaa4de921bf827985ad",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6262916,
+        "length": 19686
+      }
+    ]
+  },
+  "collection/01_Photos/044_MET-51919.jpg": {
+    "bytes": 16527,
+    "sha256": "afd71c65703a0c55117353ed95386d2c30c7388c4b77a52345912011c83f3b10",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6282602,
+        "length": 16527
+      }
+    ]
+  },
+  "collection/01_Photos/045_MET-51920.jpg": {
+    "bytes": 185058,
+    "sha256": "d239877314ab6669c65ccbb4e5acf54c6894e90ae0688d62cae502e62ab04f95",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6299129,
+        "length": 185058
+      }
+    ]
+  },
+  "collection/01_Photos/046_MET-551319.jpg": {
+    "bytes": 38329,
+    "sha256": "39527672b0b4575aa3d1f403c7dbe9fdef5f79aaae0dbe401e44e3bd351ed5c9",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6484187,
+        "length": 38329
+      }
+    ]
+  },
+  "collection/01_Photos/047_MET-551320.jpg": {
+    "bytes": 38383,
+    "sha256": "5d9891e188d5db7170d3126b10cb93c80b641935d058025557ce3e35c0879d97",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6522516,
+        "length": 38383
+      }
+    ]
+  },
+  "collection/01_Photos/048_MET-56441.jpg": {
+    "bytes": 87398,
+    "sha256": "7e8acf6f050d72f1f17ffb4f8bdf023010ce86cc8fb95f43514afac081147c6e",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6560899,
+        "length": 87398
+      }
+    ]
+  },
+  "collection/01_Photos/049_MET-56443.jpg": {
+    "bytes": 116300,
+    "sha256": "ba77f12b48ebd2283b89a039f358f24995273a63c982842975352ceee527bf0d",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6648297,
+        "length": 116300
+      }
+    ]
+  },
+  "collection/01_Photos/050_MET-60101.jpg": {
+    "bytes": 50003,
+    "sha256": "919b060c8923e36726661cfa809e57d9e479d92c6b88f7f860b6c430f265ea3d",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6764597,
+        "length": 50003
+      }
+    ]
+  },
+  "collection/01_Photos/051_MET-60102.jpg": {
+    "bytes": 49270,
+    "sha256": "78dce0a59fc66071a45af3be6673f840c43ad2c22c565f4e5f9e0bfc368b720c",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6814600,
+        "length": 49270
+      }
+    ]
+  },
+  "collection/01_Photos/052_MET-60103.jpg": {
+    "bytes": 93613,
+    "sha256": "c65711c900291cc59376256d5392ab07376be0c20a27ed5325f2560399beb44c",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6863870,
+        "length": 93613
+      }
+    ]
+  },
+  "collection/01_Photos/053_MET-61053.jpg": {
+    "bytes": 67199,
+    "sha256": "401109568d81fc9ea87a691b7452a200c0e3cf8261d95220f6ddf79d2277bfec",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 6957483,
+        "length": 67199
+      }
+    ]
+  },
+  "collection/01_Photos/054_MET-61054.jpg": {
+    "bytes": 66833,
+    "sha256": "0d6a6d1f1a6ffa4e3dba0103547fdad87c5be302f1973e291bc19eba5332e0bb",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7024682,
+        "length": 66833
+      }
+    ]
+  },
+  "collection/01_Photos/055_MET-61060.jpg": {
+    "bytes": 74338,
+    "sha256": "73aae29901179f82f2d0b4d58b9afb8a97830bac9dbae519d16a2e62ee2a73a9",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7091515,
+        "length": 74338
+      }
+    ]
+  },
+  "collection/01_Photos/056_MET-61220.jpg": {
+    "bytes": 168813,
+    "sha256": "8ede50faf127297ab3a35626e7d7d1d707f900ce07a4cb83f06ba7f8d01e3d6b",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7165853,
+        "length": 168813
+      }
+    ]
+  },
+  "collection/01_Photos/057_MET-61245.jpg": {
+    "bytes": 164248,
+    "sha256": "0b5b1a2969ed69a6439fafe8225725c098a444f53bc2feaca62432caf38bcf5f",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7334666,
+        "length": 164248
+      }
+    ]
+  },
+  "collection/01_Photos/058_MET-61289.jpg": {
+    "bytes": 58463,
+    "sha256": "1aa5d573b790ad4993c989e152b83a0692789474e964c58ca50f6a7fee1d2e36",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7498914,
+        "length": 58463
+      }
+    ]
+  },
+  "collection/01_Photos/059_MET-62409.jpg": {
+    "bytes": 199644,
+    "sha256": "2b762c74d6e7763ab984dc9d4d1548efe99fd9a2f243f935de610255464e2106",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7557377,
+        "length": 199644
+      }
+    ]
+  },
+  "collection/01_Photos/060_MET-640179.jpg": {
+    "bytes": 67216,
+    "sha256": "96752a5db69d9cd23e2d2452483f2effc22f6671ea0ce62fe3e1d4c7c9644027",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7757021,
+        "length": 67216
+      }
+    ]
+  },
+  "collection/01_Photos/061_MET-463044.jpg": {
+    "bytes": 36757,
+    "sha256": "5ccf6c7f49fa7485a800b4ef01c8ca14d10358ee1fe1d7e6cf71c4585bcf13f6",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7824237,
+        "length": 36757
+      }
+    ]
+  },
+  "collection/01_Photos/062_MET-502100.png": {
+    "bytes": 21987,
+    "sha256": "c91b4a822632882ec29976aa530cef7722c60b42f43dacb01a7f3bbe8b8b5a1a",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7860994,
+        "length": 21987
+      }
+    ]
+  },
+  "collection/01_Photos/063_MET-502174.png": {
+    "bytes": 857116,
+    "sha256": "e1b5aa5dd0469192f2ddce492069f30c9b699d0fcd36f97de7c0aadb5ac817e1",
+    "segments": [
+      {
+        "path": "assets/packs/part-001.bin",
+        "offset": 7882981,
+        "length": 117019
+      },
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 0,
+        "length": 740097
+      }
+    ]
+  },
+  "collection/01_Photos/064_MET-502510.png": {
+    "bytes": 1122037,
+    "sha256": "ea15f205f753c8dd84cede3584c99d0b42b242e1aa4933c0c2d57354b2b7da77",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 740097,
+        "length": 1122037
+      }
+    ]
+  },
+  "collection/01_Photos/065_MET-502511.png": {
+    "bytes": 880236,
+    "sha256": "71dc1a64d5e31d8cf8ee85c6509cca37c868959ecb83dbd9006b70e90a4957ce",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 1862134,
+        "length": 880236
+      }
+    ]
+  },
+  "collection/01_Photos/066_MET-502512.jpg": {
+    "bytes": 170141,
+    "sha256": "461e3908caa485e75060dc7529c528c2e175e9c17963c69049e9fcba534a615b",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 2742370,
+        "length": 170141
+      }
+    ]
+  },
+  "collection/01_Photos/067_MET-551366.jpg": {
+    "bytes": 31616,
+    "sha256": "12efbe0e61754dca0121a62b32aa9988feade8d7514ed14ad210a83f505cc50d",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 2912511,
+        "length": 31616
+      }
+    ]
+  },
+  "collection/01_Photos/068_MET-551369.jpg": {
+    "bytes": 43754,
+    "sha256": "d2eec02689544fe415900c2a5cdfd655fb9dcd53bf351bab3052d2b0028ca5bc",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 2944127,
+        "length": 43754
+      }
+    ]
+  },
+  "collection/01_Photos/069_MET-313236.jpg": {
+    "bytes": 21720,
+    "sha256": "8a2ce0ec0e1854caeafe2b0e8d6058843fc616ee1ea4c8eae30b144a23f4c525",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 2987881,
+        "length": 21720
+      }
+    ]
+  },
+  "collection/01_Photos/070_EJARS-2021-FIG1A-BIG.jpg": {
+    "bytes": 23647,
+    "sha256": "5ad7bfdfce550cafebf18e253cc4b0e546624d22fb1cb81ebc1bc4c3db65ec06",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3009601,
+        "length": 23647
+      }
+    ]
+  },
+  "collection/01_Photos/071_EJARS-2021-FIG1B-SMALL.jpg": {
+    "bytes": 23368,
+    "sha256": "b83faa7e4b926fca97d07590ff5aa807f7a927efc7805ff76680156bfdc10a98",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3033248,
+        "length": 23368
+      }
+    ]
+  },
+  "collection/01_Photos/072_AI20-21-PRK-FIG39-8.jpg": {
+    "bytes": 37061,
+    "sha256": "57de346580003b4888f4f53182db3472fade69745d66a642b229f6a8051eeaf5",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3056616,
+        "length": 37061
+      }
+    ]
+  },
+  "collection/01_Photos/073_AI20-21-PRK-FIG39-9.jpg": {
+    "bytes": 65377,
+    "sha256": "5faf1ebd891a8861c338dc16395125b69dfe76bbc1f2cadc6d9ee539285c811a",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3093677,
+        "length": 65377
+      }
+    ]
+  },
+  "cad/Bell_Hook_Inner_Edge_Join.py": {
+    "bytes": 5461,
+    "sha256": "a5d2e09e1fd9c912d89f511710b6f30f77517ca4dde3f625a948471f5f44de77",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3159054,
+        "length": 5461
+      }
+    ]
+  },
+  "cad/CAD/Bell_Hook_Inner_Edge_Join.brep": {
+    "bytes": 149616,
+    "sha256": "3346794b9ef2d86682314b1d4acadef48ac3af316cac5a207a763b01daef1e99",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3164515,
+        "length": 149616
+      }
+    ]
+  },
+  "cad/CAD/Bell_Hook_Inner_Edge_Join.step": {
+    "bytes": 174419,
+    "sha256": "485106083353bcc3085a67e2656548f8e1d9f8a9afab4988ead361f2791d5918",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3314131,
+        "length": 174419
+      }
+    ]
+  },
+  "cad/CAD/Bell_Hook_Inner_Edge_Join.stl": {
+    "bytes": 2152034,
+    "sha256": "27a73c6a03b726bec391420a297450483734963690e2e71950abfedaf0c2aeef",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 3488550,
+        "length": 2152034
+      }
+    ]
+  },
+  "cad/CAD/Dimensions_and_Validation.json": {
+    "bytes": 1462,
+    "sha256": "bb3645e16d2e2b025d56bfbd8be9fffcc07e5df0fc3f06470a5e5613596525aa",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 5640584,
+        "length": 1462
+      }
+    ]
+  },
+  "cad/Engineering_Drawing/Bell_Hook_All_Dimensions.jpg": {
+    "bytes": 811906,
+    "sha256": "9e5b209720e4f18f6c6e0b95e0df3237cb142ab6eb3712e9c8fb826ffdcc6f7d",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 5642046,
+        "length": 811906
+      }
+    ]
+  },
+  "cad/Engineering_Drawing/Bell_Hook_Engineering_Drawing.pdf": {
+    "bytes": 1016584,
+    "sha256": "33b7ff82103879b265a888b926d21f3d5f2be81c165f2fc81f5d6f3b2b6686c5",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 6453952,
+        "length": 1016584
+      }
+    ]
+  },
+  "cad/Engineering_Drawing/Front_Dimensioned.jpg": {
+    "bytes": 118570,
+    "sha256": "da376f1c39c7a7e1b63317afc1138d155bffbf1fb26cd7d307f55c575969bff4",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7470536,
+        "length": 118570
+      }
+    ]
+  },
+  "cad/Engineering_Drawing/Right_Dimensioned.jpg": {
+    "bytes": 87521,
+    "sha256": "eff59b05b32d98119e8219d5f7f0f93a79898ce5f7bdbc2c333d69f568a098d1",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7589106,
+        "length": 87521
+      }
+    ]
+  },
+  "cad/Engineering_Drawing/Section_AA.jpg": {
+    "bytes": 192903,
+    "sha256": "56db818daabda775d93f84d907c5e041a47d1c268df1526e73c663eba06d5ed2",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7676627,
+        "length": 192903
+      }
+    ]
+  },
+  "cad/build_engineering_sheet.py": {
+    "bytes": 9362,
+    "sha256": "c8e62ef7013f9c0198514b902b9ae00b8112bfc536e4233d2b755b509a80f0af",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7869530,
+        "length": 9362
+      }
+    ]
+  },
+  "collection/02_Evidence/001_MET-453182_Evidence.pdf": {
+    "bytes": 73857,
+    "sha256": "9fb8ff337ba8a9d123f71bb05acee86b50def114d13f79c942ce0df40549477e",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7878892,
+        "length": 73857
+      }
+    ]
+  },
+  "collection/02_Evidence/002_CMA-1989.3_Evidence.pdf": {
+    "bytes": 81718,
+    "sha256": "6837d5781771726113266c7e2c1db936e1882a377076d54b4a35160060de58a6",
+    "segments": [
+      {
+        "path": "assets/packs/part-002.bin",
+        "offset": 7952749,
+        "length": 47251
+      },
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 0,
+        "length": 34467
+      }
+    ]
+  },
+  "collection/02_Evidence/003_CMA-1998.123_Evidence.pdf": {
+    "bytes": 69246,
+    "sha256": "680f3e76203227f34f6f9d36b78ddb6cf25ed456d13bc7082ad83aa78d73722d",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 34467,
+        "length": 69246
+      }
+    ]
+  },
+  "collection/02_Evidence/004_MET-325552_Evidence.pdf": {
+    "bytes": 82414,
+    "sha256": "5bf7e3c31996f9b41b1a433d4483ad7682462cfbe2f6443ac98f15d373ef61a5",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 103713,
+        "length": 82414
+      }
+    ]
+  },
+  "collection/02_Evidence/005_MET-326202_Evidence.pdf": {
+    "bytes": 122231,
+    "sha256": "7751024e89df12b4658e23f3c74a6351fdf501217063c1697a94e374122c0dc6",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 186127,
+        "length": 122231
+      }
+    ]
+  },
+  "collection/02_Evidence/006_MET-326203_Evidence.pdf": {
+    "bytes": 63486,
+    "sha256": "314363906ad77203f4080458ec08af1734a5fcc736916c6b9c127d4d5d849b6d",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 308358,
+        "length": 63486
+      }
+    ]
+  },
+  "collection/02_Evidence/007_MET-326204_Evidence.pdf": {
+    "bytes": 43300,
+    "sha256": "8cddb49f77d2445a975122c164a2814800b6242705a2e0b7f1e9dcc67c88e99f",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 371844,
+        "length": 43300
+      }
+    ]
+  },
+  "collection/02_Evidence/008_MET-326205_Evidence.pdf": {
+    "bytes": 69652,
+    "sha256": "a8a112202392778a0c67b09340e5784ce26ad8d809afe7b153674cc4b8a8535d",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 415144,
+        "length": 69652
+      }
+    ]
+  },
+  "collection/02_Evidence/009_MET-326206_Evidence.pdf": {
+    "bytes": 85598,
+    "sha256": "130226dfe4de7f4f784463c7094822919591f9c4ea848f37e7441e2a0431e236",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 484796,
+        "length": 85598
+      }
+    ]
+  },
+  "collection/02_Evidence/010_MET-326207_Evidence.pdf": {
+    "bytes": 71656,
+    "sha256": "d57c4edc16b7959f1ce34c6bfc35c7f398ad0edf13f1b84bd050e9c097ffd557",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 570394,
+        "length": 71656
+      }
+    ]
+  },
+  "collection/02_Evidence/011_MET-326225_Evidence.pdf": {
+    "bytes": 39574,
+    "sha256": "cda0019e45fc8a20f11fde903e8f627e84de97e3b4982d4db3718ea931790c33",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 642050,
+        "length": 39574
+      }
+    ]
+  },
+  "collection/02_Evidence/012_MET-326579_Evidence.pdf": {
+    "bytes": 98564,
+    "sha256": "94c53912946abb8a839c13214aaf36ae5edafe46f8487f7203fd1b8ed1fbc098",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 681624,
+        "length": 98564
+      }
+    ]
+  },
+  "collection/02_Evidence/013_MET-326580_Evidence.pdf": {
+    "bytes": 124188,
+    "sha256": "ee4d1a8a27fa2902fdf7e8c409474a536fc1857eaa7e9d00b9f7e63dbb910cd6",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 780188,
+        "length": 124188
+      }
+    ]
+  },
+  "collection/02_Evidence/014_MET-326583_Evidence.pdf": {
+    "bytes": 49374,
+    "sha256": "1cff79acf775c4dbea164f1f081134a0b122b8052c2057bbe7486e5fc2380347",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 904376,
+        "length": 49374
+      }
+    ]
+  },
+  "collection/02_Evidence/015_MET-326584_Evidence.pdf": {
+    "bytes": 59196,
+    "sha256": "8d1f13ce1d00aac3589ec2da0fe3ed7be9ce860d575c075a405096090413fcd2",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 953750,
+        "length": 59196
+      }
+    ]
+  },
+  "collection/02_Evidence/016_MET-326589_Evidence.pdf": {
+    "bytes": 58729,
+    "sha256": "7e944cea5ed2ae75c22ddeee2c6099b85bef6c3a7f8c40bd3447d6bfbdbc0f20",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1012946,
+        "length": 58729
+      }
+    ]
+  },
+  "collection/02_Evidence/017_MET-326590_Evidence.pdf": {
+    "bytes": 39459,
+    "sha256": "b37b754294be8dc49b45e96882ff192309775069c477ed7eb34a5b669ff29480",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1071675,
+        "length": 39459
+      }
+    ]
+  },
+  "collection/02_Evidence/018_MET-326592_Evidence.pdf": {
+    "bytes": 50951,
+    "sha256": "f7d8022277499c962fdbb01736037df9af7ea59508ae68013a7b99b6d937b416",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1111134,
+        "length": 50951
+      }
+    ]
+  },
+  "collection/02_Evidence/019_MET-326598_Evidence.pdf": {
+    "bytes": 39370,
+    "sha256": "7469e9d3af0e021167e0977f27c3364dca35ea4f8d5a06ff8afcfaa918eca0bd",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1162085,
+        "length": 39370
+      }
+    ]
+  },
+  "collection/02_Evidence/020_MET-326604_Evidence.pdf": {
+    "bytes": 137843,
+    "sha256": "67354dfafd937c3c9cf15615ee63e5d3d13a26237d99798fa8113121fc72aed8",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1201455,
+        "length": 137843
+      }
+    ]
+  },
+  "collection/02_Evidence/021_MET-326605_Evidence.pdf": {
+    "bytes": 119959,
+    "sha256": "90fc6dc9ceefea11093c49677114b0bfd2c9e00b44f0bdb64ee403374c7739a2",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1339298,
+        "length": 119959
+      }
+    ]
+  },
+  "collection/02_Evidence/022_MET-326608_Evidence.pdf": {
+    "bytes": 62382,
+    "sha256": "49662dbb103052221c8e5700279305613db1f358d40c07e0634444d315f221c8",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1459257,
+        "length": 62382
+      }
+    ]
+  },
+  "collection/02_Evidence/023_MET-326610_Evidence.pdf": {
+    "bytes": 109892,
+    "sha256": "e57f49e5e5fc75367762f9d29cd4b0dfd7c6de8604c6fd159e20270ec352fe00",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1521639,
+        "length": 109892
+      }
+    ]
+  },
+  "collection/02_Evidence/024_MET-327335_Evidence.pdf": {
+    "bytes": 75494,
+    "sha256": "8f6633572dca23706ac699f4519e70f2c4f4204c539b31378e1439b461d68ee3",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1631531,
+        "length": 75494
+      }
+    ]
+  },
+  "collection/02_Evidence/025_MET-36117_Evidence.pdf": {
+    "bytes": 55270,
+    "sha256": "652c6246f3102b3e697db3395b8749653addcfa8379c3565df900dd7e01348cd",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1707025,
+        "length": 55270
+      }
+    ]
+  },
+  "collection/02_Evidence/026_MET-39080_Evidence.pdf": {
+    "bytes": 76787,
+    "sha256": "54367650fbc3ac8877dd7e05a4a0317533a8b60bda516eeacce748a68a05339c",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1762295,
+        "length": 76787
+      }
+    ]
+  },
+  "collection/02_Evidence/027_MET-39762_Evidence.pdf": {
+    "bytes": 72004,
+    "sha256": "ec6b2a436c58415d1d12895fab01f16ec3038d6242db70e3679892965e9f9e3d",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1839082,
+        "length": 72004
+      }
+    ]
+  },
+  "collection/02_Evidence/028_MET-44518_Evidence.pdf": {
+    "bytes": 92997,
+    "sha256": "4de9b5c0a4710f51e1938d2e97e597854948a3c3aade5b0def2f0c9208cc200a",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 1911086,
+        "length": 92997
+      }
+    ]
+  },
+  "collection/02_Evidence/029_MET-449185_Evidence.pdf": {
+    "bytes": 65862,
+    "sha256": "f88d8bafcb987b2028e0d2e78b3babb51ce6e4ad1427589b8453750d82e4fbcc",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2004083,
+        "length": 65862
+      }
+    ]
+  },
+  "collection/02_Evidence/030_MET-449196_Evidence.pdf": {
+    "bytes": 56202,
+    "sha256": "49067c6b9e81e93f322f8c89abd83c052a2489b52cfb1b175cd4bb2a0437edf9",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2069945,
+        "length": 56202
+      }
+    ]
+  },
+  "collection/02_Evidence/031_MET-463588_Evidence.pdf": {
+    "bytes": 30572,
+    "sha256": "f2cb356fc41f33d66b3ee3df41ac0b7e72fef51c31ca3f106085fd8fa6f50047",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2126147,
+        "length": 30572
+      }
+    ]
+  },
+  "collection/02_Evidence/032_MET-465605_Evidence.pdf": {
+    "bytes": 67767,
+    "sha256": "3229c1459327420da35aa8eff47d2463c8f3a0804b30739a83a6dbbb45315f17",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2156719,
+        "length": 67767
+      }
+    ]
+  },
+  "collection/02_Evidence/033_MET-466064_Evidence.pdf": {
+    "bytes": 72201,
+    "sha256": "aa15ac32e7ef980e4295d8f4edd07b1cca3d2dc844fc93fa76e4c40a4da95d98",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2224486,
+        "length": 72201
+      }
+    ]
+  },
+  "collection/02_Evidence/034_MET-471427_Evidence.pdf": {
+    "bytes": 121900,
+    "sha256": "e9b51c389bddee429e300c3c16c480f0a6cfe31a320498fd06c1c4003508519f",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2296687,
+        "length": 121900
+      }
+    ]
+  },
+  "collection/02_Evidence/035_MET-501875_Evidence.pdf": {
+    "bytes": 1297646,
+    "sha256": "d9a57e7c79f2feeb9895b2fc3db45d885ce9161e6ee23491b40971243fdb26df",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 2418587,
+        "length": 1297646
+      }
+    ]
+  },
+  "collection/02_Evidence/036_MET-502207_Evidence.pdf": {
+    "bytes": 92682,
+    "sha256": "948e448750df1df3a368345aa73009b2e6cd529e62cb405fe001a9e667e99e6d",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 3716233,
+        "length": 92682
+      }
+    ]
+  },
+  "collection/02_Evidence/037_MET-502514_Evidence.pdf": {
+    "bytes": 1424992,
+    "sha256": "df1e77e41925d6780468bd444f44190be163876e31a4e1a7246ff24d40bfcdab",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 3808915,
+        "length": 1424992
+      }
+    ]
+  },
+  "collection/02_Evidence/038_MET-502515_Evidence.pdf": {
+    "bytes": 1404700,
+    "sha256": "a5f7951a11aeb02d92c0d8cfd7c35c893604f5befddf8219e1ff1faf123bd9b1",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 5233907,
+        "length": 1404700
+      }
+    ]
+  },
+  "collection/02_Evidence/039_MET-502516_Evidence.pdf": {
+    "bytes": 999996,
+    "sha256": "9340bae651d60f29c2c82b24907a47789b074891e912def5fa5901482b92b780",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 6638607,
+        "length": 999996
+      }
+    ]
+  },
+  "collection/02_Evidence/040_MET-502518_Evidence.pdf": {
+    "bytes": 369437,
+    "sha256": "6debff119c24829b203c6ac309b4d06972f633e231d72a097d996027fddd2df7",
+    "segments": [
+      {
+        "path": "assets/packs/part-003.bin",
+        "offset": 7638603,
+        "length": 361397
+      },
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 0,
+        "length": 8040
+      }
+    ]
+  },
+  "collection/02_Evidence/041_MET-504797_Evidence.pdf": {
+    "bytes": 18086,
+    "sha256": "bf3fd06f413f133f911fc96e0f439d4977689b409a58161dd171ac838a2f317b",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 8040,
+        "length": 18086
+      }
+    ]
+  },
+  "collection/02_Evidence/042_MET-504986_Evidence.pdf": {
+    "bytes": 48047,
+    "sha256": "bf02bbd3ce8c8965615cd17581b982c7c56770130d284d9baa79e38e2afb2f2c",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 26126,
+        "length": 48047
+      }
+    ]
+  },
+  "collection/02_Evidence/043_MET-51918_Evidence.pdf": {
+    "bytes": 27962,
+    "sha256": "39aff6a4aace9c9ec270bd7f1916849b36eb2905cd2dd00c0a1d8e454466f127",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 74173,
+        "length": 27962
+      }
+    ]
+  },
+  "collection/02_Evidence/044_MET-51919_Evidence.pdf": {
+    "bytes": 24010,
+    "sha256": "c0ef5077cca1344413a8cf9df719f7970c946d9478f029c592ebf9c1e724e563",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 102135,
+        "length": 24010
+      }
+    ]
+  },
+  "collection/02_Evidence/045_MET-51920_Evidence.pdf": {
+    "bytes": 234153,
+    "sha256": "4c48b3ea611d0190e6daf051c47024548c7deb5f7c450cad4bbf26adbb4189fc",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 126145,
+        "length": 234153
+      }
+    ]
+  },
+  "collection/02_Evidence/046_MET-551319_Evidence.pdf": {
+    "bytes": 50684,
+    "sha256": "81ec36f3987671b156fb6c558717c9f5103dc0fc3790590f3855d7b693e47ed9",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 360298,
+        "length": 50684
+      }
+    ]
+  },
+  "collection/02_Evidence/047_MET-551320_Evidence.pdf": {
+    "bytes": 50765,
+    "sha256": "877ea5d8f550db72e1721fba07c33e3d0fa76728dc7ffa7fe71a64c40c17b778",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 410982,
+        "length": 50765
+      }
+    ]
+  },
+  "collection/02_Evidence/048_MET-56441_Evidence.pdf": {
+    "bytes": 112344,
+    "sha256": "e93abf70af7b6a37eb8e7c545f90978ed78db85027654998ec5367ec3c50d8ef",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 461747,
+        "length": 112344
+      }
+    ]
+  },
+  "collection/02_Evidence/049_MET-56443_Evidence.pdf": {
+    "bytes": 148487,
+    "sha256": "f3667cd93229fae2f7d6ce222e84cac2254f092d75645b60238c0556d881b68d",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 574091,
+        "length": 148487
+      }
+    ]
+  },
+  "collection/02_Evidence/050_MET-60101_Evidence.pdf": {
+    "bytes": 66027,
+    "sha256": "db2b2c83b24bd8508759993b1f453c399e44d7ab42e1f0ed8a1f457d7cbe5b4d",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 722578,
+        "length": 66027
+      }
+    ]
+  },
+  "collection/02_Evidence/051_MET-60102_Evidence.pdf": {
+    "bytes": 65110,
+    "sha256": "ce55a0f4639ed3083dddd67f0abf57f91df24d1427a6d4eb1fac9ecd70e2591c",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 788605,
+        "length": 65110
+      }
+    ]
+  },
+  "collection/02_Evidence/052_MET-60103_Evidence.pdf": {
+    "bytes": 120351,
+    "sha256": "c0a8b61de00c52d41a6fbeb867d1ec85e82e40558b128d628fda9d4fca045ebd",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 853715,
+        "length": 120351
+      }
+    ]
+  },
+  "collection/02_Evidence/053_MET-61053_Evidence.pdf": {
+    "bytes": 86730,
+    "sha256": "a83dd6e0c95f17c81f62ec18237205b2922299a4003173f3ab70463716625f44",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 974066,
+        "length": 86730
+      }
+    ]
+  },
+  "collection/02_Evidence/054_MET-61054_Evidence.pdf": {
+    "bytes": 86326,
+    "sha256": "dd7fb31b09c05fe58c58732d13a371b36590ef2b35e49fb3ee6538fab6048e37",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1060796,
+        "length": 86326
+      }
+    ]
+  },
+  "collection/02_Evidence/055_MET-61060_Evidence.pdf": {
+    "bytes": 95613,
+    "sha256": "b99138ba108f4a01c56e09b4e3fd34f634139edd5bd9f3779e17d1b8a591ca78",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1147122,
+        "length": 95613
+      }
+    ]
+  },
+  "collection/02_Evidence/056_MET-61220_Evidence.pdf": {
+    "bytes": 214415,
+    "sha256": "19fcaea264afb61a0a0f028fab215dbab83341c0148b9300d5243f7278da3e94",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1242735,
+        "length": 214415
+      }
+    ]
+  },
+  "collection/02_Evidence/057_MET-61245_Evidence.pdf": {
+    "bytes": 208136,
+    "sha256": "558103725b0b8fbd131a786efe769d98bff51eef4959489f25820b7ccdfa3b2c",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1457150,
+        "length": 208136
+      }
+    ]
+  },
+  "collection/02_Evidence/058_MET-61289_Evidence.pdf": {
+    "bytes": 76034,
+    "sha256": "e6ea9abedd3d9694707e4819ce9e0c76ec462c6702e9b1678f7a1f42cedb35f6",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1665286,
+        "length": 76034
+      }
+    ]
+  },
+  "collection/02_Evidence/059_MET-62409_Evidence.pdf": {
+    "bytes": 252367,
+    "sha256": "3a0cf6691b741faca6f400237c531faab844f4c9c64e13b2c898bfbbdb204428",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1741320,
+        "length": 252367
+      }
+    ]
+  },
+  "collection/02_Evidence/060_MET-640179_Evidence.pdf": {
+    "bytes": 86601,
+    "sha256": "b61bf2dfe9e2c6d777dfdddd6db49bb59c2bf1fc9b27482ba5bbf513168bdbd7",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 1993687,
+        "length": 86601
+      }
+    ]
+  },
+  "collection/02_Evidence/061_MET-463044_Evidence.pdf": {
+    "bytes": 49292,
+    "sha256": "5113df8891d5ed21747fb38e6e7a53423d66e8b61789a3069eecd90fee9f4117",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 2080288,
+        "length": 49292
+      }
+    ]
+  },
+  "collection/02_Evidence/062_MET-502100_Evidence.pdf": {
+    "bytes": 32497,
+    "sha256": "1eb0bba03462849060c0077c0fbc76855db3f523cd2fb6dd32bb6052ac448e0b",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 2129580,
+        "length": 32497
+      }
+    ]
+  },
+  "collection/02_Evidence/063_MET-502174_Evidence.pdf": {
+    "bytes": 1259423,
+    "sha256": "6bb5b5c6e0c470f35c87c0ea5fdc5cdb30f647a7800e997a5348e7a65416855f",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 2162077,
+        "length": 1259423
+      }
+    ]
+  },
+  "collection/02_Evidence/064_MET-502510_Evidence.pdf": {
+    "bytes": 1523876,
+    "sha256": "bcd912ba34f3373bbee5350f0baab3315670611184786dba4cceb50147ae9922",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 3421500,
+        "length": 1523876
+      }
+    ]
+  },
+  "collection/02_Evidence/065_MET-502511_Evidence.pdf": {
+    "bytes": 1293012,
+    "sha256": "465e19ea49676875cadd70622c3e4d42f4adaf05065505fe3714d655c24f5221",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 4945376,
+        "length": 1293012
+      }
+    ]
+  },
+  "collection/02_Evidence/066_MET-502512_Evidence.pdf": {
+    "bytes": 215998,
+    "sha256": "5d38b4ba88c811e7b3125adf60d9385202f51ba6de0cc68c1de8dbfd7bc49fa4",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6238388,
+        "length": 215998
+      }
+    ]
+  },
+  "collection/02_Evidence/067_MET-551366_Evidence.pdf": {
+    "bytes": 42162,
+    "sha256": "a95a30438dbe16afe888ba73659450aa165623f9f9293f2835e6f610f7c3913b",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6454386,
+        "length": 42162
+      }
+    ]
+  },
+  "collection/02_Evidence/068_MET-551369_Evidence.pdf": {
+    "bytes": 57415,
+    "sha256": "7dc1a01f6fc95f3b33545fd91ec3ce27e0f39408c164846d35f3a14148c5dc54",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6496548,
+        "length": 57415
+      }
+    ]
+  },
+  "collection/02_Evidence/069_MET-313236_Evidence.pdf": {
+    "bytes": 30505,
+    "sha256": "5618949a4d9611694d939494998393d4c8c3b9a1724e1f4f924bae813fc74c90",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6553963,
+        "length": 30505
+      }
+    ]
+  },
+  "collection/02_Evidence/070_EJARS-2021-FIG1A-BIG_Evidence.pdf": {
+    "bytes": 1552893,
+    "sha256": "76b92d9f9abb3ff3d393df0d9662ad0d5e8c0353d176a755b8b139eebe1596cb",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6584468,
+        "length": 1415532
+      },
+      {
+        "path": "assets/packs/part-005.bin",
+        "offset": 0,
+        "length": 137361
+      }
+    ]
+  },
+  "collection/02_Evidence/071_EJARS-2021-FIG1B-SMALL_Evidence.pdf": {
+    "bytes": 1552893,
+    "sha256": "76b92d9f9abb3ff3d393df0d9662ad0d5e8c0353d176a755b8b139eebe1596cb",
+    "segments": [
+      {
+        "path": "assets/packs/part-004.bin",
+        "offset": 6584468,
+        "length": 1415532
+      },
+      {
+        "path": "assets/packs/part-005.bin",
+        "offset": 0,
+        "length": 137361
+      }
+    ]
+  },
+  "collection/02_Evidence/072_AI20-21-PRK-FIG39-8_Evidence.pdf": {
+    "bytes": 50407909,
+    "sha256": "b8d79fa34fa300cd47a82daacca084d7cf9901878f8d22ed8f0b7328ec1391b3",
+    "segments": [
+      {
+        "path": "assets/packs/part-005.bin",
+        "offset": 137361,
+        "length": 7862639
+      },
+      {
+        "path": "assets/packs/part-006.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-007.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-008.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-009.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-010.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 0,
+        "length": 2545270
+      }
+    ]
+  },
+  "collection/02_Evidence/073_AI20-21-PRK-FIG39-9_Evidence.pdf": {
+    "bytes": 50407909,
+    "sha256": "b8d79fa34fa300cd47a82daacca084d7cf9901878f8d22ed8f0b7328ec1391b3",
+    "segments": [
+      {
+        "path": "assets/packs/part-005.bin",
+        "offset": 137361,
+        "length": 7862639
+      },
+      {
+        "path": "assets/packs/part-006.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-007.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-008.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-009.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-010.bin",
+        "offset": 0,
+        "length": 8000000
+      },
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 0,
+        "length": 2545270
+      }
+    ]
+  },
+  "collection/03_Excel_Data/001_MET-453182_Data.xlsx": {
+    "bytes": 62896,
+    "sha256": "e1c310717b511d30c12f60e542253b36f865ce23ef043148ef128a00d1034dc9",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2545270,
+        "length": 62896
+      }
+    ]
+  },
+  "collection/03_Excel_Data/002_CMA-1989.3_Data.xlsx": {
+    "bytes": 62042,
+    "sha256": "9b19f207add75ff91d4125dde5b2f30c88f2f5eb8f8deaf40337eabf6b6dcd4e",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2608166,
+        "length": 62042
+      }
+    ]
+  },
+  "collection/03_Excel_Data/003_CMA-1998.123_Data.xlsx": {
+    "bytes": 55897,
+    "sha256": "9df7dc43c1c2c76492e7a224a8bc8edbc3c686d06ee9c93dc6fc093f52711645",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2670208,
+        "length": 55897
+      }
+    ]
+  },
+  "collection/03_Excel_Data/004_MET-325552_Data.xlsx": {
+    "bytes": 51671,
+    "sha256": "480d38a4637bb4e5105192ff00290f62e046621771ac72245195fee2ed1ed625",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2726105,
+        "length": 51671
+      }
+    ]
+  },
+  "collection/03_Excel_Data/005_MET-326202_Data.xlsx": {
+    "bytes": 80371,
+    "sha256": "6aa370cfd5ff17fd0a4d44d9f1911cc8a47ca8dcddde98f8cf6a2e7cca00578e",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2777776,
+        "length": 80371
+      }
+    ]
+  },
+  "collection/03_Excel_Data/006_MET-326203_Data.xlsx": {
+    "bytes": 54507,
+    "sha256": "7dfb1a4af84a61cb8812aae2884c33c01dd43913bc912c952acccc572aaf460a",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2858147,
+        "length": 54507
+      }
+    ]
+  },
+  "collection/03_Excel_Data/007_MET-326204_Data.xlsx": {
+    "bytes": 38119,
+    "sha256": "96dec1eb57b8452c6bc09633a4e56b59ca659a9740d5cc9ef15863e7a7f65724",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2912654,
+        "length": 38119
+      }
+    ]
+  },
+  "collection/03_Excel_Data/008_MET-326205_Data.xlsx": {
+    "bytes": 59246,
+    "sha256": "870aa6836d8f6572fdf1ddcd48e7d354d8757e960c4e67092c56273bac8e5019",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 2950773,
+        "length": 59246
+      }
+    ]
+  },
+  "collection/03_Excel_Data/009_MET-326206_Data.xlsx": {
+    "bytes": 71677,
+    "sha256": "df504e0705eca27685d491d830644aedb77383eb7d072b332db83dbc0f8920fb",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3010019,
+        "length": 71677
+      }
+    ]
+  },
+  "collection/03_Excel_Data/010_MET-326207_Data.xlsx": {
+    "bytes": 60812,
+    "sha256": "bd36cf63b2d21761e1a8b920a23423ce26d3ba954beac2e7dc057ccb0bccffd4",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3081696,
+        "length": 60812
+      }
+    ]
+  },
+  "collection/03_Excel_Data/011_MET-326225_Data.xlsx": {
+    "bytes": 35356,
+    "sha256": "b7d058c08a3c5be22e05cbc3fe06879c7f565e2d25b6e0d3bc60ba1c6b125346",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3142508,
+        "length": 35356
+      }
+    ]
+  },
+  "collection/03_Excel_Data/012_MET-326579_Data.xlsx": {
+    "bytes": 62593,
+    "sha256": "8e2f4c238f2c167948e68247c9fd224ffa204cabaaa4682d148a20395d868b89",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3177864,
+        "length": 62593
+      }
+    ]
+  },
+  "collection/03_Excel_Data/013_MET-326580_Data.xlsx": {
+    "bytes": 83778,
+    "sha256": "b64b202d7ef4956f233115da207d7a66230259c4d9b60eea5b8119168259d72c",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3240457,
+        "length": 83778
+      }
+    ]
+  },
+  "collection/03_Excel_Data/014_MET-326583_Data.xlsx": {
+    "bytes": 43200,
+    "sha256": "f92b2cd096d1672d41a323f72a7e36c7e97965dc3e8102c52e0e3890550bd467",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3324235,
+        "length": 43200
+      }
+    ]
+  },
+  "collection/03_Excel_Data/015_MET-326584_Data.xlsx": {
+    "bytes": 50761,
+    "sha256": "766c947b82332b11dbb713495747bde6646ceeba95faf2961735b26fcb3b40f9",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3367435,
+        "length": 50761
+      }
+    ]
+  },
+  "collection/03_Excel_Data/016_MET-326589_Data.xlsx": {
+    "bytes": 49457,
+    "sha256": "c8c8ed592432061ed9db6986101d98dc9339cbd43c1d3a73c2671a03040afac6",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3418196,
+        "length": 49457
+      }
+    ]
+  },
+  "collection/03_Excel_Data/017_MET-326590_Data.xlsx": {
+    "bytes": 32378,
+    "sha256": "f2c4e95b5538542cdf9460ca86dc1569483ac072ab63d0eb7a65a8c72e1106a4",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3467653,
+        "length": 32378
+      }
+    ]
+  },
+  "collection/03_Excel_Data/018_MET-326592_Data.xlsx": {
+    "bytes": 44312,
+    "sha256": "515d5787100d7e4c24f9d64097b9ea9fe11ec600a61252a2067e5e2e9ab276d4",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3500031,
+        "length": 44312
+      }
+    ]
+  },
+  "collection/03_Excel_Data/019_MET-326598_Data.xlsx": {
+    "bytes": 32859,
+    "sha256": "51fe06c015bf794f7d0f42bf4eba85feb0459c7db91bc5ec60b70435ccbb02e8",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3544343,
+        "length": 32859
+      }
+    ]
+  },
+  "collection/03_Excel_Data/020_MET-326604_Data.xlsx": {
+    "bytes": 94736,
+    "sha256": "7a39f649020eec43021156e384270ffb0b8aea884933976a67ee060f94e5b826",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3577202,
+        "length": 94736
+      }
+    ]
+  },
+  "collection/03_Excel_Data/021_MET-326605_Data.xlsx": {
+    "bytes": 80576,
+    "sha256": "b94730c096d9a989522ecd74e53b43960cec2688c4b63b67870b413ca24dba76",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3671938,
+        "length": 80576
+      }
+    ]
+  },
+  "collection/03_Excel_Data/022_MET-326608_Data.xlsx": {
+    "bytes": 53247,
+    "sha256": "27652702c8669107ca55934754ba80c0d866c9b78642dd971fc5e16a4e97dc19",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3752514,
+        "length": 53247
+      }
+    ]
+  },
+  "collection/03_Excel_Data/023_MET-326610_Data.xlsx": {
+    "bytes": 71610,
+    "sha256": "694b13f333c4fd6ab482d57c99d0075b32a5c36b11485aa2a97328d9279cb16d",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3805761,
+        "length": 71610
+      }
+    ]
+  },
+  "collection/03_Excel_Data/024_MET-327335_Data.xlsx": {
+    "bytes": 64283,
+    "sha256": "277648bbe67a4d6332490fb11c956f6c4abfb0bbf3c2fdd269c3e7876cec1ac6",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3877371,
+        "length": 64283
+      }
+    ]
+  },
+  "collection/03_Excel_Data/025_MET-36117_Data.xlsx": {
+    "bytes": 47781,
+    "sha256": "ea6dd66ce6a3ac025475e739b30d842a9bbec9468efab143a257096363a04cb5",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3941654,
+        "length": 47781
+      }
+    ]
+  },
+  "collection/03_Excel_Data/026_MET-39080_Data.xlsx": {
+    "bytes": 59762,
+    "sha256": "d01f94b41d425485bc3029c3cc151a396e74a96a823704220bfe06ff536dc0d8",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 3989435,
+        "length": 59762
+      }
+    ]
+  },
+  "collection/03_Excel_Data/027_MET-39762_Data.xlsx": {
+    "bytes": 60992,
+    "sha256": "034b16b7e28b8a035162faf7604de39beccf5f8938fcdf36fdac4b6c5ad35f20",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4049197,
+        "length": 60992
+      }
+    ]
+  },
+  "collection/03_Excel_Data/028_MET-44518_Data.xlsx": {
+    "bytes": 78113,
+    "sha256": "8d74d5e0e48beb71178cb2e1e832d0ddcaebe8ad595b6d45418ccc34ada47aae",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4110189,
+        "length": 78113
+      }
+    ]
+  },
+  "collection/03_Excel_Data/029_MET-449185_Data.xlsx": {
+    "bytes": 56503,
+    "sha256": "eac08d94930b49f171ba0d385f93e2fa4c1c407353730cac8ab8fc2138aa79ce",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4188302,
+        "length": 56503
+      }
+    ]
+  },
+  "collection/03_Excel_Data/030_MET-449196_Data.xlsx": {
+    "bytes": 48775,
+    "sha256": "33e31363abe24d7ab022400aa45cb54f555d7985fc234480944bf4976fc7cdfb",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4244805,
+        "length": 48775
+      }
+    ]
+  },
+  "collection/03_Excel_Data/031_MET-463588_Data.xlsx": {
+    "bytes": 28245,
+    "sha256": "3f30a857e045b64ecf2477ba9ebbaf5fecf7326286e2f8bd1085d3ce6f88a11f",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4293580,
+        "length": 28245
+      }
+    ]
+  },
+  "collection/03_Excel_Data/032_MET-465605_Data.xlsx": {
+    "bytes": 58051,
+    "sha256": "48be3a085901e1549928ea9c533fb7b918bf2199730df294112093098556d696",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4321825,
+        "length": 58051
+      }
+    ]
+  },
+  "collection/03_Excel_Data/033_MET-466064_Data.xlsx": {
+    "bytes": 47223,
+    "sha256": "e1f63d0001f2d0f79b06981e76a47b0926225991861919446fec8899c76fe896",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4379876,
+        "length": 47223
+      }
+    ]
+  },
+  "collection/03_Excel_Data/034_MET-471427_Data.xlsx": {
+    "bytes": 75527,
+    "sha256": "06c5a22a2ea9784b56ace096e41778c94016296d0240c6ea174c181ac4b882ec",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4427099,
+        "length": 75527
+      }
+    ]
+  },
+  "collection/03_Excel_Data/035_MET-501875_Data.xlsx": {
+    "bytes": 806626,
+    "sha256": "5384e8fe56c0f8e1b0a2c1abd17bff710aeabe2791ca6c0ca170e7169f35aaef",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 4502626,
+        "length": 806626
+      }
+    ]
+  },
+  "collection/03_Excel_Data/036_MET-502207_Data.xlsx": {
+    "bytes": 78055,
+    "sha256": "232d24eed599164a3ea23c21aad1c4924931952b02d1389813abb7702bc73093",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 5309252,
+        "length": 78055
+      }
+    ]
+  },
+  "collection/03_Excel_Data/037_MET-502514_Data.xlsx": {
+    "bytes": 943315,
+    "sha256": "1d49196002e15814f62c6bff081309ea6db159648f694d34f830d55d1086f836",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 5387307,
+        "length": 943315
+      }
+    ]
+  },
+  "collection/03_Excel_Data/038_MET-502515_Data.xlsx": {
+    "bytes": 980182,
+    "sha256": "28cea6d98342be3bf0c1a2ecabd1a4bfa158ebceebf6333962fae8b2c7e09968",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 6330622,
+        "length": 980182
+      }
+    ]
+  },
+  "collection/03_Excel_Data/039_MET-502516_Data.xlsx": {
+    "bytes": 648520,
+    "sha256": "df93d79e83749d67f0e12bb48a114a9dfebd2e4024f6af184258b2def8eaad23",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 7310804,
+        "length": 648520
+      }
+    ]
+  },
+  "collection/03_Excel_Data/040_MET-502518_Data.xlsx": {
+    "bytes": 272992,
+    "sha256": "ca3dd034168cd64c5128765d944bd4a0a067bae645c81156a9ed91123aa29144",
+    "segments": [
+      {
+        "path": "assets/packs/part-011.bin",
+        "offset": 7959324,
+        "length": 40676
+      },
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 0,
+        "length": 232316
+      }
+    ]
+  },
+  "collection/03_Excel_Data/041_MET-504797_Data.xlsx": {
+    "bytes": 18303,
+    "sha256": "58fe82d2b544f44394d0ddaa16648304bb5c31e80b07ca6912d5c2cdd9297fe6",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 232316,
+        "length": 18303
+      }
+    ]
+  },
+  "collection/03_Excel_Data/042_MET-504986_Data.xlsx": {
+    "bytes": 42265,
+    "sha256": "ffdbc1b26d1cd9b2cc9b8865237270d4b061026134d45921c9619b388f9e3a17",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 250619,
+        "length": 42265
+      }
+    ]
+  },
+  "collection/03_Excel_Data/043_MET-51918_Data.xlsx": {
+    "bytes": 26111,
+    "sha256": "06ae2f6a0deb2687fae646a1e46e3cf939f4a7cb2d3cb1cf3145efc7258a0334",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 292884,
+        "length": 26111
+      }
+    ]
+  },
+  "collection/03_Excel_Data/044_MET-51919_Data.xlsx": {
+    "bytes": 22865,
+    "sha256": "7d6aaff7779f7ad914608a5cf7e287c0188e3425a7c22411544c1a7aa9226f29",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 318995,
+        "length": 22865
+      }
+    ]
+  },
+  "collection/03_Excel_Data/045_MET-51920_Data.xlsx": {
+    "bytes": 186211,
+    "sha256": "ef089406e2803c1c995fc899b4658ed0517ebf237bfeb2e3aa753c51cdc8d2bc",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 341860,
+        "length": 186211
+      }
+    ]
+  },
+  "collection/03_Excel_Data/046_MET-551319_Data.xlsx": {
+    "bytes": 34250,
+    "sha256": "f97540c87c3d546e64c3abcc963b77e7c2e99d6137539fc77e38cf05f59b96bd",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 528071,
+        "length": 34250
+      }
+    ]
+  },
+  "collection/03_Excel_Data/047_MET-551320_Data.xlsx": {
+    "bytes": 33916,
+    "sha256": "ef5fa3db73d4a19648e50f2a36300eb623ce6e7ccdf18dacb5ed9bd36f7d2dc0",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 562321,
+        "length": 33916
+      }
+    ]
+  },
+  "collection/03_Excel_Data/048_MET-56441_Data.xlsx": {
+    "bytes": 88020,
+    "sha256": "6c248860034e6d4809cbb5027c825e5ca395840988c5ba122bbc1ce7ddddbf37",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 596237,
+        "length": 88020
+      }
+    ]
+  },
+  "collection/03_Excel_Data/049_MET-56443_Data.xlsx": {
+    "bytes": 116406,
+    "sha256": "7c02808aef8f82b79caeee5af71198789ea35ffd3e62d5e4c1b1d9251e036f92",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 684257,
+        "length": 116406
+      }
+    ]
+  },
+  "collection/03_Excel_Data/050_MET-60101_Data.xlsx": {
+    "bytes": 56540,
+    "sha256": "7a44038f5ff4053e17506b1ad4fd29ce684ab42acc2a4c58eaed5256c60575ed",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 800663,
+        "length": 56540
+      }
+    ]
+  },
+  "collection/03_Excel_Data/051_MET-60102_Data.xlsx": {
+    "bytes": 55806,
+    "sha256": "b58cbfd248b73698b2d8af032c0c6b9046a1ab6fbd8aa389878c84277b9e8f00",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 857203,
+        "length": 55806
+      }
+    ]
+  },
+  "collection/03_Excel_Data/052_MET-60103_Data.xlsx": {
+    "bytes": 91945,
+    "sha256": "037b872c1d8cdadf5c2253486d019dc12d9cf3f1f4a2fbc4e8e3c01f67390ae6",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 913009,
+        "length": 91945
+      }
+    ]
+  },
+  "collection/03_Excel_Data/053_MET-61053_Data.xlsx": {
+    "bytes": 63106,
+    "sha256": "f91ebd161fce0777e412c6a01937f8ff58d72e0ad8ee58da5818c1b650f63511",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1004954,
+        "length": 63106
+      }
+    ]
+  },
+  "collection/03_Excel_Data/054_MET-61054_Data.xlsx": {
+    "bytes": 61942,
+    "sha256": "f152c98e7bbb8e6eb6705fe1e0948ed505ab46d4817da8ec1cdbe12d5108d622",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1068060,
+        "length": 61942
+      }
+    ]
+  },
+  "collection/03_Excel_Data/055_MET-61060_Data.xlsx": {
+    "bytes": 69487,
+    "sha256": "e4575cc6bd94bb32389956c12a1de88a47a8d51a69f18fba581b61b15bc31b98",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1130002,
+        "length": 69487
+      }
+    ]
+  },
+  "collection/03_Excel_Data/056_MET-61220_Data.xlsx": {
+    "bytes": 174851,
+    "sha256": "14e3bde7c1db0e414fdf11df27d4fd1f5bb10c6da4315677e6e1ae802c049d42",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1199489,
+        "length": 174851
+      }
+    ]
+  },
+  "collection/03_Excel_Data/057_MET-61245_Data.xlsx": {
+    "bytes": 159113,
+    "sha256": "1fca7c2dba38c45a30c031e2680cc51e6003205416babcb4dca41684954a87a6",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1374340,
+        "length": 159113
+      }
+    ]
+  },
+  "collection/03_Excel_Data/058_MET-61289_Data.xlsx": {
+    "bytes": 54602,
+    "sha256": "d2a92f6b29a715577801b42500d921d9364c5de058b042e5adec05958340899d",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1533453,
+        "length": 54602
+      }
+    ]
+  },
+  "collection/03_Excel_Data/059_MET-62409_Data.xlsx": {
+    "bytes": 200584,
+    "sha256": "3ff4ad1bc4dd8b9ae00c9362ecf9c4fe31cd9311c58713442306f194ee8c5373",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1588055,
+        "length": 200584
+      }
+    ]
+  },
+  "collection/03_Excel_Data/060_MET-640179_Data.xlsx": {
+    "bytes": 61428,
+    "sha256": "e387d8f2e61f82701f515fffd1734fb09d30fd425052a6c6941a64520e10c1d3",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1788639,
+        "length": 61428
+      }
+    ]
+  },
+  "collection/03_Excel_Data/061_MET-463044_Data.xlsx": {
+    "bytes": 43228,
+    "sha256": "024cac9113552ba868980312223c7669f89ebfbc0b43957672bc13f0222e2a8a",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1850067,
+        "length": 43228
+      }
+    ]
+  },
+  "collection/03_Excel_Data/062_MET-502100_Data.xlsx": {
+    "bytes": 28529,
+    "sha256": "76918609c786b68be02a8c9224bb78ba229fe0727b387041878ac766c0d35963",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1893295,
+        "length": 28529
+      }
+    ]
+  },
+  "collection/03_Excel_Data/063_MET-502174_Data.xlsx": {
+    "bytes": 862430,
+    "sha256": "a20b42c3f02a888abc7aad9e5e05ebc37086bc40e9f661d8e78231281e687929",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 1921824,
+        "length": 862430
+      }
+    ]
+  },
+  "collection/03_Excel_Data/064_MET-502510_Data.xlsx": {
+    "bytes": 1125979,
+    "sha256": "b97de7ae3b66b2c7a61b795caf486c909d962b36565cc9d6bdd3b81168050835",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 2784254,
+        "length": 1125979
+      }
+    ]
+  },
+  "collection/03_Excel_Data/065_MET-502511_Data.xlsx": {
+    "bytes": 885930,
+    "sha256": "6f0c5504f79b231f57515083e5d5123a7d8d1fa349842a50815834b726f54354",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 3910233,
+        "length": 885930
+      }
+    ]
+  },
+  "collection/03_Excel_Data/066_MET-502512_Data.xlsx": {
+    "bytes": 176670,
+    "sha256": "5e343ee4d51a55b3893ac389cff665af67ac5a9bdbbba751500f95e90a9236fa",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 4796163,
+        "length": 176670
+      }
+    ]
+  },
+  "collection/03_Excel_Data/067_MET-551366_Data.xlsx": {
+    "bytes": 27463,
+    "sha256": "4b6ad516140d9a855ee5d8c25393b4307d8709af564fab4b8b33bd0cb1cc314d",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 4972833,
+        "length": 27463
+      }
+    ]
+  },
+  "collection/03_Excel_Data/068_MET-551369_Data.xlsx": {
+    "bytes": 39135,
+    "sha256": "9810fb4c337ea1fe5f0f9d4f2a241adbb263b9b66e097ab1aa5c2e9bd7bd31d6",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5000296,
+        "length": 39135
+      }
+    ]
+  },
+  "collection/03_Excel_Data/069_MET-313236_Data.xlsx": {
+    "bytes": 28096,
+    "sha256": "76a7cfa5a2cca5d9edfb346c6408b8608d56af0a2bad627afe63bb5929f64730",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5039431,
+        "length": 28096
+      }
+    ]
+  },
+  "collection/03_Excel_Data/070_EJARS-2021-FIG1A-BIG_Data.xlsx": {
+    "bytes": 29147,
+    "sha256": "0161a106dec78b9bf1627bb21b1ceaeda15f92e238db20159f0972195ece439b",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5067527,
+        "length": 29147
+      }
+    ]
+  },
+  "collection/03_Excel_Data/071_EJARS-2021-FIG1B-SMALL_Data.xlsx": {
+    "bytes": 28922,
+    "sha256": "c85aa4855e03dc937478e5f5dfda214b87419cd05732a04add0e3ed3f17fb3d3",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5096674,
+        "length": 28922
+      }
+    ]
+  },
+  "collection/03_Excel_Data/072_AI20-21-PRK-FIG39-8_Data.xlsx": {
+    "bytes": 43590,
+    "sha256": "c3f8de82e1cb39a23b6c499797512c1f82cfccbe0c03ddb94b0d652d6269ec06",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5125596,
+        "length": 43590
+      }
+    ]
+  },
+  "collection/03_Excel_Data/073_AI20-21-PRK-FIG39-9_Data.xlsx": {
+    "bytes": 71833,
+    "sha256": "f39c1ec0e66060cc0d96a54a162dcb07d900e0efe22aae81ab7ef2eb561cb471",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5169186,
+        "length": 71833
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/001_MET-453182/001_MET-453182_Ruler_Dimension_Report.pdf": {
+    "bytes": 746263,
+    "sha256": "9f58dee01fd6b1c0b277ad09c5cb5123a3f92f0a11ca0772e71fc0f4d575b1f1",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5241019,
+        "length": 746263
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/001_MET-453182/001_MET-453182_ruler.png": {
+    "bytes": 507414,
+    "sha256": "50398c3aaef7ce7e82f9c70e410dd2c7e99e58aed300f3b8c13f8619029bc0d3",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 5987282,
+        "length": 507414
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/002_CMA-1989.3/002_CMA-1989.3_Ruler_Dimension_Report.pdf": {
+    "bytes": 329356,
+    "sha256": "2ce89742b88897d88f53fc4d3ceb7dc2b457614daafc7e58302d33f752a30f5d",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 6494696,
+        "length": 329356
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/002_CMA-1989.3/002_CMA-1989.3_ruler.png": {
+    "bytes": 218841,
+    "sha256": "14617e0e641a6a4cfe5eca645037eb2c078e99edfd985f2c11841204c8975a18",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 6824052,
+        "length": 218841
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/003_CMA-1998.123/003_CMA-1998.123_Ruler_Dimension_Report.pdf": {
+    "bytes": 258069,
+    "sha256": "c30b53962f7db9e4117361aca013dabbd49887f8a260f617fdceaccc724d9635",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 7042893,
+        "length": 258069
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/003_CMA-1998.123/003_CMA-1998.123_ruler.png": {
+    "bytes": 184028,
+    "sha256": "3d2e4a047925d41c65017c3f24b1f6a1ef169151e641b5629e6c00c6c19ac8af",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 7300962,
+        "length": 184028
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/004_MET-325552/004_MET-325552_Ruler_Dimension_Report.pdf": {
+    "bytes": 201367,
+    "sha256": "0771376a7944bc1a626f0f6035dd6d2bd11809c737fcdfd226c4578dbbc87025",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 7484990,
+        "length": 201367
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/004_MET-325552/004_MET-325552_ruler.png": {
+    "bytes": 156512,
+    "sha256": "f002e15d6bcd1fff1a8b8d0fd5814a1c6bf2346e3fb6eb17086f55a7d6c77059",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 7686357,
+        "length": 156512
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/005_MET-326202/005_MET-326202_Ruler_Dimension_Report.pdf": {
+    "bytes": 310206,
+    "sha256": "cfe13c1df33b444aaf1915d8ecb52c2666f6a6acd911a5e8688f43e1279ee47c",
+    "segments": [
+      {
+        "path": "assets/packs/part-012.bin",
+        "offset": 7842869,
+        "length": 157131
+      },
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 0,
+        "length": 153075
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/005_MET-326202/005_MET-326202_ruler.png": {
+    "bytes": 226703,
+    "sha256": "d3c25deecc9ae50d72d20c3d5de4b6918c70028705983a07f20cd09bd1da34bf",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 153075,
+        "length": 226703
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/006_MET-326203/006_MET-326203_Ruler_Dimension_Report.pdf": {
+    "bytes": 490620,
+    "sha256": "51af6d878d0d7641894586ee4d5562c4c23f16063156d29ef14f17b41a04cee0",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 379778,
+        "length": 490620
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/006_MET-326203/006_MET-326203_ruler.png": {
+    "bytes": 349898,
+    "sha256": "d43edac46fdcbcedad42a7d646ff1a7b1dce39be33041bf371cc3cbfe44209a3",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 870398,
+        "length": 349898
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/007_MET-326204/007_MET-326204_Ruler_Dimension_Report.pdf": {
+    "bytes": 422996,
+    "sha256": "49a54285ba97d314ae0eaa4839783bdf300282cacae2451dba57b92747670a97",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 1220296,
+        "length": 422996
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/007_MET-326204/007_MET-326204_ruler.png": {
+    "bytes": 289985,
+    "sha256": "d82e66e655f397b3fa23e6bb45cca41f12815a864e05b3a6d0ad0f9985468c70",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 1643292,
+        "length": 289985
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/008_MET-326205/008_MET-326205_Ruler_Dimension_Report.pdf": {
+    "bytes": 328721,
+    "sha256": "76fb5891666fde788c50758eef37e02fa835198abdc419a57eb0ab08c0d3e14c",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 1933277,
+        "length": 328721
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/008_MET-326205/008_MET-326205_ruler.png": {
+    "bytes": 243370,
+    "sha256": "7e8bd1c69da1edf557b5a4507f2fb0032ab2d0eec7d8ffbe9a0f4739f818c6ad",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 2261998,
+        "length": 243370
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/009_MET-326206/009_MET-326206_Ruler_Dimension_Report.pdf": {
+    "bytes": 596963,
+    "sha256": "6aed7d32b57b02b59b8258e38e6ecefca5b9a654f1a028219470b06d7ada6c87",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 2505368,
+        "length": 596963
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/009_MET-326206/009_MET-326206_ruler.png": {
+    "bytes": 434077,
+    "sha256": "131625e5e740d852afc413e8120bdd196cce4873fb91086a4824350992fee6aa",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 3102331,
+        "length": 434077
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/010_MET-326207/010_MET-326207_Ruler_Dimension_Report.pdf": {
+    "bytes": 506515,
+    "sha256": "895a24284f2ef53e7c5de00c0662ba8f3f0c125ff5bfb26baf2c4373dbf298d6",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 3536408,
+        "length": 506515
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/010_MET-326207/010_MET-326207_ruler.png": {
+    "bytes": 375027,
+    "sha256": "4f2e3a4e7f030a19fa487620a94973c1f760a39f814ccda1b4a5fb5f9c77e780",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 4042923,
+        "length": 375027
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/011_MET-326225/011_MET-326225_Ruler_Dimension_Report.pdf": {
+    "bytes": 233777,
+    "sha256": "06b7ea482b64f0513fa830bb0cc3f76532ab2bb2431ec89708fd0eaef764eac9",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 4417950,
+        "length": 233777
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/011_MET-326225/011_MET-326225_ruler.png": {
+    "bytes": 167960,
+    "sha256": "58b2b0c0b913eaac16f2252a5273d4c7ddaa0a8eda3fc8216612e71181473bb2",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 4651727,
+        "length": 167960
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/012_MET-326579/012_MET-326579_Ruler_Dimension_Report.pdf": {
+    "bytes": 261096,
+    "sha256": "5ca55c4b7377fbccb257b44e02ccece69ba61b35f4e44971692cfaa1aa803e99",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 4819687,
+        "length": 261096
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/012_MET-326579/012_MET-326579_ruler.png": {
+    "bytes": 187786,
+    "sha256": "46e8f1952510786e3e350b0712af90b65a9cb4b3b2a6c03b84a2b86f6e833bfe",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 5080783,
+        "length": 187786
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/013_MET-326580/013_MET-326580_Ruler_Dimension_Report.pdf": {
+    "bytes": 300324,
+    "sha256": "d2d142d9979da43627bf6aee4c7d4e98136d7e040d2f4d83c6bf17d062192573",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 5268569,
+        "length": 300324
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/013_MET-326580/013_MET-326580_ruler.png": {
+    "bytes": 222376,
+    "sha256": "a1c7f977c95ca425abdfdb71eee2094e8d1b49cbd6859c04bf43b9e3e09243e8",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 5568893,
+        "length": 222376
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/014_MET-326583/014_MET-326583_Ruler_Dimension_Report.pdf": {
+    "bytes": 385678,
+    "sha256": "111b104811d3d21d61f7c6c31c1408a275dfaf3d3380a29f37901115ef7f742e",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 5791269,
+        "length": 385678
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/014_MET-326583/014_MET-326583_ruler.png": {
+    "bytes": 285176,
+    "sha256": "ab6bf61d0024fe8f2d14159ed38b943b7120edf7b4ff2eb5f5343d78f3d4d903",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 6176947,
+        "length": 285176
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/015_MET-326584/015_MET-326584_Ruler_Dimension_Report.pdf": {
+    "bytes": 378966,
+    "sha256": "5bc74d9a9e6c7e7768add8dbe2bbae48d4f74981feedcf1a696f3b72f3c0f107",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 6462123,
+        "length": 378966
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/015_MET-326584/015_MET-326584_ruler.png": {
+    "bytes": 315501,
+    "sha256": "121cdd4797db1ac6a9cd62841b45df1c3c45f04a4b478380f8253226f7a575de",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 6841089,
+        "length": 315501
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/016_MET-326589/016_MET-326589_Ruler_Dimension_Report.pdf": {
+    "bytes": 366712,
+    "sha256": "bb17d4d954b0faa8c54f5aa9f2df243d97591001f662524a5f8bdb3a80d19fee",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 7156590,
+        "length": 366712
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/016_MET-326589/016_MET-326589_ruler.png": {
+    "bytes": 280524,
+    "sha256": "41845a48ff52079130b3cd64f0c03dd5698edd1293466b2f34e690c6701b508a",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 7523302,
+        "length": 280524
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/017_MET-326590/017_MET-326590_Ruler_Dimension_Report.pdf": {
+    "bytes": 262564,
+    "sha256": "412c7ba33e36e882a159cc09ff1ec639b9c25a2266865cde27ec7cd3cf93326d",
+    "segments": [
+      {
+        "path": "assets/packs/part-013.bin",
+        "offset": 7803826,
+        "length": 196174
+      },
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 0,
+        "length": 66390
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/017_MET-326590/017_MET-326590_ruler.png": {
+    "bytes": 190187,
+    "sha256": "7f4889c4f5f10adec5832748c82925e3858cc173951f55208eb0662b277e2481",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 66390,
+        "length": 190187
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/018_MET-326592/018_MET-326592_Ruler_Dimension_Report.pdf": {
+    "bytes": 277536,
+    "sha256": "914cb08ce19a04b33b61932bcf558fa16026f866d52d03f060e8b96e60a3c080",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 256577,
+        "length": 277536
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/018_MET-326592/018_MET-326592_ruler.png": {
+    "bytes": 211430,
+    "sha256": "9f51d6a03007af68b9be3f5aceb9941ba7c4a4f56dc317c4d6ca1f1e30ab5ae2",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 534113,
+        "length": 211430
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/019_MET-326598/019_MET-326598_Ruler_Dimension_Report.pdf": {
+    "bytes": 276421,
+    "sha256": "0f903c2583d0f34de81ebf763675948c2f647fb48c27445dae07d8735528a045",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 745543,
+        "length": 276421
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/019_MET-326598/019_MET-326598_ruler.png": {
+    "bytes": 208337,
+    "sha256": "926aa3fa274c3d93e6b081fc369ba214af8c9550fe6083af83fc2cfca913eb18",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 1021964,
+        "length": 208337
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/020_MET-326604/020_MET-326604_Ruler_Dimension_Report.pdf": {
+    "bytes": 354853,
+    "sha256": "6a0ab4413f80f9c5e286b2284362358c771df91af9e8deea7e9819393f08a293",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 1230301,
+        "length": 354853
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/020_MET-326604/020_MET-326604_ruler.png": {
+    "bytes": 267759,
+    "sha256": "b98c721a6769d2b01d55d8bc23b124cd42c8a9e110828d810a6b7025760f7049",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 1585154,
+        "length": 267759
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/021_MET-326605/021_MET-326605_Ruler_Dimension_Report.pdf": {
+    "bytes": 284688,
+    "sha256": "9ad1cf6e63046f2d3c189f5d3a8dc1b5142e8a610d758b064b63fbc9abdb9b32",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 1852913,
+        "length": 284688
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/021_MET-326605/021_MET-326605_ruler.png": {
+    "bytes": 213081,
+    "sha256": "6874d3779d95486611b5607fdbdeb9f82b116b18177710f971a95c1e96c69f74",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 2137601,
+        "length": 213081
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/022_MET-326608/022_MET-326608_Ruler_Dimension_Report.pdf": {
+    "bytes": 375346,
+    "sha256": "a71f0e0b0e9fdb74fd71842d00b2a1a591b1b7609bf4527cf1a6edf0fbd82cdc",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 2350682,
+        "length": 375346
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/022_MET-326608/022_MET-326608_ruler.png": {
+    "bytes": 332620,
+    "sha256": "395295b7a3985d1f35c960eb0e2371e9366e98846e120514f4dca9a252c78fc2",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 2726028,
+        "length": 332620
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/023_MET-326610/023_MET-326610_Ruler_Dimension_Report.pdf": {
+    "bytes": 294103,
+    "sha256": "eb74b26c6f27e7be8e2135c083a0c8bdd2d2394f8d4e32c04a2f363bbca24631",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 3058648,
+        "length": 294103
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/023_MET-326610/023_MET-326610_ruler.png": {
+    "bytes": 209187,
+    "sha256": "0c0f302729de38ff681731d48cb93b69044a2c0336ef66ed531e8b50ef4dec95",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 3352751,
+        "length": 209187
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/024_MET-327335/024_MET-327335_Ruler_Dimension_Report.pdf": {
+    "bytes": 414287,
+    "sha256": "908fc8dc6db3b3894a8de33b6da146c5e78adb688aa6c34a2f5fc520a3da8083",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 3561938,
+        "length": 414287
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/024_MET-327335/024_MET-327335_ruler.png": {
+    "bytes": 347124,
+    "sha256": "c19d27129aaa629bdc5a8cc8ceef87027ee3ac109bf0b444a542e5277a32f211",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 3976225,
+        "length": 347124
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/025_MET-36117/025_MET-36117_Ruler_Dimension_Report.pdf": {
+    "bytes": 336996,
+    "sha256": "e0c3b6d2795460101cafc26c77512d8f30b19bfad14bed4af2223fa11d9f2f54",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 4323349,
+        "length": 336996
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/025_MET-36117/025_MET-36117_ruler.png": {
+    "bytes": 228230,
+    "sha256": "af6cf5831498e8e71673a7caee4bd3bb63d4c6009dcd71b2b7b506e2ce79c903",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 4660345,
+        "length": 228230
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/026_MET-39080/026_MET-39080_Ruler_Dimension_Report.pdf": {
+    "bytes": 389948,
+    "sha256": "591f2bcce1b5b09f7d9ebc29c8960a745bdf40e5859fca779703d1aef28d4a1d",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 4888575,
+        "length": 389948
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/026_MET-39080/026_MET-39080_ruler.png": {
+    "bytes": 276541,
+    "sha256": "1577764451d0c2592d53664a61e82f8232517608fd578e0cb57d70fd69cf9e31",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 5278523,
+        "length": 276541
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/027_MET-39762/027_MET-39762_Ruler_Dimension_Report.pdf": {
+    "bytes": 363626,
+    "sha256": "ab1b455f8f804de7ed04649a07981fea8815ca4376bb3bd7b8424067a962f731",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 5555064,
+        "length": 363626
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/027_MET-39762/027_MET-39762_ruler.png": {
+    "bytes": 264404,
+    "sha256": "1a77b77f3722d2fd0d2c473873c8026d8a648ffa8e2d83b3d444311460703dbe",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 5918690,
+        "length": 264404
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/028_MET-44518/028_MET-44518_Ruler_Dimension_Report.pdf": {
+    "bytes": 459110,
+    "sha256": "fa760c9bab1004916dac2c1a3afb5e68418bfa60e178cde37a475caa15a60351",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 6183094,
+        "length": 459110
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/028_MET-44518/028_MET-44518_ruler.png": {
+    "bytes": 333878,
+    "sha256": "20026936b17b322daee5baab33641647667b3b73276c60fb6d8da3e1fdf430bc",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 6642204,
+        "length": 333878
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/029_MET-449185/029_MET-449185_Ruler_Dimension_Report.pdf": {
+    "bytes": 706711,
+    "sha256": "fa3095341bebac12c5784f06a720169ace0ef004cdb6499de49b5cd12bbe0389",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 6976082,
+        "length": 706711
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/029_MET-449185/029_MET-449185_ruler.png": {
+    "bytes": 456366,
+    "sha256": "744b9f2e255fa365932800ba620d27c10fc0598ec3bff15d679b15b8a7307ce1",
+    "segments": [
+      {
+        "path": "assets/packs/part-014.bin",
+        "offset": 7682793,
+        "length": 317207
+      },
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 0,
+        "length": 139159
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/030_MET-449196/030_MET-449196_Ruler_Dimension_Report.pdf": {
+    "bytes": 695368,
+    "sha256": "6771280ae93a304ef4c28d641743b57d42e5096d4d4b9528234f596484821e1b",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 139159,
+        "length": 695368
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/030_MET-449196/030_MET-449196_ruler.png": {
+    "bytes": 438726,
+    "sha256": "fc6f738ef4c4706564d317ddfdd78afbd682b1dc2c563afe03c542d53ce6c617",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 834527,
+        "length": 438726
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/031_MET-463588/031_MET-463588_Ruler_Dimension_Report.pdf": {
+    "bytes": 397781,
+    "sha256": "ea88a649722a98713358b9e2fd74761538f3563b79f3fd6843528432e6f0febb",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 1273253,
+        "length": 397781
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/031_MET-463588/031_MET-463588_ruler.png": {
+    "bytes": 235676,
+    "sha256": "7a1b9f102ebf1e270e9de1904c324c944b12f56ef288f249f1d04898f7eb032f",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 1671034,
+        "length": 235676
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/032_MET-465605/032_MET-465605_Ruler_Dimension_Report.pdf": {
+    "bytes": 390594,
+    "sha256": "7b41e03751b0d0332c5a2429114e7c34c643d2a91b13628df0aaf990f8f41f67",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 1906710,
+        "length": 390594
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/032_MET-465605/032_MET-465605_ruler.png": {
+    "bytes": 294673,
+    "sha256": "f24bdb1308c7319c5b96f0294dc97e9a46f07fb490d114461ffea86575502844",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 2297304,
+        "length": 294673
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/033_MET-466064/033_MET-466064_Ruler_Dimension_Report.pdf": {
+    "bytes": 297628,
+    "sha256": "e9ca1c70419fabeb547a846b158eec97ca3f94e561043b49b2fa43a3a2d227ff",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 2591977,
+        "length": 297628
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/033_MET-466064/033_MET-466064_ruler.png": {
+    "bytes": 208181,
+    "sha256": "b4b0ec3162b072b577cc0eef341a1d249fec3b9f0c7e12ebe4a0d56f77f4e65c",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 2889605,
+        "length": 208181
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/034_MET-471427/034_MET-471427_Ruler_Dimension_Report.pdf": {
+    "bytes": 383595,
+    "sha256": "5988260d1dd58ac029661db04a055f66893adb5446c7906671d2617a388485b8",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 3097786,
+        "length": 383595
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/034_MET-471427/034_MET-471427_ruler.png": {
+    "bytes": 262328,
+    "sha256": "17b29dfe52a7da8e51ae432e4390b0875857d1bb21545b725700062bf887fb02",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 3481381,
+        "length": 262328
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/035_MET-501875/035_MET-501875_Ruler_Dimension_Report.pdf": {
+    "bytes": 420152,
+    "sha256": "b7797e4e82de6a1a9c17bc53ac0359eb7503bd7d4b46f52a2ee3cac43e6fcc9c",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 3743709,
+        "length": 420152
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/035_MET-501875/035_MET-501875_ruler.png": {
+    "bytes": 294734,
+    "sha256": "1d1c9404b009474f8a4d26222b6e9565c216044ffdab5dabc64da06524eb8552",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 4163861,
+        "length": 294734
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/036_MET-502207/036_MET-502207_Ruler_Dimension_Report.pdf": {
+    "bytes": 357533,
+    "sha256": "1fbdd939c9e3888c903b6b5c5fd3cd807976167d429ead373a9ed5ccbcfb68f2",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 4458595,
+        "length": 357533
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/036_MET-502207/036_MET-502207_ruler.png": {
+    "bytes": 314395,
+    "sha256": "bf5af606e5871f41ca73271188fbcff649ef3b23873dd1025b78991ddc6e8313",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 4816128,
+        "length": 314395
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/037_MET-502514/037_MET-502514_Ruler_Dimension_Report.pdf": {
+    "bytes": 456349,
+    "sha256": "673241480f247bc29ba43614077ea73f70878ab6c6e7c71e802582e8515f343d",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 5130523,
+        "length": 456349
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/037_MET-502514/037_MET-502514_ruler.png": {
+    "bytes": 342672,
+    "sha256": "54c2bf269044ab51feb44a2e8c3a839112dc1ff20fcc8575f5860b90be0676fa",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 5586872,
+        "length": 342672
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/038_MET-502515/038_MET-502515_Ruler_Dimension_Report.pdf": {
+    "bytes": 504604,
+    "sha256": "db6461072c30b0286436b36fb5969d12be46d75f1165210722b1167cc79b32c3",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 5929544,
+        "length": 504604
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/038_MET-502515/038_MET-502515_ruler.png": {
+    "bytes": 390758,
+    "sha256": "3ad8a5846c6763fc7fe6ead4d07c830d0b369bb20a23801ba89fb867503f217e",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 6434148,
+        "length": 390758
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/039_MET-502516/039_MET-502516_Ruler_Dimension_Report.pdf": {
+    "bytes": 417968,
+    "sha256": "1597d5bafaadc835291949bc8b8f0a4650ff917e37f150d433505be68b224d2a",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 6824906,
+        "length": 417968
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/039_MET-502516/039_MET-502516_ruler.png": {
+    "bytes": 301785,
+    "sha256": "fef3dcc745845153c2d7eb0970088d19de56233aa5a4d5cd9ed075ea9ab90ba8",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 7242874,
+        "length": 301785
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/040_MET-502518/040_MET-502518_Ruler_Dimension_Report.pdf": {
+    "bytes": 331011,
+    "sha256": "e17f07efb11f4ad3d30af545f348752660d98084958683bc19c5649b055a4c5d",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 7544659,
+        "length": 331011
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/040_MET-502518/040_MET-502518_ruler.png": {
+    "bytes": 239825,
+    "sha256": "e4b2f9249149a692c4ea60732326cab90f6812e1d67ab105b5c2b8eafcfb53db",
+    "segments": [
+      {
+        "path": "assets/packs/part-015.bin",
+        "offset": 7875670,
+        "length": 124330
+      },
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 0,
+        "length": 115495
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/041_MET-504797/041_MET-504797_Ruler_Dimension_Report.pdf": {
+    "bytes": 207403,
+    "sha256": "6347d48b75904884b791bbcfaab4f3097df4d95bdf3fb68d2294757a07875edf",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 115495,
+        "length": 207403
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/041_MET-504797/041_MET-504797_ruler.png": {
+    "bytes": 120994,
+    "sha256": "287fd99b470be6c37c31a3c5f05ba9791798cc1e86cab72958cf31144f5591c9",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 322898,
+        "length": 120994
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/042_MET-504986/042_MET-504986_Ruler_Dimension_Report.pdf": {
+    "bytes": 340302,
+    "sha256": "0f0215e40c86984a108a39b7a5693fee5b2ed148081cfe4c7578657037c3a3a3",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 443892,
+        "length": 340302
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/042_MET-504986/042_MET-504986_ruler.png": {
+    "bytes": 249705,
+    "sha256": "d5aa7f69ed1b4a99f52049839e7eb15a765994c35a8d3c46163e5c61229d2022",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 784194,
+        "length": 249705
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/043_MET-51918/043_MET-51918_Ruler_Dimension_Report.pdf": {
+    "bytes": 299405,
+    "sha256": "caa3945687665a102649eebd5b97c48e319984cd3c0a095084b149f294ed1665",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 1033899,
+        "length": 299405
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/043_MET-51918/043_MET-51918_ruler.png": {
+    "bytes": 207303,
+    "sha256": "66c66831d8df21d4a26877effa1bcf62ee6a5224134f7743a309c40519bc2654",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 1333304,
+        "length": 207303
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/044_MET-51919/044_MET-51919_Ruler_Dimension_Report.pdf": {
+    "bytes": 272158,
+    "sha256": "3ff80cdb2e1155563d482f761e4a793e85777d2690b36f104874c4e2f27a2863",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 1540607,
+        "length": 272158
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/044_MET-51919/044_MET-51919_ruler.png": {
+    "bytes": 192333,
+    "sha256": "7afc077b8ef5cb1a4cec40044d559cb3d3b439bf3fb4c7a842f8bd7a95ac6f8c",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 1812765,
+        "length": 192333
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/045_MET-51920/045_MET-51920_Ruler_Dimension_Report.pdf": {
+    "bytes": 562194,
+    "sha256": "457becfbcd09c6b54bf7d91cee61b55ee399aa74a848d10b9050c74852bd969f",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 2005098,
+        "length": 562194
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/045_MET-51920/045_MET-51920_ruler.png": {
+    "bytes": 427005,
+    "sha256": "25f8323fa69e998d08f786b8ac2f2a473e9df9e421c1cddd6c983ecdf0f3e399",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 2567292,
+        "length": 427005
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/046_MET-551319/046_MET-551319_Ruler_Dimension_Report.pdf": {
+    "bytes": 199124,
+    "sha256": "f2317293c7e7debda22b30e4e63a0bad67f1b7a638770cab651fb5862c756a5b",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 2994297,
+        "length": 199124
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/046_MET-551319/046_MET-551319_ruler.png": {
+    "bytes": 142965,
+    "sha256": "a727e4c3ef6821ae75255770e0adfbf7a897731ffc289a460367b2c0feac5c5e",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 3193421,
+        "length": 142965
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/047_MET-551320/047_MET-551320_Ruler_Dimension_Report.pdf": {
+    "bytes": 206520,
+    "sha256": "7fdc305536899b74fda92e227e73f03d45a6ffdeaae4a7316937034e20ce62cb",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 3336386,
+        "length": 206520
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/047_MET-551320/047_MET-551320_ruler.png": {
+    "bytes": 144491,
+    "sha256": "86737b9ce6e475270daafe7f8735084daf2fe6d2ab8489e5036a03368fa38e7c",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 3542906,
+        "length": 144491
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/048_MET-56441/048_MET-56441_Ruler_Dimension_Report.pdf": {
+    "bytes": 506391,
+    "sha256": "31d79fa1917286f9f1c5e44b94cb746dda51856932051dac3195bd381cd7715b",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 3687397,
+        "length": 506391
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/048_MET-56441/048_MET-56441_ruler.png": {
+    "bytes": 362559,
+    "sha256": "b4625e892f830cf46414348b4365389f5c5d466f2176b2298ebd6234975d8a1f",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 4193788,
+        "length": 362559
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/049_MET-56443/049_MET-56443_Ruler_Dimension_Report.pdf": {
+    "bytes": 363571,
+    "sha256": "6afeabb9ccab6e706f3a8d33d2405b673ba731af68c9fc4668f6803f31fcd6bd",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 4556347,
+        "length": 363571
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/049_MET-56443/049_MET-56443_ruler.png": {
+    "bytes": 267315,
+    "sha256": "2746b073c94912eb58bff4c1b8771ce3ac6df0db7154867dc057f8cf070b71fa",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 4919918,
+        "length": 267315
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/050_MET-60101/050_MET-60101_Ruler_Dimension_Report.pdf": {
+    "bytes": 382161,
+    "sha256": "76b75111f991aad7ecd85961922d1c80acaefe15ce8c1827fdecaa58039dd7b9",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 5187233,
+        "length": 382161
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/050_MET-60101/050_MET-60101_ruler.png": {
+    "bytes": 316540,
+    "sha256": "e833eaf6cd507b5a90b2c1c0d58ba3567a514d1ce3a7a8c68a45990c51c0705e",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 5569394,
+        "length": 316540
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/051_MET-60102/051_MET-60102_Ruler_Dimension_Report.pdf": {
+    "bytes": 408631,
+    "sha256": "327f83a22b2fd2be2057748fcd4d9d611bf1882349923753ad0b84288e1063d3",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 5885934,
+        "length": 408631
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/051_MET-60102/051_MET-60102_ruler.png": {
+    "bytes": 326835,
+    "sha256": "f6faa9b9061ec75524dabea7a5c79d864ce4902b49d66cffc7e015c52d61762e",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 6294565,
+        "length": 326835
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/052_MET-60103/052_MET-60103_Ruler_Dimension_Report.pdf": {
+    "bytes": 373737,
+    "sha256": "1d071080627eafd3fdf78a92f9f485b55fea064c2c2e3635f8b67a72fa0e6ce6",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 6621400,
+        "length": 373737
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/052_MET-60103/052_MET-60103_ruler.png": {
+    "bytes": 307627,
+    "sha256": "ef20a43ac168284f8bbf2c0b8a03b31684186a515a8085de042b3f100b2929f0",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 6995137,
+        "length": 307627
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/053_MET-61053/053_MET-61053_Ruler_Dimension_Report.pdf": {
+    "bytes": 376487,
+    "sha256": "aef41f9a30e22e809e8af8ec80e7cfb2eea3e98dd8a1b3e217d416fba947a260",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 7302764,
+        "length": 376487
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/053_MET-61053/053_MET-61053_ruler.png": {
+    "bytes": 273175,
+    "sha256": "c1b80f2dcd6ad35faad4bd9236dbdd8acc837aef2e46c5d87aa7351da13955fc",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 7679251,
+        "length": 273175
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/054_MET-61054/054_MET-61054_Ruler_Dimension_Report.pdf": {
+    "bytes": 411637,
+    "sha256": "55ce4447f25affa3a133212a239bae578b6ba0d8f36d20e34563843a2f3bdf9c",
+    "segments": [
+      {
+        "path": "assets/packs/part-016.bin",
+        "offset": 7952426,
+        "length": 47574
+      },
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 0,
+        "length": 364063
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/054_MET-61054/054_MET-61054_ruler.png": {
+    "bytes": 287167,
+    "sha256": "4489438614ff079c05cb38befb8989c8593640e79f36a75c35adb91d173a20de",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 364063,
+        "length": 287167
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/055_MET-61060/055_MET-61060_Ruler_Dimension_Report.pdf": {
+    "bytes": 420048,
+    "sha256": "9879f98ffc46f9800c8b9799dcf919aa1cdafafa4f269a3d605469732f1306aa",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 651230,
+        "length": 420048
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/055_MET-61060/055_MET-61060_ruler.png": {
+    "bytes": 304792,
+    "sha256": "508dfec555795becde36f3cdc01d6e9decb4893684dbb5937c4311bd240bca42",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 1071278,
+        "length": 304792
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/056_MET-61220/056_MET-61220_Ruler_Dimension_Report.pdf": {
+    "bytes": 541647,
+    "sha256": "a52194451f18a8bd8eb4c3afff5474da9cefd8adee17cbc6a249e6a2b64d9de5",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 1376070,
+        "length": 541647
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/056_MET-61220/056_MET-61220_ruler.png": {
+    "bytes": 415639,
+    "sha256": "33802b00bf14f5eb23a415fb0a682431a86106d049705a740428925c6abbd211",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 1917717,
+        "length": 415639
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/057_MET-61245/057_MET-61245_Ruler_Dimension_Report.pdf": {
+    "bytes": 451177,
+    "sha256": "cbe3a6aa1ff0ae9f47096e9de8562847da30ffb9edbcf6a7da1bf0334997c291",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 2333356,
+        "length": 451177
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/057_MET-61245/057_MET-61245_ruler.png": {
+    "bytes": 340533,
+    "sha256": "f75967ca4d932b27c05526c8ceb98c06bcf4a63f809c3e9ea5fcaa8809907c50",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 2784533,
+        "length": 340533
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/058_MET-61289/058_MET-61289_Ruler_Dimension_Report.pdf": {
+    "bytes": 328150,
+    "sha256": "3725d99122c946e19bc884e3b586eef27ca187044ac3ede4de798f471b750825",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 3125066,
+        "length": 328150
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/058_MET-61289/058_MET-61289_ruler.png": {
+    "bytes": 236775,
+    "sha256": "b4d6d0b7783a89ae3a4fd61a0441acc455cab2491d6d2e001a639f38cd21b45d",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 3453216,
+        "length": 236775
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/059_MET-62409/059_MET-62409_Ruler_Dimension_Report.pdf": {
+    "bytes": 358064,
+    "sha256": "b068b2e8dfb53a486e8fc0a282176e375a32dcc1c145f96dea8fb154e00e6920",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 3689991,
+        "length": 358064
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/059_MET-62409/059_MET-62409_ruler.png": {
+    "bytes": 263467,
+    "sha256": "070457b5bf6e853aede543ddb16e42f7128fb98908a52936df0e952e769ff074",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 4048055,
+        "length": 263467
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/060_MET-640179/060_MET-640179_Ruler_Dimension_Report.pdf": {
+    "bytes": 418662,
+    "sha256": "65a39f40e11d9cf89099cad35b64cd435c75991c97555e809c5fea364d34ca9b",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 4311522,
+        "length": 418662
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/060_MET-640179/060_MET-640179_ruler.png": {
+    "bytes": 287543,
+    "sha256": "ef1fc68dcbbb0497834adc36cc50eaa1cd224d533ca1f2b568d40979f4eba6ed",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 4730184,
+        "length": 287543
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/061_MET-463044/061_MET-463044_Ruler_Dimension_Report.pdf": {
+    "bytes": 461960,
+    "sha256": "6766e6f8d85165160c1423578cf70fac6de078eda1317f1a2a5285983f045181",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 5017727,
+        "length": 461960
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/061_MET-463044/061_MET-463044_ruler.png": {
+    "bytes": 312819,
+    "sha256": "69cea8f7ee22dfc5285e514e543bb684b0d558def31dfd0b56ea54c5dd55604d",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 5479687,
+        "length": 312819
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/062_MET-502100/062_MET-502100_Ruler_Dimension_Report.pdf": {
+    "bytes": 88996,
+    "sha256": "e9d818b44d5c563e78b19a019aaf531c97fd693a364aac74919c39afd24066ac",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 5792506,
+        "length": 88996
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/062_MET-502100/062_MET-502100_ruler.png": {
+    "bytes": 64140,
+    "sha256": "51c8778239b144eabe98d32e4f85e30826304966106d71a878c0c59c89438828",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 5881502,
+        "length": 64140
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/063_MET-502174/063_MET-502174_Ruler_Dimension_Report.pdf": {
+    "bytes": 409715,
+    "sha256": "6fe687d99955bc49f1c81d176cd0182bcea9782439bb7e8b40cfd6c4387e7081",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 5945642,
+        "length": 409715
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/063_MET-502174/063_MET-502174_ruler.png": {
+    "bytes": 307552,
+    "sha256": "9bda944a1a250e2b5ae6f019ab97db347180b78b7b671be5d63e44899e6a1db4",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 6355357,
+        "length": 307552
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/064_MET-502510/064_MET-502510_Ruler_Dimension_Report.pdf": {
+    "bytes": 481709,
+    "sha256": "84738f0b6a6b89afb28abb04228db3c46599fad527273623aa84a10f1d8388c5",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 6662909,
+        "length": 481709
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/064_MET-502510/064_MET-502510_ruler.png": {
+    "bytes": 385312,
+    "sha256": "1db65fb41b63f56628aa599553d73fd181defcdab76cd4a00fee9e7d67209224",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 7144618,
+        "length": 385312
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/065_MET-502511/065_MET-502511_Ruler_Dimension_Report.pdf": {
+    "bytes": 412711,
+    "sha256": "dbb8e2963031caebbfd9180d3cb3a272d1649e347433c4e2212d890d4067ed9a",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 7529930,
+        "length": 412711
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/065_MET-502511/065_MET-502511_ruler.png": {
+    "bytes": 321570,
+    "sha256": "b6fcb0c74927999fe5b503396099fde6fa03ad19539bbc8e8fb10d568a88e583",
+    "segments": [
+      {
+        "path": "assets/packs/part-017.bin",
+        "offset": 7942641,
+        "length": 57359
+      },
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 0,
+        "length": 264211
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/066_MET-502512/066_MET-502512_Ruler_Dimension_Report.pdf": {
+    "bytes": 398790,
+    "sha256": "958884faab94a23e4a0c103b8c03776c5271eb0210f624aa2929960db59c657f",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 264211,
+        "length": 398790
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/066_MET-502512/066_MET-502512_ruler.png": {
+    "bytes": 308467,
+    "sha256": "88c6cebe75c7166661dd3ce50e300d886b1bfc39be64e35966c1ce69e240c35c",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 663001,
+        "length": 308467
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/067_MET-551366/067_MET-551366_Ruler_Dimension_Report.pdf": {
+    "bytes": 150523,
+    "sha256": "2bfa4cdb83aec5e525fe82c56545015cc8f45ea742c02107044d3943d606221c",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 971468,
+        "length": 150523
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/067_MET-551366/067_MET-551366_ruler.png": {
+    "bytes": 108835,
+    "sha256": "a82b7f75b951edadbb6df6316555b184cd0b18c2f4bce5cac12a9737e3d81554",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 1121991,
+        "length": 108835
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/068_MET-551369/068_MET-551369_Ruler_Dimension_Report.pdf": {
+    "bytes": 200109,
+    "sha256": "cd78f131af51f03c5d5af86fd0848f682a2ee8ca688ecb59b9b0fd0e01315ea3",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 1230826,
+        "length": 200109
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/068_MET-551369/068_MET-551369_ruler.png": {
+    "bytes": 148989,
+    "sha256": "c596ed950b5907ad4394297293da2ef1d0d6a02b324a0ecfb933b5bf1a532df8",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 1430935,
+        "length": 148989
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/069_MET-313236/069_MET-313236_Ruler_Dimension_Report.pdf": {
+    "bytes": 289460,
+    "sha256": "9525bb81cf7cc6d44e77ad0a1f630dd16aa590e34da6bb14e690af53c96f8407",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 1579924,
+        "length": 289460
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/069_MET-313236/069_MET-313236_ruler.png": {
+    "bytes": 187840,
+    "sha256": "5879f6d7e1ec5ec1ffb30eecab384c5e810ccc91e26abea3d97f4c7637bead50",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 1869384,
+        "length": 187840
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/070_EJARS-2021-FIG1A-BIG/070_EJARS-2021-FIG1A-BIG_Ruler_Dimension_Report.pdf": {
+    "bytes": 233560,
+    "sha256": "64bd01a3edc022ec20fd74579f6a24d363b1288168bf3df6c40e9b736d7c6af4",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 2057224,
+        "length": 233560
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/070_EJARS-2021-FIG1A-BIG/070_EJARS-2021-FIG1A-BIG_ruler.png": {
+    "bytes": 140693,
+    "sha256": "4cfce03e3271514355aa57bbf131db9559f4e84676e17dc2501918be42ef0c42",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 2290784,
+        "length": 140693
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/071_EJARS-2021-FIG1B-SMALL/071_EJARS-2021-FIG1B-SMALL_Ruler_Dimension_Report.pdf": {
+    "bytes": 231605,
+    "sha256": "ef5f3cff1ca8977bd72de1265fc639e273d864bc61133864ccbb2d257ed31fb8",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 2431477,
+        "length": 231605
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/071_EJARS-2021-FIG1B-SMALL/071_EJARS-2021-FIG1B-SMALL_ruler.png": {
+    "bytes": 138045,
+    "sha256": "d77c5df5779abe8d118c10915b1b68adbbcfb1e1ccdd9002223c96ffc29345fc",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 2663082,
+        "length": 138045
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/072_AI20-21-PRK-FIG39-8/072_AI20-21-PRK-FIG39-8_Ruler_Dimension_Report.pdf": {
+    "bytes": 290389,
+    "sha256": "31713dfd48fd1591e3d31329fed338b6e3c65d5b4886c09d62a38f7c354b80fa",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 2801127,
+        "length": 290389
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/072_AI20-21-PRK-FIG39-8/072_AI20-21-PRK-FIG39-8_ruler.png": {
+    "bytes": 161446,
+    "sha256": "91fe62180258dd45ee918a7b413a2bb5867421bacb430874c2cc94126802f697",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 3091516,
+        "length": 161446
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/073_AI20-21-PRK-FIG39-9/073_AI20-21-PRK-FIG39-9_Ruler_Dimension_Report.pdf": {
+    "bytes": 424221,
+    "sha256": "80dafef85b5ed1bd16191820dc09c0e1a0919af7cd1bea0050ad0e97a2fed1da",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 3252962,
+        "length": 424221
+      }
+    ]
+  },
+  "collection/04_Ruler_Reports/073_AI20-21-PRK-FIG39-9/073_AI20-21-PRK-FIG39-9_ruler.png": {
+    "bytes": 231199,
+    "sha256": "c659a589af5e4d25389b2e9756a7ca8775da6c5e97b786215e18ac317e6e2ada",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 3677183,
+        "length": 231199
+      }
+    ]
+  },
+  "collection/Bell_Dataset_73_Master.xlsx": {
+    "bytes": 10252492,
+    "sha256": "6e3737f3e56c05c624ac77d48d5506c858e9e1c5c578415e1b92f0fec2751ca8",
+    "segments": [
+      {
+        "path": "assets/packs/part-018.bin",
+        "offset": 3908382,
+        "length": 4091618
+      },
+      {
+        "path": "assets/packs/part-019.bin",
+        "offset": 0,
+        "length": 6160874
+      }
+    ]
+  },
+  "collection/README.txt": {
+    "bytes": 831,
+    "sha256": "defaf5e6424b44f49b8dbf97d1744bacdfd23999c4bb68694cbc84b2831ccde3",
+    "segments": [
+      {
+        "path": "assets/packs/part-019.bin",
+        "offset": 6160874,
+        "length": 831
+      }
+    ]
+  }
+}

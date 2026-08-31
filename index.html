@@ -1,146 +1,24 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Copper bell-hook reconstruction, source-based 73-bell loop dataset, and interactive dimensional comparison.">
-  <title>Copper Bell-Hook Reconstruction & 73-Bell Dataset</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Bell-hook research home">BH<span>73</span></a>
-    <nav aria-label="Primary navigation">
-      <a href="#workflow">Workflow</a>
-      <a href="#graphs">Graphs</a>
-      <a href="#models">3D models</a>
-      <a href="#dataset">Dataset</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Artifact measurement · CAD reconstruction · comparative morphology</p>
-        <h1>Copper bell-hook reconstruction connected to a 73-bell reference dataset.</h1>
-        <p class="lede">A measured copper-alloy bell-hook component was reconstructed as two Python-generated 3D CAD variants, then compared with image-scaled loop measurements from museum and journal bell records.</p>
-        <div class="actions">
-          <a class="button primary" href="#graphs">Explore the graph</a>
-          <a class="button" href="data/bell_loop_dataset_73.csv" download>Download dataset CSV</a>
-        </div>
-      </div>
-      <dl class="hero-stats">
-        <div><dt>Reference bells</dt><dd>73</dd></div>
-        <div><dt>Measured hook</dt><dd>6.45 × 8.16 <small>mm</small></dd></div>
-        <div><dt>CAD variants</dt><dd>2</dd></div>
-        <div><dt>Filtered view</dt><dd>55 <small>points</small></dd></div>
-      </dl>
-    </section>
-
-    <section id="workflow" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Research workflow</p>
-        <h2>From physical artifact to comparative dataset</h2>
-      </div>
-      <ol class="workflow-grid">
-        <li><span>01</span><h3>Artifact collection</h3><p>Copper bell-hook component documented using ruler and caliper photographs.</p></li>
-        <li><span>02</span><h3>Dimensional reconstruction</h3><p>Measured envelope fixed at 8.160 mm overall height, 6.45 mm loop width and 4.00 mm inner opening.</p></li>
-        <li><span>03</span><h3>Python CAD</h3><p>Two valid single-solid STEP/STL/BREP models generated: inverted-U and embedded round-loop variants.</p></li>
-        <li><span>04</span><h3>Reference collection</h3><p>73 bell records assembled from museum collection pages and journal/archaeological sources.</p></li>
-        <li><span>05</span><h3>Image scaling</h3><p>Published major dimensions calibrated each image; visible loop height and width/diameter were measured from the object boundary.</p></li>
-        <li><span>06</span><h3>Interactive comparison</h3><p>Loop width/diameter is plotted against loop height and grouped by era, material, region/site and source.</p></li>
-      </ol>
-    </section>
-
-    <section id="graphs" class="section graph-section">
-      <div class="section-heading graph-heading">
-        <div>
-          <p class="eyebrow">Interactive dimensional graph</p>
-          <h2>Loop width / diameter vs loop height</h2>
-        </div>
-        <div class="graph-tabs" role="tablist" aria-label="Graph dataset view">
-          <button type="button" class="tab active" data-graph="graphs/full-with-hook.html" aria-selected="true">All 73</button>
-          <button type="button" class="tab" data-graph="graphs/filtered-with-hook.html" aria-selected="false">50 × 50 filtered</button>
-        </div>
-      </div>
-      <p class="method-note" id="graph-note">Full master dataset. The measured hook is shown as ★ at (6.45, 8.16).</p>
-      <iframe id="graph-frame" title="Interactive bell-loop graph" src="graphs/full-with-hook.html" loading="lazy"></iframe>
-      <div class="direct-links">
-        <span>Standalone HTML:</span>
-        <a href="graphs/full-with-hook.html">All 73 + hook</a>
-        <a href="graphs/filtered-with-hook.html">Filtered + hook</a>
-        <a href="graphs/full-dataset.html">All 73 dataset-only</a>
-        <a href="graphs/filtered-dataset.html">Filtered dataset-only</a>
-      </div>
-    </section>
-
-    <section class="section match-section">
-      <div class="section-heading">
-        <p class="eyebrow">Measured-hook neighbourhood</p>
-        <h2>Closest records in the dimensional graph</h2>
-      </div>
-      <div class="match-card">
-        <div class="best-match"><strong>#048 · MET-56441</strong><span>6.90 × 8.10 mm</span><em>0.454 mm graph distance</em></div>
-        <table>
-          <thead><tr><th>Rank</th><th>Record</th><th>Loop W/D</th><th>Loop h</th><th>Distance</th></tr></thead>
-          <tbody>
-            <tr><td>1</td><td><a href="https://www.metmuseum.org/art/collection/search/56441">#048 MET-56441</a></td><td>6.90</td><td>8.10</td><td>0.454</td></tr>
-            <tr><td>2</td><td><a href="https://www.metmuseum.org/art/collection/search/502518">#040 MET-502518</a></td><td>8.72</td><td>7.44</td><td>2.381</td></tr>
-            <tr><td>3</td><td><a href="https://www.metmuseum.org/art/collection/search/449196">#030 MET-449196</a></td><td>8.00</td><td>10.01</td><td>2.414</td></tr>
-            <tr><td>4</td><td><a href="https://www.metmuseum.org/art/collection/search/551319">#046 MET-551319</a></td><td>9.16</td><td>11.19</td><td>4.065</td></tr>
-            <tr><td>5</td><td><a href="https://www.metmuseum.org/art/collection/search/62409">#059 MET-62409</a></td><td>9.33</td><td>3.85</td><td>5.184</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <section id="models" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">3D reconstruction</p>
-        <h2>Two measured CAD interpretations</h2>
-      </div>
-      <div class="model-grid">
-        <article class="model-card">
-          <img src="models/inverted-u-isometric.jpg" alt="Isometric CAD view of the inverted-U bell hook model">
-          <div><p class="model-no">Model 01</p><h3>Inverted-U loop</h3><p>Semicircular arch with parallel legs fused to the inverted-saucer base.</p><a href="models/inverted-u-front.jpg">Dimensioned JPG</a> · <a href="downloads/Bell_Hook_Original_Profile.py">Python source</a></div>
-        </article>
-        <article class="model-card">
-          <img src="models/embedded-round-isometric.jpg" alt="Isometric CAD view of the embedded round-loop bell hook model">
-          <div><p class="model-no">Model 02</p><h3>Embedded round loop</h3><p>Flat filleted loop section; lower arc embedded 0.30 mm while retaining 8.160 mm overall height.</p><a href="models/embedded-round-front.jpg">Dimensioned JPG</a> · <a href="downloads/Bell_Hook_Circular_Loop.py">Python source</a></div>
-        </article>
-      </div>
-      <div class="dimension-strip" aria-label="Common model dimensions">
-        <span>Overall H <b>8.160</b></span><span>Loop W <b>6.45</b></span><span>Opening <b>4.00</b></span><span>Depth <b>2.90</b></span><span>Saucer <b>Ø8.01 × 2.160</b></span><span>Fillet <b>R0.45</b></span>
-      </div>
-    </section>
-
-    <section id="dataset" class="section dataset-section">
-      <div class="section-heading">
-        <p class="eyebrow">Open research package</p>
-        <h2>Dataset and reconstruction downloads</h2>
-      </div>
-      <div class="download-grid">
-        <a href="data/bell_loop_dataset_73.csv" download><strong>CSV dataset</strong><span>73 records + ratios + source URLs</span></a>
-        <a href="data/bell_loop_dataset_73.json" download><strong>JSON dataset</strong><span>Machine-readable research data</span></a>
-        <a href="data/nearest_to_measured_hook.json" download><strong>Nearest matches</strong><span>Five-dimensional neighbours</span></a>
-        <a href="downloads/Bell_Hook_Original_Profile.step" download><strong>Inverted-U STEP</strong><span>SolidWorks-importable CAD model</span></a>
-        <a href="downloads/Bell_Hook_Circular_Loop.step" download><strong>Embedded-loop STEP</strong><span>SolidWorks-importable CAD model</span></a>
-      </div>
-    </section>
-
-    <section class="section limitations">
-      <div><p class="eyebrow">Measurement status</p><h2>Interpretation boundaries</h2></div>
-      <ul>
-        <li>Published total height and diameter/width remain source dimensions.</li>
-        <li>Loop dimensions are image-scaled visible measurements, not direct physical measurements of museum objects.</li>
-        <li>Width is not converted to diameter unless circular geometry is supported by the source/object view.</li>
-        <li>The 50 × 50 view is a display filter; all 73 master records remain downloadable.</li>
-        <li>The ★ measured hook is a separate sample and is not counted among the 73 reference bells.</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer><span>Copper bell-hook dimensional reconstruction</span><span>All model dimensions are in mm</span></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BellRecon — Archaeological Bell Reconstruction &amp; Research</title>
+<meta name="description" content="Reconstructing a bell suspension loop from Ambal, Tamil Nadu, through measured geometry, Python CAD and an image-scaled comparative dataset of 73 bells.">
+<meta property="og:type" content="website"><meta property="og:title" content="BellRecon — Archaeological Bell Reconstruction &amp; Research"><meta property="og:description" content="From an Ambal artefact to digital reconstruction: explore 73 comparative bells, interactive dimensional plots, source evidence and downloadable research data."><meta property="og:url" content="https://theormets.github.io/ARCH-RECON/">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="BellRecon — Archaeological Bell Reconstruction &amp; Research"><meta name="twitter:description" content="Measured geometry, Python CAD and a comparative dataset of 73 bells. An archaeological study of a bell suspension loop from Ambal, Tamil Nadu.">
+<link rel="canonical" href="https://theormets.github.io/ARCH-RECON/"><link rel="stylesheet" href="styles.css">
+<script src="assets.js" defer></script><script src="plot.js" defer></script><script src="model-viewer.js" defer></script><script src="script.js" defer></script>
+</head><body><a class="skip" href="#introduction">Skip to article</a>
+<header><a href="#top" class="brand">Bell<span>Recon</span><small>ARCHAEOLOGICAL FORM &amp; EVIDENCE</small></a><nav aria-label="Main"><a href="#artefact">Artefact</a><a href="#reconstruction">Reconstruction</a><a href="#dataset">Dataset</a><a href="#filtered">Plots</a><a href="#downloads">Downloads ↗</a></nav></header>
+<main id="top">
+<section class="hero"><div><p class="eyebrow">FIELD EVIDENCE / DIGITAL RECONSTRUCTION / COMPARATIVE RESEARCH</p><h1>A surviving loop.<br>A wider history<br>of <em>bells.</em></h1><p class="hero-description">Archaeological Bell Reconstruction &amp; Comparative Research</p><p class="lede">From a corroded copper artefact from Ambal, Tamil Nadu, to measured geometry and a source-linked collection of 73 comparative bells.</p><div class="actions"><a class="button" href="#introduction">Read the study ↓</a><a href="#filtered">Explore the measurements ↗</a></div></div><figure class="hero-photo"><img id="hero-artefact" alt="Unretouched photograph of the small corroded bell suspension loop on a tabletop"><figcaption><span>01 / THE SURVIVING ARTEFACT</span>Bell suspension loop with surviving base. Original photograph; no retouching.</figcaption></figure></section>
+<div class="edition"><span>AMBAL · TAMIL NADU · INDIA</span><span>73 COMPARATIVE RECORDS</span><span>RESEARCH COLLECTION · AUGUST 2026</span></div>
+<section id="introduction" class="article-section intro"><div class="section-label">01 / INTRODUCTION</div><div class="article-copy"><h2>Reading an object<br>through its remaining form.</h2><p class="lead">The study begins with a small, corroded suspension component attributed to a medieval bell from Ambal, Nagapattinam, Tamil Nadu, India.</p><p>The sample was supplied for archaeometallurgical research by <strong>V. Selvakumar, Associate Professor, Department of Archaeology, Tamil University, Thanjavur, Tamil Nadu, India</strong>. Its reported findspot and medieval attribution follow information communicated by him to the research team; they are not independent dating results produced by this reconstruction.</p><p>The component is described here as a <strong>bell suspension loop with surviving base</strong>. “Suspension loop” is established museum terminology for a bell’s attachment feature (<a href="https://www.metmuseum.org/art/collection/search/311266" target="_blank" rel="noopener">Met catalogue example</a>). This descriptive term does not establish the original local name or precise typology of the Ambal fragment.</p><p>Surface corrosion, material loss and an irregular surviving outline complicate measurement. The team reports taking readings at two or three locations and averaging selected measurements. The reconstruction is therefore a <em>dimension-constrained idealisation</em>, not a recovery of an intact original or a precision scan of the corroded surface.</p><aside class="note"><strong>Three kinds of evidence, kept separate.</strong> Source-published bell dimensions; image-scaled component estimates; and nominal dimensions chosen for the CAD reconstruction. Displayed decimal places are not demonstrated measurement accuracy.</aside></div></section>
+<section id="artefact" class="article-section"><div class="section-label">02 / ARTEFACT DOCUMENTATION</div><h2>The physical record comes first.</h2><p class="section-intro">Ruler photographs document orientation and the surviving outline. Caliper photographs record local dimensions. Neither the artefact’s colour nor its corrosion has been altered in these photographs.</p><div class="evidence-grid"><figure><img id="ruler-photo" loading="lazy" alt="Original collage of eight views of the artefact beside a ruler"><figcaption>02 / ORIGINAL RULER PHOTOGRAPHS<br>Multiple views record the loop and surviving base, retained as supplied.</figcaption></figure><figure><img id="caliper-photo" loading="lazy" alt="Original collage of nine digital caliper measurements"><figcaption>03 / ORIGINAL CALIPER PHOTOGRAPHS<br>Local readings must be interpreted with their contact points and orientation.</figcaption></figure></div><p class="narrow">The collage shows readings of 7.92, 6.45, 6.44, 7.65, 3.14, 8.16, 8.01, 2.64 and 7.68. A complete point-by-point measurement register and uncertainty budget are not supplied. The website therefore does not retrospectively assign every reading to a feature or claim that every final CAD parameter is a measured average.</p><details><summary>View all 15 original photographs</summary><div id="original-gallery" class="original-gallery"></div></details><button class="outline" data-bundle="artefact">Download original photographs ZIP</button></section>
+<section id="reconstruction" class="article-section green-section"><div class="section-label">03 / DIGITAL RECONSTRUCTION</div><div class="section-heading"><div><h2>Measured constraints.<br>A continuous digital form.</h2><p>The approved model is reproduced without changing its geometry. The upright loop and saucer-like base form one component; the opening remains clear.</p></div><span class="pill">NOMINAL CAD GEOMETRY · mm</span></div><div class="model-layout"><div><div class="model-stage"><canvas id="model" aria-label="Interactive three-dimensional view of the approved bell loop model"></canvas><div id="model-status" role="status">Loading the supplied STL model…</div></div><div id="model-controls" class="actions"><button data-view="iso">Isometric</button><button data-view="front">Front</button><button data-view="right">Right</button><button data-view="top">Top</button><button data-view="reset">Reset</button></div><p class="micro">Drag to rotate · Scroll or pinch to zoom · Double-click to reset. The viewer displays the supplied STL, not a newly generated shape.</p></div><div class="model-data"><dl><div><dt>Overall component height</dt><dd>8.160</dd></div><div><dt>Base diameter</dt><dd>8.01</dd></div><div><dt>Outer loop — width × height</dt><dd>6.45 × 6.75</dd></div><div><dt>Opening — width × height</dt><dd>4.00 × 4.30</dd></div><div><dt>Loop depth</dt><dd>2.90</dd></div><div><dt>Edge fillet radius</dt><dd>0.45</dd></div></dl><p>The loop is slightly oval, not a perfect circle. Nominal dome height before bore relief: 2.885; actual maximum of the relieved base: approximately 2.810. These are design values, not new artefact measurements.</p><a class="button light" data-file="cad/CAD/Bell_Hook_Inner_Edge_Join.step">Download STEP ↗</a><button class="outline light" data-bundle="cad">Complete CAD ZIP</button></div></div><p class="narrow">The source uses <a href="https://cadquery.readthedocs.io/en/latest/intro.html" target="_blank" rel="noopener">CadQuery</a>, a Python-based parametric CAD library built on Open CASCADE. Profiles, extrusion, fillets, Boolean union and a through-cut define the solid. STEP, STL and BREP files, source scripts, engineering views and the supplied validation record are available below.</p><figure class="drawing"><a data-view-file="cad/Engineering_Drawing/Bell_Hook_All_Dimensions.jpg"><img data-asset="cad/Engineering_Drawing/Bell_Hook_All_Dimensions.jpg" loading="lazy" alt="Original approved dimensioned engineering sheet"></a><figcaption>04 / APPROVED ENGINEERING DRAWING — all dimensions are in mm. Open for full resolution.</figcaption></figure><div class="actions"><a data-view-file="cad/Engineering_Drawing/Bell_Hook_Engineering_Drawing.pdf">Open engineering PDF ↗</a><a data-file="cad/CAD/Dimensions_and_Validation.json">Download dimensions / validation</a></div></section>
+<section id="dataset" class="article-section"><div class="section-label">04 / COMPARATIVE COLLECTION</div><h2>73 bells. Traceable sources.</h2><p class="section-intro">The team reports screening more than 200 bell records and retaining 73 with usable photographs and major dimensions. This is a selected comparison collection, not a representative census of ancient bells.</p><div class="two-columns"><p>Museum records and archaeological publications provide total height and diameter or width. Photographs were calibrated with image rulers, then manually aligned to visible object and component boundaries. Shadow and background are not intended measurement features.</p><p>Near-frontal views are more suitable for image-plane measurement. Oblique or perspective views introduce uncertainty that image rotation alone cannot remove. The source notes and limitations are retained; no blanket accuracy percentage is claimed.</p></div><div class="collection-stats"><div><strong>73</strong><span>photographs &amp; data records</span></div><div><strong>73</strong><span>record-linked evidence PDFs</span></div><div><strong>73</strong><span>ruler images &amp; reports</span></div></div><div class="toolbar"><label>Find a bell <input id="search" type="search" placeholder="Serial, name, material, period or source"></label><span id="record-count" role="status">73 records</span><a class="button" data-file="collection/Bell_Dataset_73_Master.xlsx">Download original Excel</a></div><p class="micro">Select a record for all 18 original spreadsheet fields, its ruler report, evidence and individual workbook. Exact source wording is retained. Region/site is shown only where provided; a museum’s location is not the artefact’s origin.</p><div id="collection" class="collection-grid"></div><noscript><p>Enable JavaScript to explore records, download source assets and interact with the plots. <a href="graphs/full-dataset.html">Original graph HTML</a>.</p></noscript></section>
+<section id="filtered" class="article-section plots-section"><div class="section-label">05 / FILTERED DIMENSIONAL VIEWS</div><h2>A closer view of the smaller forms.</h2><p class="section-intro">Each plot presents a different reading of the same measurements: period, material, reported region/site and source institution. X is loop outer width/diameter; Y is image-scaled loop height. All plotted lengths are in mm.</p><aside class="note"><strong>55 plotted records; 73 retained in the master.</strong> The supplied filtered HTML uses independent 1.0×IQR bounds on X and Y, excluding 17 records. One further record (#056, height 52.76) lies outside the 50 × 50 frame. Exclusions are for display, not evidence that an object or measurement is invalid.</aside><p class="star-note">★ The Ambal reference is at (6.45, 8.16). Its Y value is the <strong>whole surviving component height, including the base</strong>, not ring-only height. Comparisons are exploratory because component boundaries are not necessarily homologous across records.</p><div id="filtered-plots"></div></section>
+<section id="full" class="article-section plots-section"><div class="section-label">06 / FULL DIMENSIONAL VIEWS</div><h2>The complete dimensional range.</h2><p class="section-intro">All 73 dataset points are retained here, including those hidden from the close-up views. Larger values stretch the axes and compress the smaller loops. Neither view replaces source evidence.</p><div id="full-plots"></div></section>
+<section id="nearest" class="article-section"><div class="section-label">07 / DIMENSIONAL NEIGHBOURS</div><h2>Nearby in size.<br>Not necessarily in history.</h2><p class="section-intro">The 15 closest records to (6.45, 8.16) are ranked by unweighted Euclidean distance in the plotted millimetre coordinates. Period, material and region provide context; they are not ranking weights.</p><p class="formula">distance = √[(loop width − 6.45)² + (loop height − 8.16)²]</p><p>The closest is <strong>#048 · MET-56441</strong>, with loop width 6.90 and height 8.10, approximately 0.454 mm from the reference in this two-dimensional space. This does not identify the Ambal artefact, date it, establish cultural association or determine its missing bell body.</p><div class="actions"><a href="downloads/Nearest_15.csv" download>Download nearest-15 CSV ↗</a><span class="micro">Scroll horizontally for all dimensions, notes and links.</span></div><div class="table-scroll" tabindex="0" aria-label="Nearest fifteen comparison table; scroll horizontally"><table id="nearest-table"><thead></thead><tbody></tbody></table></div></section>
+<section id="methods" class="article-section"><div class="section-label">08 / METHODS &amp; LIMITATIONS</div><h2>From photograph to comparison.</h2><div class="methods-grid"><article><span>01</span><h3>Document &amp; constrain</h3><p>Ruler and caliper photographs document the fragment. Selected nominal CAD parameters constrain a smooth reconstruction. Corrosion texture and lost geometry are not reverse-engineered. The approved model and scripts are distributed unchanged.</p></article><article><span>02</span><h3>Calibrate the image</h3><p>Vertical scale sᵧ = H / full-height pixels. Horizontal scale sₓ = W (or D) / full-width pixels. Boundaries follow the artefact, not its shadow. Separate scales do not reconstruct perspective or hidden depth.</p></article><article><span>03</span><h3>Measure &amp; calculate</h3><p>h = loop-height pixels × sᵧ; B = body-height pixels × sᵧ. Ratios are h/B and h/D when diameter is published, otherwise h/W. Width is not relabelled as diameter. Existing manually corrected values are preserved, not remeasured by this website.</p></article><article><span>04</span><h3>Plot &amp; compare</h3><p>JavaScript draws SVG plots from source-aligned data. Independent IQR filtering reproduces the supplied close-up rule. Nearest neighbours use the original graph’s two-decimal coordinates; workbook precision is retained separately.</p></article></div><div class="two-columns"><p><strong>Interpretive limits.</strong> Uneven surfaces, landmark choice, perspective, pixel resolution and occlusion limit dimensional inference. Image-derived values are projected estimates, unsuitable as unqualified manufacturing dimensions. Geometric validity does not validate historical reconstruction.</p><p><strong>Reproducibility.</strong> Python prepares source-linked data and verifies graph–spreadsheet consistency. Original Excel formulas, images, evidence and CAD remain unchanged. Individual plot exports are reusable. SHA-256 checks establish file integrity, not scientific validation.</p></div><details><summary>Filtering, missing metadata and integrity</summary><p>X bounds: −1.82 to 55.06; Y bounds: −3.66 to 54.96, from Q1 − 1×IQR and Q3 + 1×IQR with linear-interpolated quartiles. The filtered view additionally uses a 0–50 display window.</p><p>Era and material colours are coarse display categories; exact source strings appear in record details. “Not stated in dataset” is a missing-data category. No origin is inferred from museum location. Some evidence PDFs contain the same publication; 73 files do not mean 73 unique publications.</p><p>Documents are retained as supplied. Earlier wording or local file paths inside them may differ from the website’s clarified terminology. Images and publications retain their original rights; inclusion does not grant a new licence.</p><a href="data/validation.json">Download data reconciliation report ↗</a></details></section>
+<section id="downloads" class="article-section"><div class="section-label">09 / OPEN THE RESEARCH FILES</div><h2>Evidence you can inspect.</h2><p class="section-intro">Download source data, photographs, ruler reports, models and interactive graphs. Individual files are also accessible through each gallery record.</p><div class="downloads-grid"><article><h3>Dataset</h3><a data-file="collection/Bell_Dataset_73_Master.xlsx">Original Excel · 73 embedded photos ↗</a><a href="downloads/Bell_73_Web_Data.csv" download>Web data &amp; filter flags · CSV ↗</a><a href="data/records.json" download>Structured records · JSON ↗</a></article><article><h3>Photographs &amp; evidence</h3><button data-bundle="photos">73 bell photos · ZIP ↓</button><button data-bundle="evidence">73 evidence PDFs · ZIP ↓</button><button data-bundle="rulers">73 ruler PNGs + 73 reports · ZIP ↓</button><button data-bundle="artefact">15 artefact photographs · ZIP ↓</button></article><article><h3>Reconstruction</h3><button data-bundle="cad">Approved CAD + drawings · ZIP ↓</button><a data-file="cad/CAD/Bell_Hook_Inner_Edge_Join.step">STEP solid ↗</a><a data-file="cad/CAD/Bell_Hook_Inner_Edge_Join.stl">STL mesh ↗</a><a data-file="cad/Bell_Hook_Inner_Edge_Join.py">CadQuery source ↗</a></article><article><h3>Interactive graphs</h3><a href="graphs/filtered-dataset.html" download>Filtered · dataset only ↗</a><a href="graphs/filtered-with-hook.html" download>Filtered · with Ambal reference ↗</a><a href="graphs/full-dataset.html" download>Full · dataset only ↗</a><a href="graphs/full-with-hook.html" download>Full · with reference ↗</a><a href="downloads/Original_Graph_HTMLs.zip" download>All four original HTML files · ZIP ↗</a><p class="micro">Each individual plot also exports PNG, JPG, SVG and self-contained HTML. Toggle the star before export.</p></article></div><button class="button" data-bundle="all">Download complete research collection ZIP ↓</button><p class="micro">The complete collection is assembled in your browser from original files (about 200 MB before packaging). Keep this page open; large downloads work best on a desktop connection.</p><p id="download-status" role="status" aria-live="polite"></p></section>
+</main><footer><div class="brand">Bell<span>Recon</span></div><p>Archaeological reconstruction &amp; comparative research.<br>ARCH-RECON project · Evidence, estimates and design parameters remain distinct.</p><a href="https://github.com/theormets/ARCH-RECON">Project source ↗</a></footer><dialog id="record-dialog"><button id="close-dialog" aria-label="Close record">✕ Close</button><div id="record-detail"></div></dialog></body></html>
