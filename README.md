@@ -1,6 +1,6 @@
 # BellRecon — Archaeological Bell Reconstruction & Research
 
-A static research publication at https://theormets.github.io/ARCH-RECON/ .
+A static research publication at https://theormets.github.io/BellRecon/ .
 
 ## Current publication
 
@@ -11,7 +11,7 @@ A static research publication at https://theormets.github.io/ARCH-RECON/ .
 - Eight individual categorical scatter plots: period, material, region/site and source, in full and filtered views.
 - Nearest-15 dimensional comparison with photographs and all original spreadsheet fields.
 - PNG/JPG/SVG/self-contained HTML plot exports and source-file/ZIP downloads.
-- Browser/share title and description updated to BellRecon; the ARCH-RECON URL is retained.
+- Browser/share title, description and publication URL updated to BellRecon.
 
 ## Evidence boundaries
 
