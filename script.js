@@ -4,7 +4,7 @@
  const get=async p=>{const r=await fetch(p);if(!r.ok)throw Error('Data unavailable. Please reload.');return r.json();};
  try{
   const [records,columns,photos,featured]=await Promise.all(['data/records.json','data/columns.json','data/artefact-photos.json','data/featured-photos.json'].map(get));
-  for(const[id,key]of[['hero-artefact','artefact'],['ruler-photo','ruler'],['caliper-photo','caliper']])document.getElementById(id).dataset.asset=featured[key];
+  for(const[id,key]of[['ruler-photo','ruler'],['caliper-photo','caliper']])document.getElementById(id).dataset.asset=featured[key];
   document.getElementById('original-gallery').innerHTML=photos.map(p=>`<figure><a data-view-file="${esc(p.path)}"><img loading="lazy" data-asset="${esc(p.path)}" alt="Original artefact photograph, ${esc(p.original_name)}"></a><figcaption>${esc(p.original_name)}<br><a data-file="${esc(p.path)}">Download original ↗</a></figcaption></figure>`).join('');
   const dialog=document.getElementById('record-dialog');document.getElementById('close-dialog').onclick=()=>dialog.close();dialog.onclick=e=>{if(e.target===dialog)dialog.close();};
   function show(r){
@@ -31,7 +31,7 @@
       const selectors={all:()=>true,photos:n=>n.startsWith('collection/01_Photos/'),evidence:n=>n.startsWith('collection/02_Evidence/'),rulers:n=>n.startsWith('collection/04_Ruler_Reports/'),artefact:n=>n.startsWith('artefact/'),cad:n=>n.startsWith('cad/')};
       const paths=Object.keys(manifest).filter(selectors[kind]),entries=[];
       for(let i=0;i<paths.length;i++){const path=paths[i];status.textContent=`Reading & verifying ${i+1} / ${paths.length} files…`;entries.push({name:path,blob:await A.bytes(path,true)});}
-      if(kind==='all')for(const path of ['graphs/full-dataset.html','graphs/full-with-hook.html','graphs/filtered-dataset.html','graphs/filtered-with-hook.html','downloads/Original_Graph_HTMLs.zip','downloads/Bell_73_Web_Data.csv','downloads/Nearest_15.csv','data/records.json','data/analysis.json','data/artefact-photos.json','data/cad-dimensions.json','data/assets.json','data/validation.json','RESEARCH_METHODS.md']){const r=await fetch(path);if(!r.ok)throw Error('A research file could not be downloaded');entries.push({name:path,blob:await r.blob()});}
+      if(kind==='all')for(const path of ['graphs/full-dataset.html','graphs/full-with-hook.html','graphs/filtered-dataset.html','graphs/filtered-with-hook.html','downloads/Original_Graph_HTMLs.zip','downloads/Bell_73_Web_Data.csv','downloads/Nearest_15.csv','models/original-profile/Bell_Hook_Original_Profile.step','models/original-profile/Bell_Hook_Original_Profile.stl','models/original-profile/Bell_Hook_Original_Profile.brep','models/original-profile/Bell_Hook_Original_Profile_Engineering_Drawing.pdf','data/records.json','data/analysis.json','data/artefact-photos.json','data/cad-dimensions.json','data/assets.json','data/validation.json','RESEARCH_METHODS.md']){const r=await fetch(path);if(!r.ok)throw Error('A research file could not be downloaded');entries.push({name:path,blob:await r.blob()});}
       const zip=await A.zip(entries,(i,total)=>{status.textContent=`Packaging ${i} / ${total} files…`;});A.save(zip,`BellRecon_${kind==='all'?'Complete_Research_Collection':kind}.zip`);status.textContent=`Ready: ${entries.length} files packaged. If prompted, choose Save. Keep the browser open until the download finishes.`;
     }catch(e){status.textContent=e.message+' Please retry; no source files were changed.';}finally{downloading=false;buttons.forEach(b=>b.disabled=false);}
   });

@@ -1044,13 +1044,13 @@ html&gt;body{padding:0}&lt;/style&gt;
   #bell-loop-compare .blc-panel { min-width: 0; }
   #bell-loop-compare .blc-chart { width: 100%; min-height: 350px; }
   #bell-loop-compare .blc-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
-  #bell-loop-compare .axis text, #bell-loop-compare .axis-title, #bell-loop-compare .reference-label { fill: var(--foreground); font-size: 12px; }
+  #bell-loop-compare .axis text, #bell-loop-compare .axis-title, #bell-loop-compare .reference-label { fill: var(--foreground); font-size: 14px; }
   #bell-loop-compare .axis path, #bell-loop-compare .axis line { stroke: var(--border); }
   #bell-loop-compare .grid line { stroke: var(--border); stroke-opacity: .55; }
   #bell-loop-compare rect[data-chart-frame] { fill: none; stroke: var(--border); }
   #bell-loop-compare .bell-node { stroke: var(--background); stroke-width: 1.5px; cursor: pointer; }
   #bell-loop-compare .bell-node.is-selected { stroke: var(--foreground); stroke-width: 3px; }
-  #bell-loop-compare .hook-reference { fill: var(--viz-series-6); stroke: var(--foreground); stroke-width: 1px; }
+  #bell-loop-compare .hook-reference { fill: var(--viz-series-6); stroke: var(--foreground); stroke-width: 2.5px; paint-order: stroke; filter: drop-shadow(0 0 2px var(--background)); }
   #bell-loop-compare .similarity-link { stroke: var(--muted-foreground); stroke-width: 1.5px; stroke-opacity: .6; }
   #bell-loop-compare .ratio-reference { stroke: var(--muted-foreground); stroke-width: 1.25px; stroke-dasharray: 5 4; }
   #bell-loop-compare [data-chart-hit] { fill: transparent; pointer-events: all; }
@@ -1269,7 +1269,7 @@ html&gt;body{padding:0}&lt;/style&gt;
       .attr(&quot;fill&quot;, d =&gt; colors.get(categoryOf(d, field)));
     g.append(&quot;path&quot;)
       .attr(&quot;class&quot;, &quot;hook-reference&quot;)
-      .attr(&quot;d&quot;, d3.symbol().type(d3.symbolStar).size(100)())
+      .attr(&quot;d&quot;, d3.symbol().type(d3.symbolStar).size(450)())
       .attr(&quot;transform&quot;, `translate(${x(hookReference.x)},${y(hookReference.y)})`);
     if (selected &amp;&amp; values.some(d =&gt; d.s === selected.s)) {
       const placeLeft = x(selected.x) &gt; innerW * .72;
